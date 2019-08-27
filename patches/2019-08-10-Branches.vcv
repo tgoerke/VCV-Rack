@@ -1,0 +1,496 @@
+{
+  "version": "1.1.3",
+  "modules": [
+    {
+      "id": 20,
+      "plugin": "Core",
+      "version": "1.1.3",
+      "model": "AudioInterface",
+      "params": [],
+      "leftModuleId": 21,
+      "data": {
+        "audio": {
+          "driver": 1,
+          "deviceName": "hw:Scarlett 2i2 USB,0",
+          "offset": 0,
+          "maxChannels": 8,
+          "sampleRate": 48000,
+          "blockSize": 256
+        }
+      },
+      "pos": [
+        93,
+        0
+      ]
+    },
+    {
+      "id": 21,
+      "plugin": "Fundamental",
+      "version": "1.2.0",
+      "model": "VCMixer",
+      "params": [
+        {
+          "id": 0,
+          "value": 1.0
+        },
+        {
+          "id": 1,
+          "value": 0.401787907
+        },
+        {
+          "id": 2,
+          "value": 1.0
+        },
+        {
+          "id": 3,
+          "value": 1.0
+        },
+        {
+          "id": 4,
+          "value": 1.0
+        }
+      ],
+      "rightModuleId": 20,
+      "pos": [
+        83,
+        0
+      ]
+    },
+    {
+      "id": 58,
+      "plugin": "ESeries",
+      "version": "1.0.1",
+      "model": "E340",
+      "params": [
+        {
+          "id": 0,
+          "value": -1.00799251
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 0.314999908
+        },
+        {
+          "id": 5,
+          "value": 0.5
+        },
+        {
+          "id": 6,
+          "value": 2.0
+        }
+      ],
+      "pos": [
+        40,
+        0
+      ]
+    },
+    {
+      "id": 60,
+      "plugin": "Fundamental",
+      "version": "1.2.0",
+      "model": "ADSR",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.041999992
+        },
+        {
+          "id": 1,
+          "value": 0.641000092
+        },
+        {
+          "id": 2,
+          "value": 1.0
+        },
+        {
+          "id": 3,
+          "value": 0.838999748
+        }
+      ],
+      "pos": [
+        63,
+        0
+      ]
+    },
+    {
+      "id": 61,
+      "plugin": "Fundamental",
+      "version": "1.2.0",
+      "model": "VCA-1",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.988000214
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        }
+      ],
+      "pos": [
+        73,
+        0
+      ]
+    },
+    {
+      "id": 62,
+      "plugin": "Fundamental",
+      "version": "1.2.0",
+      "model": "SEQ3",
+      "params": [
+        {
+          "id": 0,
+          "value": 2.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 8.0
+        },
+        {
+          "id": 4,
+          "value": 1.42500019
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        },
+        {
+          "id": 6,
+          "value": 0.915000081
+        },
+        {
+          "id": 7,
+          "value": 0.0
+        },
+        {
+          "id": 8,
+          "value": 1.01999998
+        },
+        {
+          "id": 9,
+          "value": 0.0
+        },
+        {
+          "id": 10,
+          "value": 1.06499994
+        },
+        {
+          "id": 11,
+          "value": 1.27499974
+        },
+        {
+          "id": 12,
+          "value": 0.0
+        },
+        {
+          "id": 13,
+          "value": 0.0
+        },
+        {
+          "id": 14,
+          "value": 0.0
+        },
+        {
+          "id": 15,
+          "value": 0.0
+        },
+        {
+          "id": 16,
+          "value": 0.0
+        },
+        {
+          "id": 17,
+          "value": 0.0
+        },
+        {
+          "id": 18,
+          "value": 0.0
+        },
+        {
+          "id": 19,
+          "value": 0.0
+        },
+        {
+          "id": 20,
+          "value": 0.0
+        },
+        {
+          "id": 21,
+          "value": 0.0
+        },
+        {
+          "id": 22,
+          "value": 0.0
+        },
+        {
+          "id": 23,
+          "value": 0.0
+        },
+        {
+          "id": 24,
+          "value": 0.0
+        },
+        {
+          "id": 25,
+          "value": 0.0
+        },
+        {
+          "id": 26,
+          "value": 0.0
+        },
+        {
+          "id": 27,
+          "value": 0.0
+        },
+        {
+          "id": 28,
+          "value": 0.0
+        },
+        {
+          "id": 29,
+          "value": 0.0
+        },
+        {
+          "id": 30,
+          "value": 0.0
+        },
+        {
+          "id": 31,
+          "value": 0.0
+        },
+        {
+          "id": 32,
+          "value": 0.0
+        },
+        {
+          "id": 33,
+          "value": 0.0
+        },
+        {
+          "id": 34,
+          "value": 0.0
+        },
+        {
+          "id": 35,
+          "value": 0.0
+        }
+      ],
+      "data": {
+        "running": true,
+        "gates": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "pos": [
+        17,
+        0
+      ]
+    },
+    {
+      "id": 63,
+      "plugin": "AudibleInstruments",
+      "version": "1.0.0",
+      "model": "Branches",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.5
+        },
+        {
+          "id": 1,
+          "value": 0.5
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        }
+      ],
+      "data": {
+        "modes": [
+          false,
+          false
+        ]
+      },
+      "pos": [
+        9,
+        0
+      ]
+    },
+    {
+      "id": 64,
+      "plugin": "Bogaudio",
+      "version": "1.1.21",
+      "model": "Bogaudio-UMix",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.76300025
+        }
+      ],
+      "data": {
+        "sum": true,
+        "cv_mode": false
+      },
+      "pos": [
+        57,
+        0
+      ]
+    },
+    {
+      "id": 65,
+      "plugin": "cf",
+      "version": "1.1.0",
+      "model": "METRO",
+      "params": [
+        {
+          "id": 0,
+          "value": 200.315521
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        }
+      ],
+      "data": {
+        "onstate": 1
+      },
+      "pos": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": 66,
+      "plugin": "Core",
+      "version": "1.1.3",
+      "model": "Notes",
+      "params": [],
+      "text": "bernoulli gate fully ccw then the seq-3 plays all steps. Fully cw seq-3 does not advance and last notes are repeated. Middle positions advande and repeat notes based on coin toss result.     ",
+      "pos": [
+        9,
+        1
+      ]
+    }
+  ],
+  "cables": [
+    {
+      "id": 67,
+      "outputModuleId": 21,
+      "outputId": 0,
+      "inputModuleId": 20,
+      "inputId": 0,
+      "color": "#c91847"
+    },
+    {
+      "id": 215,
+      "outputModuleId": 60,
+      "outputId": 0,
+      "inputModuleId": 61,
+      "inputId": 0,
+      "color": "#0986ad"
+    },
+    {
+      "id": 216,
+      "outputModuleId": 58,
+      "outputId": 1,
+      "inputModuleId": 61,
+      "inputId": 1,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 217,
+      "outputModuleId": 61,
+      "outputId": 0,
+      "inputModuleId": 21,
+      "inputId": 1,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 219,
+      "outputModuleId": 62,
+      "outputId": 1,
+      "inputModuleId": 58,
+      "inputId": 0,
+      "color": "#0986ad"
+    },
+    {
+      "id": 227,
+      "outputModuleId": 62,
+      "outputId": 0,
+      "inputModuleId": 64,
+      "inputId": 0,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 228,
+      "outputModuleId": 64,
+      "outputId": 0,
+      "inputModuleId": 60,
+      "inputId": 4,
+      "color": "#c91847"
+    },
+    {
+      "id": 229,
+      "outputModuleId": 63,
+      "outputId": 0,
+      "inputModuleId": 62,
+      "inputId": 1,
+      "color": "#0986ad"
+    },
+    {
+      "id": 230,
+      "outputModuleId": 63,
+      "outputId": 2,
+      "inputModuleId": 64,
+      "inputId": 1,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 232,
+      "outputModuleId": 65,
+      "outputId": 2,
+      "inputModuleId": 63,
+      "inputId": 0,
+      "color": "#0986ad"
+    }
+  ]
+}
