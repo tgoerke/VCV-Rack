@@ -1,0 +1,1020 @@
+{
+  "version": "1.1.6",
+  "modules": [
+    {
+      "id": 11,
+      "plugin": "Core",
+      "version": "1.1.6",
+      "model": "AudioInterface",
+      "params": [],
+      "leftModuleId": 41,
+      "data": {
+        "audio": {
+          "driver": 4,
+          "deviceName": "system",
+          "offset": 0,
+          "maxChannels": 8,
+          "sampleRate": 48000,
+          "blockSize": 1024
+        }
+      },
+      "pos": [
+        86,
+        0
+      ]
+    },
+    {
+      "id": 12,
+      "plugin": "Valley",
+      "version": "1.0.1",
+      "model": "Plateau",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.324000061
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 8.70999908
+        },
+        {
+          "id": 4,
+          "value": 10.0
+        },
+        {
+          "id": 5,
+          "value": 0.5
+        },
+        {
+          "id": 6,
+          "value": 10.0
+        },
+        {
+          "id": 7,
+          "value": 0.549950004
+        },
+        {
+          "id": 8,
+          "value": 10.0
+        },
+        {
+          "id": 9,
+          "value": 8.87500095
+        },
+        {
+          "id": 10,
+          "value": 0.0
+        },
+        {
+          "id": 11,
+          "value": 0.5
+        },
+        {
+          "id": 12,
+          "value": 0.5
+        },
+        {
+          "id": 13,
+          "value": 0.0
+        },
+        {
+          "id": 14,
+          "value": 0.0
+        },
+        {
+          "id": 15,
+          "value": 0.0
+        },
+        {
+          "id": 16,
+          "value": 0.0
+        },
+        {
+          "id": 17,
+          "value": 0.0
+        },
+        {
+          "id": 18,
+          "value": 0.0
+        },
+        {
+          "id": 19,
+          "value": 0.0
+        },
+        {
+          "id": 20,
+          "value": 0.0
+        },
+        {
+          "id": 21,
+          "value": 0.0
+        },
+        {
+          "id": 22,
+          "value": 0.0
+        },
+        {
+          "id": 23,
+          "value": 0.0
+        },
+        {
+          "id": 24,
+          "value": 0.0
+        },
+        {
+          "id": 25,
+          "value": 0.0
+        },
+        {
+          "id": 26,
+          "value": 0.0
+        },
+        {
+          "id": 27,
+          "value": 0.0
+        },
+        {
+          "id": 28,
+          "value": 0.0
+        },
+        {
+          "id": 29,
+          "value": 0.0
+        },
+        {
+          "id": 30,
+          "value": 1.0
+        }
+      ],
+      "leftModuleId": 37,
+      "rightModuleId": 41,
+      "data": {
+        "frozen": false,
+        "freezeToggle": false,
+        "panelStyle": 0,
+        "tuned": 0,
+        "diffuseInput": 1,
+        "preDelayCVSens": 0,
+        "inputSensitivity": 0,
+        "outputSaturation": 0
+      },
+      "pos": [
+        54,
+        0
+      ]
+    },
+    {
+      "id": 32,
+      "plugin": "GlueTheGiant",
+      "version": "1.0.7",
+      "model": "BusDepot",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 1.0
+        },
+        {
+          "id": 2,
+          "value": 0.14500016
+        },
+        {
+          "id": 3,
+          "value": 8536.4873
+        },
+        {
+          "id": 4,
+          "value": 6090.35791
+        }
+      ],
+      "leftModuleId": 53,
+      "rightModuleId": 37,
+      "data": {
+        "input_on": 0,
+        "level_cv_filter": 1,
+        "color_theme": 0,
+        "fade_cv_mode": 0,
+        "audition_depot": 0,
+        "auditioned": 0,
+        "temped": 0,
+        "audition_mode": 0
+      },
+      "pos": [
+        42,
+        0
+      ]
+    },
+    {
+      "id": 33,
+      "plugin": "GlueTheGiant",
+      "version": "1.0.7",
+      "model": "MiniBus",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 1.0
+        }
+      ],
+      "leftModuleId": 56,
+      "rightModuleId": 38,
+      "data": {
+        "input_on": 1,
+        "post_fades": 0,
+        "gain": 1.0,
+        "fade_in": 26.0,
+        "fade_out": 26.0,
+        "audition_mixer": 0,
+        "auditioned": 0,
+        "temped": 0,
+        "color_theme": 0
+      },
+      "pos": [
+        27,
+        0
+      ]
+    },
+    {
+      "id": 37,
+      "plugin": "GlueTheGiant",
+      "version": "1.0.7",
+      "model": "BusRoute",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 0.0
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 32,
+      "rightModuleId": 12,
+      "data": {
+        "onau_1": 1,
+        "onau_2": 1,
+        "onau_3": 1,
+        "auditioning": 0,
+        "bus_audition1": 0,
+        "bus_audition2": 0,
+        "bus_audition3": 0,
+        "temped1": 0,
+        "temped2": 0,
+        "temped3": 0,
+        "color_theme": 0
+      },
+      "pos": [
+        48,
+        0
+      ]
+    },
+    {
+      "id": 38,
+      "plugin": "GlueTheGiant",
+      "version": "1.0.7",
+      "model": "MiniBus",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 1.0
+        }
+      ],
+      "leftModuleId": 33,
+      "rightModuleId": 48,
+      "data": {
+        "input_on": 1,
+        "post_fades": 0,
+        "gain": 1.0,
+        "fade_in": 26.0,
+        "fade_out": 26.0,
+        "audition_mixer": 0,
+        "auditioned": 0,
+        "temped": 0,
+        "color_theme": 0
+      },
+      "pos": [
+        30,
+        0
+      ]
+    },
+    {
+      "id": 41,
+      "plugin": "ImpromptuModular",
+      "version": "1.1.3",
+      "model": "Clocked",
+      "params": [
+        {
+          "id": 0,
+          "value": 120.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 0.0
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        },
+        {
+          "id": 6,
+          "value": 0.0
+        },
+        {
+          "id": 7,
+          "value": 0.0
+        },
+        {
+          "id": 8,
+          "value": 0.5
+        },
+        {
+          "id": 9,
+          "value": 0.5
+        },
+        {
+          "id": 10,
+          "value": 0.5
+        },
+        {
+          "id": 11,
+          "value": 0.5
+        },
+        {
+          "id": 12,
+          "value": 0.0
+        },
+        {
+          "id": 13,
+          "value": 0.0
+        },
+        {
+          "id": 14,
+          "value": 0.0
+        },
+        {
+          "id": 15,
+          "value": 0.0
+        },
+        {
+          "id": 16,
+          "value": 0.0
+        },
+        {
+          "id": 17,
+          "value": 0.0
+        },
+        {
+          "id": 18,
+          "value": 0.0
+        },
+        {
+          "id": 19,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 12,
+      "rightModuleId": 11,
+      "data": {
+        "panelTheme": 1,
+        "running": true,
+        "displayDelayNoteMode": true,
+        "bpmDetectionMode": false,
+        "restartOnStopStartRun": 0,
+        "sendResetOnRestart": false,
+        "ppqn": 4,
+        "resetClockOutputsHigh": true,
+        "momentaryRunInput": true
+      },
+      "pos": [
+        66,
+        0
+      ]
+    },
+    {
+      "id": 48,
+      "plugin": "GlueTheGiant",
+      "version": "1.0.7",
+      "model": "MiniBus",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 1.0
+        }
+      ],
+      "leftModuleId": 38,
+      "rightModuleId": 50,
+      "data": {
+        "input_on": 1,
+        "post_fades": 0,
+        "gain": 1.0,
+        "fade_in": 26.0,
+        "fade_out": 26.0,
+        "audition_mixer": 0,
+        "auditioned": 0,
+        "temped": 0,
+        "color_theme": 0
+      },
+      "pos": [
+        33,
+        0
+      ]
+    },
+    {
+      "id": 50,
+      "plugin": "GlueTheGiant",
+      "version": "1.0.7",
+      "model": "MiniBus",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 1.0
+        }
+      ],
+      "leftModuleId": 48,
+      "rightModuleId": 53,
+      "data": {
+        "input_on": 1,
+        "post_fades": 0,
+        "gain": 1.0,
+        "fade_in": 26.0,
+        "fade_out": 26.0,
+        "audition_mixer": 0,
+        "auditioned": 0,
+        "temped": 0,
+        "color_theme": 0
+      },
+      "pos": [
+        36,
+        0
+      ]
+    },
+    {
+      "id": 53,
+      "plugin": "GlueTheGiant",
+      "version": "1.0.7",
+      "model": "MiniBus",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 1.0
+        }
+      ],
+      "leftModuleId": 50,
+      "rightModuleId": 32,
+      "data": {
+        "input_on": 1,
+        "post_fades": 0,
+        "gain": 1.0,
+        "fade_in": 26.0,
+        "fade_out": 26.0,
+        "audition_mixer": 0,
+        "auditioned": 0,
+        "temped": 0,
+        "color_theme": 0
+      },
+      "pos": [
+        39,
+        0
+      ]
+    },
+    {
+      "id": 55,
+      "plugin": "GlueTheGiant",
+      "version": "1.0.7",
+      "model": "GigBus",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 1.0
+        }
+      ],
+      "leftModuleId": 58,
+      "rightModuleId": 56,
+      "data": {
+        "input_on": 1,
+        "gain": 1.0,
+        "color_theme": 0,
+        "fade_in": 26.0,
+        "fade_out": 26.0,
+        "audition_mixer": 0,
+        "auditioned": 0,
+        "temped": 0
+      },
+      "pos": [
+        20,
+        0
+      ]
+    },
+    {
+      "id": 56,
+      "plugin": "GlueTheGiant",
+      "version": "1.0.7",
+      "model": "MiniBus",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 1.0
+        }
+      ],
+      "leftModuleId": 55,
+      "rightModuleId": 33,
+      "data": {
+        "input_on": 1,
+        "post_fades": 0,
+        "gain": 1.0,
+        "fade_in": 26.0,
+        "fade_out": 26.0,
+        "audition_mixer": 0,
+        "auditioned": 0,
+        "temped": 0,
+        "color_theme": 0
+      },
+      "pos": [
+        24,
+        0
+      ]
+    },
+    {
+      "id": 57,
+      "plugin": "GlueTheGiant",
+      "version": "1.0.7",
+      "model": "MetroCityBus",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.5
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 0.0
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        },
+        {
+          "id": 6,
+          "value": 0.0
+        },
+        {
+          "id": 7,
+          "value": 1.0
+        },
+        {
+          "id": 8,
+          "value": 0.0
+        },
+        {
+          "id": 9,
+          "value": 0.0
+        }
+      ],
+      "rightModuleId": 111,
+      "data": {
+        "input_on": 1,
+        "reverse_poly": 0,
+        "blue_post_fade": 0,
+        "orange_post_fade": 0,
+        "gain": 1.0,
+        "level_cv_filter": 1,
+        "fade_in": 26.0,
+        "fade_out": 26.0,
+        "audition_mixer": 0,
+        "auditioned": 0,
+        "temped": 0,
+        "color_theme": 0
+      },
+      "pos": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": 58,
+      "plugin": "GlueTheGiant",
+      "version": "1.0.7",
+      "model": "SchoolBus",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.5
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 0.0
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        },
+        {
+          "id": 6,
+          "value": 0.0
+        },
+        {
+          "id": 7,
+          "value": 1.0
+        }
+      ],
+      "leftModuleId": 111,
+      "rightModuleId": 55,
+      "data": {
+        "input_on": 1,
+        "blue_post_fade": 0,
+        "orange_post_fade": 0,
+        "gain": 1.0,
+        "pan_cv_filter": 1,
+        "level_cv_filter": 1,
+        "fade_in": 26.0,
+        "fade_out": 26.0,
+        "audition_mixer": 0,
+        "auditioned": 0,
+        "temped": 0,
+        "color_theme": 0
+      },
+      "pos": [
+        14,
+        0
+      ]
+    },
+    {
+      "id": 95,
+      "plugin": "AS",
+      "version": "1.0.3",
+      "model": "Flow",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        }
+      ],
+      "data": {
+        "as_FlowStates": [
+          0,
+          1
+        ]
+      },
+      "pos": [
+        97,
+        1
+      ]
+    },
+    {
+      "id": 111,
+      "plugin": "GlueTheGiant",
+      "version": "1.0.7",
+      "model": "SchoolBus",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.5
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 0.0
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        },
+        {
+          "id": 6,
+          "value": 0.0
+        },
+        {
+          "id": 7,
+          "value": 1.0
+        }
+      ],
+      "leftModuleId": 57,
+      "rightModuleId": 58,
+      "data": {
+        "input_on": 1,
+        "blue_post_fade": 0,
+        "orange_post_fade": 0,
+        "gain": 1.0,
+        "pan_cv_filter": 1,
+        "level_cv_filter": 1,
+        "fade_in": 26.0,
+        "fade_out": 26.0,
+        "audition_mixer": 0,
+        "auditioned": 0,
+        "temped": 0,
+        "color_theme": 0
+      },
+      "pos": [
+        8,
+        0
+      ]
+    }
+  ],
+  "cables": [
+    {
+      "id": 57,
+      "outputModuleId": 32,
+      "outputId": 2,
+      "inputModuleId": 37,
+      "inputId": 6,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 44,
+      "outputModuleId": 33,
+      "outputId": 0,
+      "inputModuleId": 38,
+      "inputId": 2,
+      "color": "#c91847"
+    },
+    {
+      "id": 47,
+      "outputModuleId": 37,
+      "outputId": 7,
+      "inputModuleId": 11,
+      "inputId": 0,
+      "color": "#c91847"
+    },
+    {
+      "id": 59,
+      "outputModuleId": 37,
+      "outputId": 0,
+      "inputModuleId": 12,
+      "inputId": 0,
+      "color": "#0986ad"
+    },
+    {
+      "id": 60,
+      "outputModuleId": 37,
+      "outputId": 1,
+      "inputModuleId": 12,
+      "inputId": 1,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 61,
+      "outputModuleId": 12,
+      "outputId": 0,
+      "inputModuleId": 37,
+      "inputId": 0,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 62,
+      "outputModuleId": 12,
+      "outputId": 1,
+      "inputModuleId": 37,
+      "inputId": 1,
+      "color": "#c91847"
+    },
+    {
+      "id": 48,
+      "outputModuleId": 37,
+      "outputId": 8,
+      "inputModuleId": 11,
+      "inputId": 1,
+      "color": "#0986ad"
+    },
+    {
+      "id": 58,
+      "outputModuleId": 38,
+      "outputId": 0,
+      "inputModuleId": 48,
+      "inputId": 2,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 88,
+      "outputModuleId": 48,
+      "outputId": 0,
+      "inputModuleId": 50,
+      "inputId": 2,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 94,
+      "outputModuleId": 50,
+      "outputId": 0,
+      "inputModuleId": 53,
+      "inputId": 2,
+      "color": "#0986ad"
+    },
+    {
+      "id": 101,
+      "outputModuleId": 53,
+      "outputId": 0,
+      "inputModuleId": 32,
+      "inputId": 4,
+      "color": "#0986ad"
+    },
+    {
+      "id": 108,
+      "outputModuleId": 56,
+      "outputId": 0,
+      "inputModuleId": 33,
+      "inputId": 2,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 141,
+      "outputModuleId": 58,
+      "outputId": 0,
+      "inputModuleId": 55,
+      "inputId": 3,
+      "color": "#c91847"
+    },
+    {
+      "id": 142,
+      "outputModuleId": 55,
+      "outputId": 0,
+      "inputModuleId": 56,
+      "inputId": 2,
+      "color": "#0986ad"
+    },
+    {
+      "id": 268,
+      "outputModuleId": 111,
+      "outputId": 0,
+      "inputModuleId": 58,
+      "inputId": 7,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 269,
+      "outputModuleId": 57,
+      "outputId": 0,
+      "inputModuleId": 111,
+      "inputId": 7,
+      "color": "#0c8e15"
+    }
+  ]
+}

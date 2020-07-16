@@ -1,0 +1,912 @@
+{
+  "version": "1.1.4",
+  "modules": [
+    {
+      "id": 0,
+      "plugin": "Core",
+      "version": "1.1.4",
+      "model": "AudioInterface",
+      "params": [],
+      "leftModuleId": 1,
+      "data": {
+        "audio": {
+          "driver": 4,
+          "deviceName": "system",
+          "offset": 0,
+          "maxChannels": 8,
+          "sampleRate": 48000,
+          "blockSize": 1024
+        }
+      },
+      "pos": [
+        47,
+        1
+      ]
+    },
+    {
+      "id": 1,
+      "plugin": "squinkylabs-plug1",
+      "version": "1.0.4",
+      "model": "squinkylabs-mixm",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.384000093
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.397499949
+        },
+        {
+          "id": 3,
+          "value": 0.433500051
+        },
+        {
+          "id": 4,
+          "value": 0.680999994
+        },
+        {
+          "id": 5,
+          "value": 0.707999885
+        },
+        {
+          "id": 6,
+          "value": 0.0
+        },
+        {
+          "id": 7,
+          "value": 0.0
+        },
+        {
+          "id": 8,
+          "value": 0.0
+        },
+        {
+          "id": 9,
+          "value": 0.0
+        },
+        {
+          "id": 10,
+          "value": 0.0
+        },
+        {
+          "id": 11,
+          "value": 0.0
+        },
+        {
+          "id": 12,
+          "value": 0.0
+        },
+        {
+          "id": 13,
+          "value": 0.0
+        },
+        {
+          "id": 14,
+          "value": 0.0
+        },
+        {
+          "id": 15,
+          "value": 0.0
+        },
+        {
+          "id": 16,
+          "value": 0.0
+        },
+        {
+          "id": 17,
+          "value": 0.0
+        },
+        {
+          "id": 18,
+          "value": 0.0
+        },
+        {
+          "id": 19,
+          "value": 0.0
+        },
+        {
+          "id": 20,
+          "value": 0.0
+        },
+        {
+          "id": 21,
+          "value": 0.0
+        },
+        {
+          "id": 22,
+          "value": 0.0
+        },
+        {
+          "id": 23,
+          "value": 0.0
+        },
+        {
+          "id": 24,
+          "value": 0.0
+        },
+        {
+          "id": 25,
+          "value": 0.0
+        },
+        {
+          "id": 26,
+          "value": 0.0
+        },
+        {
+          "id": 27,
+          "value": 0.0
+        },
+        {
+          "id": 28,
+          "value": 0.0
+        },
+        {
+          "id": 29,
+          "value": 0.0
+        },
+        {
+          "id": 30,
+          "value": 0.0
+        },
+        {
+          "id": 31,
+          "value": 0.0
+        },
+        {
+          "id": 32,
+          "value": 0.0
+        },
+        {
+          "id": 33,
+          "value": 0.0
+        },
+        {
+          "id": 34,
+          "value": 0.0
+        },
+        {
+          "id": 35,
+          "value": 0.0
+        },
+        {
+          "id": 36,
+          "value": 1.0
+        }
+      ],
+      "leftModuleId": 11,
+      "rightModuleId": 0,
+      "pos": [
+        30,
+        1
+      ]
+    },
+    {
+      "id": 4,
+      "plugin": "ImpromptuModular",
+      "version": "1.1.1",
+      "model": "Clocked",
+      "params": [
+        {
+          "id": 0,
+          "value": 120.0
+        },
+        {
+          "id": 1,
+          "value": 21.0
+        },
+        {
+          "id": 2,
+          "value": 5.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 0.0
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        },
+        {
+          "id": 6,
+          "value": 0.0
+        },
+        {
+          "id": 7,
+          "value": 0.0
+        },
+        {
+          "id": 8,
+          "value": 0.5
+        },
+        {
+          "id": 9,
+          "value": 0.5
+        },
+        {
+          "id": 10,
+          "value": 0.5
+        },
+        {
+          "id": 11,
+          "value": 0.5
+        },
+        {
+          "id": 12,
+          "value": 0.0
+        },
+        {
+          "id": 13,
+          "value": 0.0
+        },
+        {
+          "id": 14,
+          "value": 0.0
+        },
+        {
+          "id": 15,
+          "value": 0.0
+        },
+        {
+          "id": 16,
+          "value": 0.0
+        },
+        {
+          "id": 17,
+          "value": 0.0
+        },
+        {
+          "id": 18,
+          "value": 0.0
+        },
+        {
+          "id": 19,
+          "value": 0.0
+        }
+      ],
+      "rightModuleId": 11,
+      "data": {
+        "panelTheme": 1,
+        "running": false,
+        "displayDelayNoteMode": true,
+        "bpmDetectionMode": false,
+        "emitResetOnStopRun": false,
+        "ppqn": 4,
+        "resetClockOutputsHigh": true
+      },
+      "pos": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": 11,
+      "plugin": "squinkylabs-plug1",
+      "version": "1.0.4",
+      "model": "squinkylabs-mix4",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.537
+        },
+        {
+          "id": 1,
+          "value": 0.609999955
+        },
+        {
+          "id": 2,
+          "value": 0.88650012
+        },
+        {
+          "id": 3,
+          "value": 0.212999776
+        },
+        {
+          "id": 4,
+          "value": 0.0
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        },
+        {
+          "id": 6,
+          "value": 0.0
+        },
+        {
+          "id": 7,
+          "value": 0.0
+        },
+        {
+          "id": 8,
+          "value": 0.0
+        },
+        {
+          "id": 9,
+          "value": 0.0
+        },
+        {
+          "id": 10,
+          "value": 0.0
+        },
+        {
+          "id": 11,
+          "value": 0.0
+        },
+        {
+          "id": 12,
+          "value": 0.0
+        },
+        {
+          "id": 13,
+          "value": 0.0
+        },
+        {
+          "id": 14,
+          "value": 0.0
+        },
+        {
+          "id": 15,
+          "value": 0.0
+        },
+        {
+          "id": 16,
+          "value": 0.0
+        },
+        {
+          "id": 17,
+          "value": 0.0
+        },
+        {
+          "id": 18,
+          "value": 0.0
+        },
+        {
+          "id": 19,
+          "value": 0.0
+        },
+        {
+          "id": 20,
+          "value": 0.0
+        },
+        {
+          "id": 21,
+          "value": 0.0
+        },
+        {
+          "id": 22,
+          "value": 0.0
+        },
+        {
+          "id": 23,
+          "value": 0.0
+        },
+        {
+          "id": 24,
+          "value": 0.0
+        },
+        {
+          "id": 25,
+          "value": 0.0
+        },
+        {
+          "id": 26,
+          "value": 0.0
+        },
+        {
+          "id": 27,
+          "value": 0.0
+        },
+        {
+          "id": 28,
+          "value": 0.0
+        },
+        {
+          "id": 29,
+          "value": 0.0
+        },
+        {
+          "id": 30,
+          "value": 0.0
+        },
+        {
+          "id": 31,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 4,
+      "rightModuleId": 1,
+      "pos": [
+        20,
+        1
+      ]
+    },
+    {
+      "id": 50,
+      "plugin": "ImpromptuModular",
+      "version": "1.1.1",
+      "model": "Big-Button-Seq",
+      "params": [
+        {
+          "id": 0,
+          "value": 5.0
+        },
+        {
+          "id": 1,
+          "value": 31.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 0.0
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        },
+        {
+          "id": 6,
+          "value": 0.0
+        },
+        {
+          "id": 7,
+          "value": 0.0
+        },
+        {
+          "id": 8,
+          "value": 0.0
+        },
+        {
+          "id": 9,
+          "value": 0.0
+        },
+        {
+          "id": 10,
+          "value": 0.0
+        }
+      ],
+      "data": {
+        "panelTheme": 1,
+        "indexStep": 26,
+        "bank": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "gates": [
+          2551,
+          46486,
+          0,
+          0,
+          36864,
+          804,
+          0,
+          0,
+          32608,
+          4096,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          16448,
+          16576,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          16448,
+          16448,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          37457,
+          37057,
+          0,
+          0,
+          47104,
+          35095,
+          0,
+          0
+        ],
+        "metronomeDiv": 4,
+        "writeFillsToMemory": false,
+        "quantizeBig": true,
+        "nextStepHits": false
+      },
+      "pos": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": 51,
+      "plugin": "Autodafe-DrumKit",
+      "version": "1.0.0",
+      "model": "DrumsKick",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        }
+      ],
+      "rightModuleId": 52,
+      "data": {
+        "sampletype": 5
+      },
+      "pos": [
+        21,
+        0
+      ]
+    },
+    {
+      "id": 52,
+      "plugin": "Hora-treasureFree",
+      "version": "1.0.1",
+      "model": "SnareDrum-VCV",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.5
+        },
+        {
+          "id": 1,
+          "value": 1500.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 0.00999999978
+        },
+        {
+          "id": 5,
+          "value": 0.805000007
+        },
+        {
+          "id": 6,
+          "value": 0.800000012
+        },
+        {
+          "id": 7,
+          "value": 0.0
+        },
+        {
+          "id": 8,
+          "value": 0.50999999
+        },
+        {
+          "id": 9,
+          "value": 0.677399993
+        },
+        {
+          "id": 10,
+          "value": 0.800000012
+        },
+        {
+          "id": 11,
+          "value": 0.800000012
+        },
+        {
+          "id": 12,
+          "value": 0.0
+        },
+        {
+          "id": 13,
+          "value": 0.583000004
+        }
+      ],
+      "leftModuleId": 51,
+      "rightModuleId": 53,
+      "pos": [
+        25,
+        0
+      ]
+    },
+    {
+      "id": 53,
+      "plugin": "Hora-treasureFree",
+      "version": "1.0.1",
+      "model": "HiHat",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.5
+        },
+        {
+          "id": 1,
+          "value": 0.600000024
+        },
+        {
+          "id": 2,
+          "value": 0.730440021
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 0.0
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        },
+        {
+          "id": 6,
+          "value": 1.25049996
+        },
+        {
+          "id": 7,
+          "value": 0.800000012
+        },
+        {
+          "id": 8,
+          "value": 0.800000012
+        },
+        {
+          "id": 9,
+          "value": 0.600000024
+        },
+        {
+          "id": 10,
+          "value": 0.100000001
+        },
+        {
+          "id": 11,
+          "value": 0.421000004
+        }
+      ],
+      "leftModuleId": 52,
+      "rightModuleId": 54,
+      "pos": [
+        33,
+        0
+      ]
+    },
+    {
+      "id": 54,
+      "plugin": "Hora-PCMDrumFree",
+      "version": "1.0.1",
+      "model": "Hora-PCMDrumLDrum",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 2.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 1.22100055
+        },
+        {
+          "id": 4,
+          "value": 4.0
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        },
+        {
+          "id": 6,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 53,
+      "rightModuleId": 55,
+      "pos": [
+        41,
+        0
+      ]
+    },
+    {
+      "id": 55,
+      "plugin": "Hora-treasureFree",
+      "version": "1.0.1",
+      "model": "SoftBell",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.985000014
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.494999886
+        },
+        {
+          "id": 3,
+          "value": 0.894500017
+        },
+        {
+          "id": 4,
+          "value": 0.0
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        },
+        {
+          "id": 6,
+          "value": 0.0
+        },
+        {
+          "id": 7,
+          "value": 0.829999983
+        },
+        {
+          "id": 8,
+          "value": 0.831185043
+        }
+      ],
+      "leftModuleId": 54,
+      "pos": [
+        49,
+        0
+      ]
+    }
+  ],
+  "cables": [
+    {
+      "id": 0,
+      "outputModuleId": 1,
+      "outputId": 1,
+      "inputModuleId": 0,
+      "inputId": 1,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 1,
+      "outputModuleId": 1,
+      "outputId": 0,
+      "inputModuleId": 0,
+      "inputId": 0,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 95,
+      "outputModuleId": 4,
+      "outputId": 2,
+      "inputModuleId": 50,
+      "inputId": 0,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 99,
+      "outputModuleId": 52,
+      "outputId": 2,
+      "inputModuleId": 11,
+      "inputId": 1,
+      "color": "#0986ad"
+    },
+    {
+      "id": 101,
+      "outputModuleId": 50,
+      "outputId": 1,
+      "inputModuleId": 52,
+      "inputId": 0,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 102,
+      "outputModuleId": 50,
+      "outputId": 0,
+      "inputModuleId": 51,
+      "inputId": 0,
+      "color": "#c91847"
+    },
+    {
+      "id": 98,
+      "outputModuleId": 51,
+      "outputId": 0,
+      "inputModuleId": 11,
+      "inputId": 0,
+      "color": "#c91847"
+    },
+    {
+      "id": 103,
+      "outputModuleId": 53,
+      "outputId": 2,
+      "inputModuleId": 11,
+      "inputId": 2,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 104,
+      "outputModuleId": 50,
+      "outputId": 2,
+      "inputModuleId": 53,
+      "inputId": 0,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 105,
+      "outputModuleId": 50,
+      "outputId": 3,
+      "inputModuleId": 53,
+      "inputId": 1,
+      "color": "#c91847"
+    },
+    {
+      "id": 106,
+      "outputModuleId": 50,
+      "outputId": 4,
+      "inputModuleId": 54,
+      "inputId": 1,
+      "color": "#0986ad"
+    },
+    {
+      "id": 107,
+      "outputModuleId": 54,
+      "outputId": 0,
+      "inputModuleId": 11,
+      "inputId": 3,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 108,
+      "outputModuleId": 50,
+      "outputId": 5,
+      "inputModuleId": 55,
+      "inputId": 0,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 109,
+      "outputModuleId": 55,
+      "outputId": 0,
+      "inputModuleId": 1,
+      "inputId": 0,
+      "color": "#c91847"
+    }
+  ]
+}

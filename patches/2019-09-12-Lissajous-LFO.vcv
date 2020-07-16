@@ -1,0 +1,817 @@
+{
+  "version": "1.1.4",
+  "modules": [
+    {
+      "id": 73,
+      "plugin": "s-ol",
+      "version": "1.0.0",
+      "model": "CircleVCO",
+      "params": [
+        {
+          "id": 0,
+          "value": -7.18199015
+        }
+      ],
+      "rightModuleId": 74,
+      "pos": [
+        1,
+        0
+      ]
+    },
+    {
+      "id": 74,
+      "plugin": "Fundamental",
+      "version": "1.2.1",
+      "model": "Scope",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 14.0
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        },
+        {
+          "id": 6,
+          "value": 0.0
+        },
+        {
+          "id": 7,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 73,
+      "data": {
+        "lissajous": 1,
+        "external": 0
+      },
+      "pos": [
+        5,
+        0
+      ]
+    },
+    {
+      "id": 75,
+      "plugin": "Bogaudio",
+      "version": "1.1.22",
+      "model": "Bogaudio-EightFO",
+      "params": [
+        {
+          "id": 0,
+          "value": 5.69400024
+        },
+        {
+          "id": 1,
+          "value": 3.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": -0.269999981
+        },
+        {
+          "id": 4,
+          "value": 0.0
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        },
+        {
+          "id": 6,
+          "value": 0.0
+        },
+        {
+          "id": 7,
+          "value": 0.0
+        },
+        {
+          "id": 8,
+          "value": 0.0
+        },
+        {
+          "id": 9,
+          "value": 0.0
+        },
+        {
+          "id": 10,
+          "value": 0.0
+        },
+        {
+          "id": 11,
+          "value": 0.0
+        },
+        {
+          "id": 12,
+          "value": 0.0
+        },
+        {
+          "id": 13,
+          "value": 1.0
+        }
+      ],
+      "rightModuleId": 76,
+      "pos": [
+        19,
+        0
+      ]
+    },
+    {
+      "id": 76,
+      "plugin": "Fundamental",
+      "version": "1.2.1",
+      "model": "Scope",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 14.0
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        },
+        {
+          "id": 6,
+          "value": 0.0
+        },
+        {
+          "id": 7,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 75,
+      "data": {
+        "lissajous": 1,
+        "external": 0
+      },
+      "pos": [
+        36,
+        0
+      ]
+    },
+    {
+      "id": 78,
+      "plugin": "NYSTHI",
+      "version": "1.0.3",
+      "model": "LFOMultiPhase",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0500000007
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 0.5
+        },
+        {
+          "id": 5,
+          "value": 0.5
+        },
+        {
+          "id": 6,
+          "value": 0.0
+        },
+        {
+          "id": 7,
+          "value": 0.0
+        },
+        {
+          "id": 8,
+          "value": 0.600000024
+        },
+        {
+          "id": 9,
+          "value": 0.0
+        },
+        {
+          "id": 10,
+          "value": 0.0
+        },
+        {
+          "id": 11,
+          "value": 0.0
+        },
+        {
+          "id": 12,
+          "value": 0.0
+        },
+        {
+          "id": 13,
+          "value": 0.0
+        },
+        {
+          "id": 14,
+          "value": 0.5
+        }
+      ],
+      "rightModuleId": 79,
+      "data": {
+        "REALFREQUENCY": 0.0500000007,
+        "m_duplicate_voltage": false
+      },
+      "pos": [
+        51,
+        0
+      ]
+    },
+    {
+      "id": 79,
+      "plugin": "Fundamental",
+      "version": "1.2.1",
+      "model": "Scope",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 6.69499779
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        },
+        {
+          "id": 6,
+          "value": 0.0
+        },
+        {
+          "id": 7,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 78,
+      "data": {
+        "lissajous": 1,
+        "external": 0
+      },
+      "pos": [
+        58,
+        0
+      ]
+    },
+    {
+      "id": 80,
+      "plugin": "SubmarineFree",
+      "version": "1.0.3",
+      "model": "PO-101",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 0.0
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        },
+        {
+          "id": 6,
+          "value": 0.0
+        }
+      ],
+      "rightModuleId": 81,
+      "pos": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": 81,
+      "plugin": "Fundamental",
+      "version": "1.2.1",
+      "model": "Scope",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 14.0
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        },
+        {
+          "id": 6,
+          "value": 0.0
+        },
+        {
+          "id": 7,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 80,
+      "data": {
+        "lissajous": 1,
+        "external": 0
+      },
+      "pos": [
+        12,
+        1
+      ]
+    },
+    {
+      "id": 82,
+      "plugin": "SubmarineFree",
+      "version": "1.0.3",
+      "model": "PO-102",
+      "params": [
+        {
+          "id": 0,
+          "value": -12.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 0.0
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        },
+        {
+          "id": 6,
+          "value": 0.0
+        }
+      ],
+      "rightModuleId": 83,
+      "pos": [
+        27,
+        1
+      ]
+    },
+    {
+      "id": 83,
+      "plugin": "Fundamental",
+      "version": "1.2.1",
+      "model": "Scope",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 6.78499937
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        },
+        {
+          "id": 6,
+          "value": 0.0
+        },
+        {
+          "id": 7,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 82,
+      "data": {
+        "lissajous": 1,
+        "external": 0
+      },
+      "pos": [
+        39,
+        1
+      ]
+    },
+    {
+      "id": 84,
+      "plugin": "SubmarineFree",
+      "version": "1.0.3",
+      "model": "PO-204",
+      "params": [
+        {
+          "id": 0,
+          "value": -90.0
+        },
+        {
+          "id": 1,
+          "value": -1.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 5.0
+        },
+        {
+          "id": 5,
+          "value": 5.0
+        },
+        {
+          "id": 6,
+          "value": -0.0309999995
+        },
+        {
+          "id": 7,
+          "value": 0.193999946
+        },
+        {
+          "id": 8,
+          "value": 0.0
+        },
+        {
+          "id": 9,
+          "value": 0.0
+        },
+        {
+          "id": 10,
+          "value": 1.0
+        },
+        {
+          "id": 11,
+          "value": 1.0
+        },
+        {
+          "id": 12,
+          "value": 1.0
+        },
+        {
+          "id": 13,
+          "value": 1.0
+        }
+      ],
+      "rightModuleId": 85,
+      "pos": [
+        54,
+        1
+      ]
+    },
+    {
+      "id": 85,
+      "plugin": "Fundamental",
+      "version": "1.2.1",
+      "model": "Scope",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 6.78499937
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        },
+        {
+          "id": 6,
+          "value": 0.0
+        },
+        {
+          "id": 7,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 84,
+      "data": {
+        "lissajous": 1,
+        "external": 0
+      },
+      "pos": [
+        64,
+        1
+      ]
+    },
+    {
+      "id": 86,
+      "plugin": "Hora-ModulationFree",
+      "version": "1.0.1",
+      "model": "TwinQuartet-LFO",
+      "params": [
+        {
+          "id": 0,
+          "value": 5.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 1.0
+        },
+        {
+          "id": 3,
+          "value": 1.0
+        },
+        {
+          "id": 4,
+          "value": 0.25
+        },
+        {
+          "id": 5,
+          "value": 0.25
+        },
+        {
+          "id": 6,
+          "value": 0.0
+        }
+      ],
+      "rightModuleId": 87,
+      "pos": [
+        24,
+        2
+      ]
+    },
+    {
+      "id": 87,
+      "plugin": "Fundamental",
+      "version": "1.2.1",
+      "model": "Scope",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 6.60499811
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        },
+        {
+          "id": 6,
+          "value": 0.0
+        },
+        {
+          "id": 7,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 86,
+      "data": {
+        "lissajous": 1,
+        "external": 0
+      },
+      "pos": [
+        39,
+        2
+      ]
+    }
+  ],
+  "cables": [
+    {
+      "id": 111,
+      "outputModuleId": 73,
+      "outputId": 0,
+      "inputModuleId": 74,
+      "inputId": 0,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 113,
+      "outputModuleId": 75,
+      "outputId": 0,
+      "inputModuleId": 76,
+      "inputId": 0,
+      "color": "#0986ad"
+    },
+    {
+      "id": 114,
+      "outputModuleId": 75,
+      "outputId": 1,
+      "inputModuleId": 76,
+      "inputId": 1,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 117,
+      "outputModuleId": 73,
+      "outputId": 1,
+      "inputModuleId": 74,
+      "inputId": 1,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 118,
+      "outputModuleId": 78,
+      "outputId": 0,
+      "inputModuleId": 79,
+      "inputId": 0,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 119,
+      "outputModuleId": 78,
+      "outputId": 2,
+      "inputModuleId": 79,
+      "inputId": 1,
+      "color": "#c91847"
+    },
+    {
+      "id": 120,
+      "outputModuleId": 80,
+      "outputId": 0,
+      "inputModuleId": 81,
+      "inputId": 0,
+      "color": "#0986ad"
+    },
+    {
+      "id": 121,
+      "outputModuleId": 80,
+      "outputId": 4,
+      "inputModuleId": 81,
+      "inputId": 1,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 122,
+      "outputModuleId": 82,
+      "outputId": 0,
+      "inputModuleId": 83,
+      "inputId": 0,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 123,
+      "outputModuleId": 82,
+      "outputId": 4,
+      "inputModuleId": 83,
+      "inputId": 1,
+      "color": "#c91847"
+    },
+    {
+      "id": 126,
+      "outputModuleId": 84,
+      "outputId": 1,
+      "inputModuleId": 85,
+      "inputId": 1,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 125,
+      "outputModuleId": 84,
+      "outputId": 0,
+      "inputModuleId": 85,
+      "inputId": 0,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 128,
+      "outputModuleId": 86,
+      "outputId": 0,
+      "inputModuleId": 87,
+      "inputId": 0,
+      "color": "#0986ad"
+    },
+    {
+      "id": 129,
+      "outputModuleId": 86,
+      "outputId": 1,
+      "inputModuleId": 87,
+      "inputId": 1,
+      "color": "#c9b70e"
+    }
+  ]
+}
