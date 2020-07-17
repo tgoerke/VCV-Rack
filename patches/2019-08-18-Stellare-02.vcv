@@ -1,21 +1,21 @@
 {
-  "version": "1.1.3",
+  "version": "1.1.6",
   "modules": [
     {
       "id": 20,
       "plugin": "Core",
-      "version": "1.1.3",
+      "version": "1.1.6",
       "model": "AudioInterface",
       "params": [],
       "leftModuleId": 26,
       "data": {
         "audio": {
-          "driver": 1,
-          "deviceName": "hw:Scarlett 2i2 USB,0",
+          "driver": 4,
+          "deviceName": "system",
           "offset": 0,
           "maxChannels": 8,
-          "sampleRate": 48000,
-          "blockSize": 256
+          "sampleRate": 44100,
+          "blockSize": 2048
         }
       },
       "pos": [
@@ -31,7 +31,7 @@
       "params": [
         {
           "id": 0,
-          "value": 0.553000033
+          "value": 0.247000098
         },
         {
           "id": 1,
@@ -43,15 +43,15 @@
         },
         {
           "id": 3,
-          "value": 0.231000096
+          "value": 0.324000061
         },
         {
           "id": 4,
-          "value": 0.22200045
+          "value": 0.0689999983
         },
         {
           "id": 5,
-          "value": 0.245999843
+          "value": 0.315999925
         },
         {
           "id": 6,
@@ -644,7 +644,7 @@
     {
       "id": 24,
       "plugin": "ImpromptuModular",
-      "version": "1.1.1",
+      "version": "1.1.7",
       "model": "Clocked",
       "params": [
         {
@@ -734,9 +734,11 @@
         "running": true,
         "displayDelayNoteMode": true,
         "bpmDetectionMode": false,
-        "emitResetOnStopRun": false,
+        "resetOnStartStop": 0,
         "ppqn": 4,
-        "resetClockOutputsHigh": true
+        "resetClockOutputsHigh": true,
+        "momentaryRunInput": true,
+        "clockMaster": false
       },
       "pos": [
         4,
@@ -746,7 +748,7 @@
     {
       "id": 25,
       "plugin": "StellareModular-CreativeSuite",
-      "version": "1.0.1",
+      "version": "1.1.1",
       "model": "Nomlia",
       "params": [
         {
@@ -1027,7 +1029,7 @@
     {
       "id": 27,
       "plugin": "ML_modules",
-      "version": "1.0.2",
+      "version": "1.1.2",
       "model": "Quantum",
       "params": [
         {
@@ -1108,7 +1110,7 @@
     {
       "id": 28,
       "plugin": "ML_modules",
-      "version": "1.0.2",
+      "version": "1.1.2",
       "model": "Quantum",
       "params": [
         {
@@ -1189,7 +1191,7 @@
     {
       "id": 29,
       "plugin": "AS",
-      "version": "1.0.3",
+      "version": "1.0.4",
       "model": "VCA",
       "params": [
         {
@@ -1219,7 +1221,7 @@
     {
       "id": 30,
       "plugin": "Fundamental",
-      "version": "1.2.0",
+      "version": "1.4.0",
       "model": "ADSR",
       "params": [
         {
@@ -1249,7 +1251,7 @@
     {
       "id": 37,
       "plugin": "StellareModular-CreativeSuite",
-      "version": "1.0.1",
+      "version": "1.1.1",
       "model": "Nomlia",
       "params": [
         {
@@ -1383,7 +1385,7 @@
     {
       "id": 133,
       "plugin": "EricaCopies",
-      "version": "1.0.2",
+      "version": "1.0.4",
       "model": "BlackOctasource",
       "params": [
         {
@@ -1416,7 +1418,7 @@
     {
       "id": 134,
       "plugin": "Fundamental",
-      "version": "1.2.0",
+      "version": "1.4.0",
       "model": "Scope",
       "params": [
         {
@@ -1466,7 +1468,7 @@
     {
       "id": 199,
       "plugin": "SurgeRack",
-      "version": "1.beta1.1",
+      "version": "1.beta1.4",
       "model": "SurgeOSC",
       "params": [
         {
@@ -1518,7 +1520,7 @@
       "rightModuleId": 29,
       "data": {
         "comment": "No Comment",
-        "buildInfo": "os:linux pluggit:214ce47 surgegit:dbb0c48 buildtime=Jul 20 2019 19:05:21"
+        "buildInfo": "os:linux pluggit: surgegit: buildtime=Nov 16 2019 15:30:46"
       },
       "pos": [
         36,
@@ -1528,7 +1530,7 @@
     {
       "id": 200,
       "plugin": "StellareModular-CreativeSuite",
-      "version": "1.0.1",
+      "version": "1.1.1",
       "model": "Delta",
       "params": [
         {
@@ -1550,7 +1552,7 @@
     {
       "id": 201,
       "plugin": "Fundamental",
-      "version": "1.2.0",
+      "version": "1.4.0",
       "model": "VCA-1",
       "params": [
         {
@@ -1572,7 +1574,7 @@
     {
       "id": 202,
       "plugin": "Fundamental",
-      "version": "1.2.0",
+      "version": "1.4.0",
       "model": "VCA-1",
       "params": [
         {
@@ -1594,12 +1596,12 @@
     {
       "id": 203,
       "plugin": "Befaco",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "model": "EvenVCO",
       "params": [
         {
           "id": 0,
-          "value": -3.0
+          "value": -2.0
         },
         {
           "id": 1,
@@ -1620,12 +1622,12 @@
     {
       "id": 204,
       "plugin": "VultModulesFree",
-      "version": "1.2.0",
+      "version": "1.10.1",
       "model": "Tangents",
       "params": [
         {
           "id": 0,
-          "value": 0.542000294
+          "value": 0.467000306
         },
         {
           "id": 1,
@@ -1662,7 +1664,7 @@
     {
       "id": 207,
       "plugin": "ML_modules",
-      "version": "1.0.2",
+      "version": "1.1.2",
       "model": "Quantum",
       "params": [
         {
@@ -1743,7 +1745,7 @@
     {
       "id": 208,
       "plugin": "ML_modules",
-      "version": "1.0.2",
+      "version": "1.1.2",
       "model": "Quantum",
       "params": [
         {
@@ -1823,12 +1825,12 @@
     {
       "id": 209,
       "plugin": "Befaco",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "model": "EvenVCO",
       "params": [
         {
           "id": 0,
-          "value": -4.0
+          "value": -2.0
         },
         {
           "id": 1,
@@ -1849,7 +1851,7 @@
     {
       "id": 210,
       "plugin": "Bogaudio",
-      "version": "1.1.22",
+      "version": "1.1.31",
       "model": "Bogaudio-Slew",
       "params": [
         {
@@ -1878,7 +1880,7 @@
     {
       "id": 212,
       "plugin": "Bogaudio",
-      "version": "1.1.22",
+      "version": "1.1.31",
       "model": "Bogaudio-Slew",
       "params": [
         {
@@ -1908,7 +1910,7 @@
     {
       "id": 213,
       "plugin": "Fundamental",
-      "version": "1.2.0",
+      "version": "1.4.0",
       "model": "Scope",
       "params": [
         {
@@ -1957,7 +1959,7 @@
     {
       "id": 214,
       "plugin": "StellareModular-CreativeSuite",
-      "version": "1.0.1",
+      "version": "1.1.1",
       "model": "Pelisia",
       "params": [
         {
@@ -2054,20 +2056,20 @@
     {
       "id": 216,
       "plugin": "SurgeRack",
-      "version": "1.beta1.1",
+      "version": "1.beta1.4",
       "model": "SurgeDelay",
       "params": [
         {
           "id": 0,
-          "value": 0.5
+          "value": 0.692000151
         },
         {
           "id": 1,
-          "value": 0.461538464
+          "value": 0.746538639
         },
         {
           "id": 2,
-          "value": 0.484038532
+          "value": 0.689538181
         },
         {
           "id": 3,
@@ -2169,7 +2171,7 @@
       "rightModuleId": 217,
       "data": {
         "comment": "No Comment",
-        "buildInfo": "os:linux pluggit:214ce47 surgegit:dbb0c48 buildtime=Jul 20 2019 19:05:21"
+        "buildInfo": "os:linux pluggit: surgegit: buildtime=Nov 16 2019 15:30:46"
       },
       "pos": [
         36,
@@ -2179,7 +2181,7 @@
     {
       "id": 217,
       "plugin": "SurgeRack",
-      "version": "1.beta1.1",
+      "version": "1.beta1.4",
       "model": "SurgeDelay",
       "params": [
         {
@@ -2188,11 +2190,11 @@
         },
         {
           "id": 1,
-          "value": 0.0
+          "value": 0.604500115
         },
         {
           "id": 2,
-          "value": 0.473538548
+          "value": 0.658038795
         },
         {
           "id": 3,
@@ -2295,7 +2297,7 @@
       "rightModuleId": 214,
       "data": {
         "comment": "No Comment",
-        "buildInfo": "os:linux pluggit:214ce47 surgegit:dbb0c48 buildtime=Jul 20 2019 19:05:21"
+        "buildInfo": "os:linux pluggit: surgegit: buildtime=Nov 16 2019 15:30:46"
       },
       "pos": [
         55,
@@ -2305,7 +2307,7 @@
     {
       "id": 218,
       "plugin": "VultModulesFree",
-      "version": "1.2.0",
+      "version": "1.10.1",
       "model": "Debriatus",
       "params": [
         {
@@ -2351,7 +2353,7 @@
     {
       "id": 219,
       "plugin": "AudibleInstruments",
-      "version": "1.0.0",
+      "version": "1.3.1",
       "model": "Clouds",
       "params": [
         {
@@ -2422,7 +2424,7 @@
     {
       "id": 220,
       "plugin": "AS",
-      "version": "1.0.3",
+      "version": "1.0.4",
       "model": "QuadVCA",
       "params": [
         {
@@ -2468,7 +2470,7 @@
     {
       "id": 221,
       "plugin": "Bogaudio",
-      "version": "1.1.22",
+      "version": "1.1.31",
       "model": "Bogaudio-DADSRH",
       "params": [
         {
@@ -2542,7 +2544,7 @@
     {
       "id": 222,
       "plugin": "VultModulesFree",
-      "version": "1.2.0",
+      "version": "1.10.1",
       "model": "Trummor2",
       "params": [
         {
@@ -2694,12 +2696,12 @@
     {
       "id": 223,
       "plugin": "Core",
-      "version": "1.1.3",
+      "version": "1.1.6",
       "model": "Notes",
       "params": [],
       "text": "we are at 2:05:00\n\n\nafter adding Trummor2",
       "pos": [
-        112,
+        106,
         0
       ]
     }
