@@ -1,22 +1,22 @@
 {
-  "version": "1.1.3",
+  "version": "1.1.6",
   "modules": [
     {
       "id": 20,
       "plugin": "Core",
-      "version": "1.1.3",
+      "version": "1.1.6",
       "model": "AudioInterface",
       "params": [],
       "leftModuleId": 35,
       "rightModuleId": 36,
       "data": {
         "audio": {
-          "driver": 1,
-          "deviceName": "hw:Scarlett 2i2 USB,0",
+          "driver": 4,
+          "deviceName": "system",
           "offset": 0,
           "maxChannels": 8,
-          "sampleRate": 48000,
-          "blockSize": 256
+          "sampleRate": 44100,
+          "blockSize": 2048
         }
       },
       "pos": [
@@ -32,7 +32,7 @@
       "params": [
         {
           "id": 0,
-          "value": 0.0
+          "value": -60.0
         },
         {
           "id": 1,
@@ -270,11 +270,11 @@
         },
         {
           "id": 4,
-          "value": -9.23997784
+          "value": -23.819973
         },
         {
           "id": 5,
-          "value": -18.2700043
+          "value": -27.5099449
         },
         {
           "id": 6,
@@ -483,7 +483,7 @@
     {
       "id": 26,
       "plugin": "ImpromptuModular",
-      "version": "1.1.1",
+      "version": "1.1.7",
       "model": "Clocked",
       "params": [
         {
@@ -572,9 +572,11 @@
         "running": false,
         "displayDelayNoteMode": true,
         "bpmDetectionMode": false,
-        "emitResetOnStopRun": false,
+        "resetOnStartStop": 0,
         "ppqn": 4,
-        "resetClockOutputsHigh": true
+        "resetClockOutputsHigh": true,
+        "momentaryRunInput": true,
+        "clockMaster": false
       },
       "pos": [
         6,
@@ -732,10 +734,11 @@
     {
       "id": 36,
       "plugin": "Core",
-      "version": "1.1.3",
+      "version": "1.1.6",
       "model": "Notes",
       "params": [],
       "leftModuleId": 20,
+      "rightModuleId": 85,
       "text": "Omri Cohen \nRepelzen - VCV Rack Live Stream\n\nhttps://www.youtube.com/watch?v=9408ynAsIlc\n\n  \n2nd patch in the video starting 1:16 hrs\n\n\n ",
       "pos": [
         108,
@@ -795,7 +798,7 @@
     {
       "id": 38,
       "plugin": "AS",
-      "version": "1.0.3",
+      "version": "1.0.4",
       "model": "QuadVCA",
       "params": [
         {
@@ -1120,7 +1123,7 @@
     {
       "id": 40,
       "plugin": "RJModules",
-      "version": "1.0.1",
+      "version": "1.7.2",
       "model": "Acid",
       "params": [
         {
@@ -1194,7 +1197,7 @@
     {
       "id": 41,
       "plugin": "CountModula",
-      "version": "1.2.1",
+      "version": "1.11.0",
       "model": "TriggerSequencer8",
       "params": [
         {
@@ -1392,7 +1395,26 @@
       ],
       "rightModuleId": 44,
       "data": {
-        "moduleVersion": "1.1"
+        "moduleVersion": 0.0,
+        "currentStep": [
+          3,
+          3,
+          3,
+          2
+        ],
+        "clockState": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "runState": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "theme": 0
       },
       "pos": [
         6,
@@ -1611,7 +1633,7 @@
     {
       "id": 48,
       "plugin": "Bogaudio",
-      "version": "1.1.22",
+      "version": "1.1.31",
       "model": "Bogaudio-EightFO",
       "params": [
         {
@@ -1722,7 +1744,7 @@
     {
       "id": 52,
       "plugin": "Bogaudio",
-      "version": "1.1.22",
+      "version": "1.1.31",
       "model": "Bogaudio-AddrSeq",
       "params": [
         {
@@ -1772,7 +1794,10 @@
       ],
       "rightModuleId": 37,
       "data": {
+        "poly_input": 0,
         "select_on_clock": false,
+        "triggered_select": false,
+        "reverse_on_negative_clock": false,
         "range_offset": 0.0,
         "range_scale": 10.0
       },
@@ -1784,7 +1809,7 @@
     {
       "id": 54,
       "plugin": "NYSTHI",
-      "version": "1.0.3",
+      "version": "1.0.13",
       "model": "PolySevenSeas",
       "params": [
         {
@@ -1891,10 +1916,11 @@
       "leftModuleId": 84,
       "rightModuleId": 60,
       "data": {
+        "m_thread_high_priority": false,
         "m_stop_animations": false,
         "m_decimate_mode": 0,
         "m_current_octave": 0,
-        "m_bank": 0.30035156,
+        "m_bank": 0.298312962,
         "m_wave": 0.0,
         "m_pw": 0.5,
         "m_swarming": false,
@@ -1979,7 +2005,7 @@
     {
       "id": 55,
       "plugin": "NYSTHI",
-      "version": "1.0.3",
+      "version": "1.0.13",
       "model": "b208_5steps",
       "params": [
         {
@@ -2112,7 +2138,7 @@
     {
       "id": 56,
       "plugin": "AS",
-      "version": "1.0.3",
+      "version": "1.0.4",
       "model": "ADSR",
       "params": [
         {
@@ -2141,7 +2167,7 @@
     {
       "id": 57,
       "plugin": "Fundamental",
-      "version": "1.2.0",
+      "version": "1.4.0",
       "model": "VCA-1",
       "params": [
         {
@@ -2163,7 +2189,7 @@
     {
       "id": 60,
       "plugin": "Fundamental",
-      "version": "1.2.0",
+      "version": "1.4.0",
       "model": "Merge",
       "params": [],
       "leftModuleId": 54,
@@ -2179,7 +2205,7 @@
     {
       "id": 62,
       "plugin": "LindenbergResearch",
-      "version": "1.0.0",
+      "version": "1.3.3",
       "model": "DIODE_VCF",
       "params": [
         {
@@ -2208,13 +2234,19 @@
         }
       ],
       "leftModuleId": 67,
+      "rightModuleId": 73,
       "gestaltID": 1,
       "gradient": true,
       "patina": false,
+      "patina_i_x": false,
+      "patina_i_y": false,
       "patina_a_x": -216.554642,
       "patina_a_y": -303.941956,
-      "patina_b_x": -263.288025,
-      "patina_b_y": -156.367142,
+      "overlay": false,
+      "overlay_r": 0.64113152,
+      "overlay_g": 0.550275147,
+      "overlay_b": 0.561516643,
+      "overlay_a": 0.286453187,
       "pos": [
         24,
         2
@@ -2272,7 +2304,7 @@
     {
       "id": 67,
       "plugin": "squinkylabs-plug1",
-      "version": "1.0.3",
+      "version": "1.0.9",
       "model": "squinkylabs-funv",
       "params": [
         {
@@ -2314,7 +2346,7 @@
     {
       "id": 69,
       "plugin": "VultModulesFree",
-      "version": "1.2.0",
+      "version": "1.10.1",
       "model": "Trummor2",
       "params": [
         {
@@ -2465,7 +2497,7 @@
     {
       "id": 73,
       "plugin": "squinkylabs-plug1",
-      "version": "1.0.3",
+      "version": "1.0.9",
       "model": "squinkylabs-vocalfilter",
       "params": [
         {
@@ -2505,6 +2537,7 @@
           "value": 1.0
         }
       ],
+      "leftModuleId": 62,
       "rightModuleId": 25,
       "pos": [
         41,
@@ -2514,7 +2547,7 @@
     {
       "id": 77,
       "plugin": "VultModulesFree",
-      "version": "1.2.0",
+      "version": "1.10.1",
       "model": "Slap",
       "params": [
         {
@@ -2622,6 +2655,35 @@
       "pos": [
         73,
         2
+      ]
+    },
+    {
+      "id": 85,
+      "plugin": "VCV-Recorder",
+      "version": "1.0.1",
+      "model": "Recorder",
+      "params": [
+        {
+          "id": 0,
+          "value": 1.6159997
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 36,
+      "data": {
+        "format": "wav",
+        "path": "/home/mint/.Rack/recordings/2019-08-16-Repelzen.wav",
+        "incrementPath": true,
+        "sampleRate": 44100,
+        "depth": 16,
+        "bitRate": 320000
+      },
+      "pos": [
+        124,
+        0
       ]
     }
   ],
@@ -3035,14 +3097,6 @@
       "color": "#c9b70e"
     },
     {
-      "id": 154,
-      "outputModuleId": 57,
-      "outputId": 0,
-      "inputModuleId": 24,
-      "inputId": 4,
-      "color": "#c9b70e"
-    },
-    {
       "id": 178,
       "outputModuleId": 62,
       "outputId": 0,
@@ -3233,6 +3287,62 @@
       "inputModuleId": 84,
       "inputId": 0,
       "color": "#c9b70e"
+    },
+    {
+      "id": 290,
+      "outputModuleId": 26,
+      "outputId": 4,
+      "inputModuleId": 52,
+      "inputId": 1,
+      "color": "#0986ad"
+    },
+    {
+      "id": 291,
+      "outputModuleId": 26,
+      "outputId": 4,
+      "inputModuleId": 48,
+      "inputId": 10,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 292,
+      "outputModuleId": 26,
+      "outputId": 4,
+      "inputModuleId": 41,
+      "inputId": 8,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 154,
+      "outputModuleId": 57,
+      "outputId": 0,
+      "inputModuleId": 24,
+      "inputId": 4,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 293,
+      "outputModuleId": 26,
+      "outputId": 4,
+      "inputModuleId": 55,
+      "inputId": 0,
+      "color": "#0986ad"
+    },
+    {
+      "id": 294,
+      "outputModuleId": 23,
+      "outputId": 0,
+      "inputModuleId": 85,
+      "inputId": 2,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 295,
+      "outputModuleId": 23,
+      "outputId": 1,
+      "inputModuleId": 85,
+      "inputId": 3,
+      "color": "#0c8e15"
     }
   ]
 }

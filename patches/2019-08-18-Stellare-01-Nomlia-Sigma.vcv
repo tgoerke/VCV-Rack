@@ -1,22 +1,22 @@
 {
-  "version": "1.1.3",
+  "version": "1.1.6",
   "modules": [
     {
       "id": 20,
       "plugin": "Core",
-      "version": "1.1.3",
+      "version": "1.1.6",
       "model": "AudioInterface",
       "params": [],
       "leftModuleId": 110,
       "rightModuleId": 116,
       "data": {
         "audio": {
-          "driver": 1,
-          "deviceName": "hw:Scarlett 2i2 USB,0",
+          "driver": 4,
+          "deviceName": "system",
           "offset": 0,
           "maxChannels": 8,
-          "sampleRate": 48000,
-          "blockSize": 256
+          "sampleRate": 44100,
+          "blockSize": 2048
         }
       },
       "pos": [
@@ -27,12 +27,12 @@
     {
       "id": 108,
       "plugin": "ImpromptuModular",
-      "version": "1.1.1",
+      "version": "1.1.7",
       "model": "Clocked",
       "params": [
         {
           "id": 0,
-          "value": 87.0
+          "value": 95.0
         },
         {
           "id": 1,
@@ -117,9 +117,11 @@
         "running": true,
         "displayDelayNoteMode": true,
         "bpmDetectionMode": false,
-        "emitResetOnStopRun": false,
+        "resetOnStartStop": 0,
         "ppqn": 4,
-        "resetClockOutputsHigh": true
+        "resetClockOutputsHigh": true,
+        "momentaryRunInput": true,
+        "clockMaster": false
       },
       "pos": [
         20,
@@ -276,7 +278,7 @@
     {
       "id": 111,
       "plugin": "StellareModular-CreativeSuite",
-      "version": "1.0.1",
+      "version": "1.1.1",
       "model": "Andromeda",
       "params": [
         {
@@ -624,7 +626,7 @@
     {
       "id": 112,
       "plugin": "Geodesics",
-      "version": "1.0.0",
+      "version": "1.2.0",
       "model": "Energy",
       "params": [
         {
@@ -672,8 +674,38 @@
       "rightModuleId": 117,
       "data": {
         "panelTheme": 1,
-        "oscM_phase": 1420444528,
-        "oscC_phase": 1420444528,
+        "oscM_phase": 2401990064,
+        "oscC_phase": 2401990064,
+        "osc1M_phase": 0,
+        "osc1C_phase": 0,
+        "osc2M_phase": 0,
+        "osc2C_phase": 0,
+        "osc3M_phase": 0,
+        "osc3C_phase": 0,
+        "osc4M_phase": 0,
+        "osc4C_phase": 0,
+        "osc5M_phase": 0,
+        "osc5C_phase": 0,
+        "osc6M_phase": 0,
+        "osc6C_phase": 0,
+        "osc7M_phase": 0,
+        "osc7C_phase": 0,
+        "osc8M_phase": 0,
+        "osc8C_phase": 0,
+        "osc9M_phase": 0,
+        "osc9C_phase": 0,
+        "osc10M_phase": 0,
+        "osc10C_phase": 0,
+        "osc11M_phase": 0,
+        "osc11C_phase": 0,
+        "osc12M_phase": 0,
+        "osc12C_phase": 0,
+        "osc13M_phase": 0,
+        "osc13C_phase": 0,
+        "osc14M_phase": 0,
+        "osc14C_phase": 0,
+        "osc15M_phase": 0,
+        "osc15C_phase": 0,
         "routing": 1,
         "planck0": 2,
         "planck1": 0,
@@ -689,7 +721,7 @@
     {
       "id": 115,
       "plugin": "AlrightDevices",
-      "version": "1.0.0",
+      "version": "1.0.3",
       "model": "Chronoblob2",
       "params": [
         {
@@ -748,7 +780,7 @@
     {
       "id": 116,
       "plugin": "Core",
-      "version": "1.1.3",
+      "version": "1.1.6",
       "model": "Notes",
       "params": [],
       "leftModuleId": 20,
@@ -761,7 +793,7 @@
     {
       "id": 117,
       "plugin": "Geodesics",
-      "version": "1.0.0",
+      "version": "1.2.0",
       "model": "Energy",
       "params": [
         {
@@ -809,8 +841,38 @@
       "rightModuleId": 115,
       "data": {
         "panelTheme": 1,
-        "oscM_phase": 2359743256,
-        "oscC_phase": 2359743256,
+        "oscM_phase": 76353432,
+        "oscC_phase": 76353432,
+        "osc1M_phase": 0,
+        "osc1C_phase": 0,
+        "osc2M_phase": 0,
+        "osc2C_phase": 0,
+        "osc3M_phase": 0,
+        "osc3C_phase": 0,
+        "osc4M_phase": 0,
+        "osc4C_phase": 0,
+        "osc5M_phase": 0,
+        "osc5C_phase": 0,
+        "osc6M_phase": 0,
+        "osc6C_phase": 0,
+        "osc7M_phase": 0,
+        "osc7C_phase": 0,
+        "osc8M_phase": 0,
+        "osc8C_phase": 0,
+        "osc9M_phase": 0,
+        "osc9C_phase": 0,
+        "osc10M_phase": 0,
+        "osc10C_phase": 0,
+        "osc11M_phase": 0,
+        "osc11C_phase": 0,
+        "osc12M_phase": 0,
+        "osc12C_phase": 0,
+        "osc13M_phase": 0,
+        "osc13C_phase": 0,
+        "osc14M_phase": 0,
+        "osc14C_phase": 0,
+        "osc15M_phase": 0,
+        "osc15C_phase": 0,
         "routing": 1,
         "planck0": 2,
         "planck1": 0,
@@ -826,7 +888,7 @@
     {
       "id": 118,
       "plugin": "Geodesics",
-      "version": "1.0.0",
+      "version": "1.2.0",
       "model": "Branes",
       "params": [
         {
@@ -862,7 +924,7 @@
     {
       "id": 119,
       "plugin": "Fundamental",
-      "version": "1.2.0",
+      "version": "1.4.0",
       "model": "Scope",
       "params": [
         {
@@ -911,7 +973,7 @@
     {
       "id": 120,
       "plugin": "StellareModular-CreativeSuite",
-      "version": "1.0.1",
+      "version": "1.1.1",
       "model": "Sigma",
       "params": [
         {
@@ -945,7 +1007,7 @@
     {
       "id": 123,
       "plugin": "StellareModular-CreativeSuite",
-      "version": "1.0.1",
+      "version": "1.1.1",
       "model": "Nomlia",
       "params": [
         {
@@ -1079,7 +1141,7 @@
     {
       "id": 124,
       "plugin": "StellareModular-CreativeSuite",
-      "version": "1.0.1",
+      "version": "1.1.1",
       "model": "Nomlia",
       "params": [
         {
@@ -1213,7 +1275,7 @@
     {
       "id": 126,
       "plugin": "Bogaudio",
-      "version": "1.1.22",
+      "version": "1.1.31",
       "model": "Bogaudio-FMOp",
       "params": [
         {
@@ -1278,7 +1340,7 @@
     {
       "id": 127,
       "plugin": "Bogaudio",
-      "version": "1.1.22",
+      "version": "1.1.31",
       "model": "Bogaudio-FMOp",
       "params": [
         {
@@ -1342,7 +1404,7 @@
     {
       "id": 128,
       "plugin": "ML_modules",
-      "version": "1.0.2",
+      "version": "1.1.2",
       "model": "Quantum",
       "params": [
         {
@@ -1423,7 +1485,7 @@
     {
       "id": 129,
       "plugin": "ML_modules",
-      "version": "1.0.2",
+      "version": "1.1.2",
       "model": "Quantum",
       "params": [
         {
@@ -1509,7 +1571,7 @@
       "params": [
         {
           "id": 0,
-          "value": 1.0
+          "value": 0.53249979
         },
         {
           "id": 1,
@@ -2440,12 +2502,13 @@
     {
       "id": 131,
       "plugin": "Stoermelder-P1",
-      "version": "1.1.0",
+      "version": "1.6.3",
       "model": "CVMap",
       "params": [],
       "rightModuleId": 123,
       "data": {
         "textScrolling": true,
+        "mappingIndicatorHidden": false,
         "maps": [
           {
             "moduleId": 120,
@@ -2521,7 +2584,10 @@
           }
         ],
         "lockParameterChanges": true,
-        "bipolarInput": false
+        "bipolarInput": false,
+        "panelTheme": 0,
+        "audioRate": true,
+        "locked": false
       },
       "pos": [
         0,
@@ -2531,12 +2597,12 @@
     {
       "id": 132,
       "plugin": "ImpromptuModular",
-      "version": "1.1.1",
+      "version": "1.1.7",
       "model": "Clocked",
       "params": [
         {
           "id": 0,
-          "value": 87.0
+          "value": 80.0
         },
         {
           "id": 1,
@@ -2621,9 +2687,11 @@
         "running": true,
         "displayDelayNoteMode": true,
         "bpmDetectionMode": false,
-        "emitResetOnStopRun": false,
+        "resetOnStartStop": 0,
         "ppqn": 4,
-        "resetClockOutputsHigh": true
+        "resetClockOutputsHigh": true,
+        "momentaryRunInput": true,
+        "clockMaster": false
       },
       "pos": [
         0,
@@ -2921,36 +2989,36 @@
       "color": "#0986ad"
     },
     {
-      "id": 124,
-      "outputModuleId": 108,
-      "outputId": 4,
-      "inputModuleId": 132,
-      "inputId": 4,
-      "color": "#c9b70e"
-    },
-    {
-      "id": 125,
-      "outputModuleId": 108,
-      "outputId": 5,
-      "inputModuleId": 132,
-      "inputId": 5,
-      "color": "#0c8e15"
-    },
-    {
-      "id": 126,
-      "outputModuleId": 108,
-      "outputId": 6,
-      "inputModuleId": 132,
-      "inputId": 6,
-      "color": "#c91847"
-    },
-    {
       "id": 127,
       "outputModuleId": 132,
       "outputId": 1,
       "inputModuleId": 131,
       "inputId": 1,
       "color": "#0986ad"
+    },
+    {
+      "id": 461,
+      "outputModuleId": 132,
+      "outputId": 4,
+      "inputModuleId": 108,
+      "inputId": 4,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 462,
+      "outputModuleId": 132,
+      "outputId": 5,
+      "inputModuleId": 108,
+      "inputId": 5,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 463,
+      "outputModuleId": 132,
+      "outputId": 6,
+      "inputModuleId": 108,
+      "inputId": 6,
+      "color": "#c91847"
     }
   ]
 }

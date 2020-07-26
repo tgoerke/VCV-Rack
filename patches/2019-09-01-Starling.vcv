@@ -1,10 +1,10 @@
 {
-  "version": "1.1.4",
+  "version": "1.1.6",
   "modules": [
     {
       "id": 20,
       "plugin": "Core",
-      "version": "1.1.4",
+      "version": "1.1.6",
       "model": "AudioInterface",
       "params": [],
       "leftModuleId": 21,
@@ -14,8 +14,8 @@
           "deviceName": "system",
           "offset": 0,
           "maxChannels": 8,
-          "sampleRate": 48000,
-          "blockSize": 1024
+          "sampleRate": 44100,
+          "blockSize": 2048
         }
       },
       "pos": [
@@ -26,7 +26,7 @@
     {
       "id": 21,
       "plugin": "Fundamental",
-      "version": "1.2.1",
+      "version": "1.4.0",
       "model": "VCMixer",
       "params": [
         {
@@ -185,7 +185,7 @@
     {
       "id": 77,
       "plugin": "Starling_Via",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "model": "GATESEQ",
       "params": [
         {
@@ -194,7 +194,7 @@
         },
         {
           "id": 1,
-          "value": 2048.0
+          "value": 2115.56982
         },
         {
           "id": 2,
@@ -259,12 +259,12 @@
     {
       "id": 78,
       "plugin": "Bogaudio",
-      "version": "1.1.22",
+      "version": "1.1.31",
       "model": "Bogaudio-LFO",
       "params": [
         {
           "id": 0,
-          "value": 1.83300078
+          "value": 2.04140735
         },
         {
           "id": 1,
@@ -295,40 +295,40 @@
     {
       "id": 79,
       "plugin": "AS",
-      "version": "1.0.3",
+      "version": "1.0.4",
       "model": "Mixer8ch",
       "params": [
         {
           "id": 0,
-          "value": 0.578999996
+          "value": 1.0
         },
         {
           "id": 1,
-          "value": 0.259999812
+          "value": 0.627000153
         },
         {
           "id": 2,
-          "value": 0.290000618
+          "value": 0.626000941
         },
         {
           "id": 3,
-          "value": 0.295999914
+          "value": 0.61400032
         },
         {
           "id": 4,
-          "value": 0.223999873
+          "value": 0.61400038
         },
         {
           "id": 5,
-          "value": 0.244999915
+          "value": 0.623000085
         },
         {
           "id": 6,
-          "value": 0.269000053
+          "value": 0.632000387
         },
         {
           "id": 7,
-          "value": 0.287000209
+          "value": 0.650000393
         },
         {
           "id": 8,
@@ -426,7 +426,7 @@
     {
       "id": 81,
       "plugin": "Fundamental",
-      "version": "1.2.1",
+      "version": "1.4.0",
       "model": "Scope",
       "params": [
         {
@@ -475,7 +475,7 @@
     {
       "id": 82,
       "plugin": "Starling_Via",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "model": "GATESEQ",
       "params": [
         {
@@ -549,7 +549,7 @@
     {
       "id": 83,
       "plugin": "AudibleInstruments",
-      "version": "1.0.0",
+      "version": "1.3.1",
       "model": "Stages",
       "params": [
         {
@@ -602,27 +602,27 @@
         },
         {
           "id": 12,
-          "value": 0.122999988
+          "value": 0.104999863
         },
         {
           "id": 13,
-          "value": 0.110999994
+          "value": 0.0389998928
         },
         {
           "id": 14,
-          "value": 0.104000047
+          "value": 0.0500000641
         },
         {
           "id": 15,
-          "value": 0.116000034
+          "value": 0.0650000572
         },
         {
           "id": 16,
-          "value": 0.169999987
+          "value": 0.0799999833
         },
         {
           "id": 17,
-          "value": 0.0410000607
+          "value": 0.083000198
         }
       ],
       "data": {
@@ -661,7 +661,7 @@
     {
       "id": 84,
       "plugin": "Bogaudio",
-      "version": "1.1.22",
+      "version": "1.1.31",
       "model": "Bogaudio-FMOp",
       "params": [
         {
@@ -725,7 +725,7 @@
     {
       "id": 85,
       "plugin": "Bogaudio",
-      "version": "1.1.22",
+      "version": "1.1.31",
       "model": "Bogaudio-FMOp",
       "params": [
         {
@@ -790,7 +790,7 @@
     {
       "id": 86,
       "plugin": "Bogaudio",
-      "version": "1.1.22",
+      "version": "1.1.31",
       "model": "Bogaudio-FMOp",
       "params": [
         {
@@ -854,11 +854,11 @@
     {
       "id": 87,
       "plugin": "Core",
-      "version": "1.1.4",
+      "version": "1.1.6",
       "model": "Notes",
       "params": [],
       "rightModuleId": 79,
-      "text": "Omri Cohen \n\nStarling GateSeq\n\nPatch 2\n\n",
+      "text": "Omri Cohen \n\nStarling GateSeq\n\nPatch 2\n\n\nperformance hints:\n\nThis beast is played with the LFO:\n- OFF\n- SCL\n- PW and\naccelerate LFO 9 -> 10 \n",
       "pos": [
         27,
         0
@@ -867,7 +867,7 @@
     {
       "id": 88,
       "plugin": "Starling_Via",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "model": "GATESEQ",
       "params": [
         {
@@ -940,7 +940,7 @@
     {
       "id": 89,
       "plugin": "Fundamental",
-      "version": "1.2.1",
+      "version": "1.4.0",
       "model": "Scope",
       "params": [
         {
@@ -1152,7 +1152,7 @@
     {
       "id": 91,
       "plugin": "JW-Modules",
-      "version": "1.0.7",
+      "version": "1.0.11",
       "model": "Quantizer",
       "params": [
         {
@@ -1174,7 +1174,7 @@
     {
       "id": 92,
       "plugin": "cf",
-      "version": "1.1.0",
+      "version": "1.1.1",
       "model": "MONO",
       "params": [
         {
@@ -1208,7 +1208,7 @@
     {
       "id": 93,
       "plugin": "Fundamental",
-      "version": "1.2.1",
+      "version": "1.4.0",
       "model": "VCA-1",
       "params": [
         {
@@ -1228,7 +1228,7 @@
     {
       "id": 94,
       "plugin": "Bogaudio",
-      "version": "1.1.22",
+      "version": "1.1.31",
       "model": "Bogaudio-Manual",
       "params": [
         {
@@ -1248,7 +1248,7 @@
     {
       "id": 95,
       "plugin": "Hora-treasureFree",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "model": "HiHat",
       "params": [
         {
@@ -1370,14 +1370,6 @@
       "inputModuleId": 82,
       "inputId": 5,
       "color": "#c91847"
-    },
-    {
-      "id": 235,
-      "outputModuleId": 78,
-      "outputId": 4,
-      "inputModuleId": 82,
-      "inputId": 1,
-      "color": "#0986ad"
     },
     {
       "id": 236,
@@ -1610,6 +1602,22 @@
       "inputModuleId": 79,
       "inputId": 19,
       "color": "#0986ad"
+    },
+    {
+      "id": 235,
+      "outputModuleId": 78,
+      "outputId": 4,
+      "inputModuleId": 82,
+      "inputId": 1,
+      "color": "#0986ad"
+    },
+    {
+      "id": 707,
+      "outputModuleId": 83,
+      "outputId": 5,
+      "inputModuleId": 78,
+      "inputId": 1,
+      "color": "#0c8e15"
     }
   ]
 }
