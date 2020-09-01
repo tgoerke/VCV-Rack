@@ -4,7 +4,7 @@
     {
       "id": 57,
       "plugin": "squinkylabs-plug1",
-      "version": "1.0.9",
+      "version": "1.0.10",
       "model": "squinkylabs-mixm",
       "params": [
         {
@@ -337,7 +337,7 @@
     {
       "id": 62,
       "plugin": "ImpromptuModular",
-      "version": "1.1.7",
+      "version": "1.1.8",
       "model": "Clocked",
       "params": [
         {
@@ -424,7 +424,7 @@
       "rightModuleId": 132,
       "data": {
         "panelTheme": 1,
-        "running": true,
+        "running": false,
         "displayDelayNoteMode": true,
         "bpmDetectionMode": false,
         "resetOnStartStop": 0,
@@ -441,7 +441,7 @@
     {
       "id": 74,
       "plugin": "squinkylabs-plug1",
-      "version": "1.0.9",
+      "version": "1.0.10",
       "model": "squinkylabs-mix4",
       "params": [
         {
@@ -596,7 +596,7 @@
     {
       "id": 118,
       "plugin": "Bogaudio",
-      "version": "1.1.31",
+      "version": "1.1.33",
       "model": "Bogaudio-Bool",
       "params": [],
       "pos": [
@@ -607,7 +607,7 @@
     {
       "id": 119,
       "plugin": "Bogaudio",
-      "version": "1.1.31",
+      "version": "1.1.33",
       "model": "Bogaudio-Sums",
       "params": [],
       "rightModuleId": 134,
@@ -745,8 +745,8 @@
         "resetOnRun": false,
         "quantize": 3,
         "uncertainty": false,
-        "stepIndexes0": 10,
-        "stepIndexes1": 7,
+        "stepIndexes0": 0,
+        "stepIndexes1": 0,
         "states0": 1,
         "states1": 1,
         "ranges0": 1,
@@ -883,7 +883,7 @@
     {
       "id": 127,
       "plugin": "Bogaudio",
-      "version": "1.1.31",
+      "version": "1.1.33",
       "model": "Bogaudio-Bool",
       "params": [],
       "leftModuleId": 126,
@@ -938,7 +938,7 @@
       "params": [
         {
           "id": 0,
-          "value": 0.0
+          "value": 2.0
         },
         {
           "id": 1,
@@ -989,7 +989,7 @@
         },
         {
           "id": 7,
-          "value": -1.0
+          "value": -2.0
         },
         {
           "id": 8,
@@ -1009,7 +1009,7 @@
         },
         {
           "id": 12,
-          "value": 0.714499831
+          "value": 0.5
         },
         {
           "id": 13,
@@ -1017,7 +1017,7 @@
         },
         {
           "id": 14,
-          "value": 0.772999942
+          "value": 0.5
         },
         {
           "id": 15,
@@ -1025,19 +1025,19 @@
         },
         {
           "id": 16,
-          "value": 0.462999821
+          "value": 0.0
         },
         {
           "id": 17,
-          "value": 0.714000165
+          "value": 0.0
         },
         {
           "id": 18,
-          "value": 0.333000213
+          "value": 0.0
         },
         {
           "id": 19,
-          "value": 0.551999927
+          "value": 0.0
         },
         {
           "id": 20,
@@ -1049,27 +1049,27 @@
         },
         {
           "id": 22,
-          "value": 5.0
+          "value": 0.0
         },
         {
           "id": 23,
-          "value": 2.0
+          "value": 0.0
         },
         {
           "id": 24,
-          "value": 3.0
+          "value": 0.0
         },
         {
           "id": 25,
-          "value": 6.0
+          "value": 0.0
         },
         {
           "id": 26,
-          "value": 0.0
+          "value": 1.0
         },
         {
           "id": 27,
-          "value": 0.0
+          "value": 1.0
         }
       ],
       "leftModuleId": 129,
@@ -1456,7 +1456,7 @@
     {
       "id": 145,
       "plugin": "Bogaudio",
-      "version": "1.1.31",
+      "version": "1.1.33",
       "model": "Bogaudio-ADSR",
       "params": [
         {
@@ -1493,7 +1493,7 @@
     {
       "id": 150,
       "plugin": "Bogaudio",
-      "version": "1.1.31",
+      "version": "1.1.33",
       "model": "Bogaudio-ADSR",
       "params": [
         {
@@ -1682,7 +1682,7 @@
     {
       "id": 153,
       "plugin": "squinkylabs-plug1",
-      "version": "1.0.9",
+      "version": "1.0.10",
       "model": "squinkylabs-mix4",
       "params": [
         {
@@ -1832,7 +1832,7 @@
         },
         {
           "id": 1,
-          "value": -1.26000094
+          "value": 0.0
         },
         {
           "id": 2,
