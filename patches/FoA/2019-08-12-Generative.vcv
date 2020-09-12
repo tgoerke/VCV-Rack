@@ -1,10 +1,10 @@
 {
-  "version": "1.1.3",
+  "version": "1.1.6",
   "modules": [
     {
       "id": 22,
       "plugin": "ImpromptuModular",
-      "version": "1.1.1",
+      "version": "1.1.8",
       "model": "Clocked",
       "params": [
         {
@@ -90,12 +90,14 @@
       ],
       "data": {
         "panelTheme": 0,
-        "running": true,
+        "running": false,
         "displayDelayNoteMode": true,
         "bpmDetectionMode": false,
-        "emitResetOnStopRun": false,
+        "resetOnStartStop": 0,
         "ppqn": 4,
-        "resetClockOutputsHigh": true
+        "resetClockOutputsHigh": true,
+        "momentaryRunInput": true,
+        "clockMaster": false
       },
       "pos": [
         4,
@@ -105,7 +107,7 @@
     {
       "id": 23,
       "plugin": "JW-Modules",
-      "version": "1.0.7",
+      "version": "1.0.14",
       "model": "NoteSeq",
       "params": [
         {
@@ -199,6 +201,10 @@
         {
           "id": 22,
           "value": 0.0
+        },
+        {
+          "id": 23,
+          "value": 1.0
         }
       ],
       "rightModuleId": 49,
@@ -212,11 +218,8 @@
           0,
           0,
           0,
-          1,
-          1,
           0,
           0,
-          1,
           0,
           0,
           0,
@@ -226,13 +229,13 @@
           0,
           0,
           0,
-          0,
-          1,
           0,
           0,
           0,
           0,
           0,
+          1,
+          1,
           0,
           0,
           1,
@@ -242,20 +245,18 @@
           0,
           1,
           0,
-          1,
           0,
           0,
           0,
           0,
+          1,
           0,
           0,
           0,
           0,
           0,
-          1,
           0,
           0,
-          1,
           0,
           0,
           0,
@@ -268,6 +269,7 @@
           0,
           0,
           0,
+          1,
           0,
           0,
           0,
@@ -275,20 +277,18 @@
           0,
           0,
           0,
-          1,
           0,
           0,
           0,
           0,
-          1,
           0,
           0,
           0,
-          1,
           0,
           0,
           0,
           0,
+          1,
           0,
           0,
           0,
@@ -305,16 +305,20 @@
           0,
           0,
           0,
-          1,
           0,
+          1,
           0,
+          1,
           0,
           0,
           0,
           0,
+          1,
           0,
+          1,
           0,
           0,
+          1,
           0,
           0,
           0,
@@ -330,30 +334,28 @@
           0,
           0,
           0,
+          1,
           0,
           0,
           0,
           0,
           0,
           1,
-          1,
           0,
           0,
           0,
           0,
           1,
-          0,
           0,
           0,
           0,
+          1,
           0,
           0,
           0,
           0,
           0,
           0,
-          1,
-          1,
           0,
           0,
           0,
@@ -361,16 +363,18 @@
           0,
           0,
           0,
+          1,
           0,
           0,
-          1,
           1,
           0,
           0,
           0,
           0,
           0,
+          1,
           0,
+          1,
           0,
           0,
           0,
@@ -381,8 +385,6 @@
           0,
           0,
           0,
-          0,
-          0,
           1,
           0,
           0,
@@ -396,7 +398,6 @@
           0,
           0,
           0,
-          1,
           0,
           0,
           0,
@@ -417,19 +418,18 @@
           0,
           0,
           0,
+          1,
           0,
           0,
-          1,
           0,
           0,
           0,
-          1,
           0,
+          1,
           0,
           0,
           0,
           0,
-          1,
           0,
           0,
           0,
@@ -437,7 +437,6 @@
           0,
           0,
           0,
-          1,
           0,
           0,
           0,
@@ -448,10 +447,10 @@
           0,
           0,
           0,
-          1,
           0,
           0,
           0,
+          1,
           0,
           0,
           0,
@@ -460,7 +459,7 @@
           0,
           1,
           0,
-          0,
+          1,
           0,
           0,
           0,
@@ -470,7 +469,6 @@
           0,
           0,
           0,
-          1,
           0,
           0,
           0,
@@ -479,9 +477,7 @@
           0,
           0,
           0,
-          1,
           0,
-          1,
           0,
           0,
           0,
@@ -494,7 +490,7 @@
           0,
           0,
           0,
-          0,
+          1,
           0,
           0,
           0,
@@ -504,7 +500,6 @@
           0,
           0,
           0,
-          1,
           0,
           0,
           0,
@@ -516,20 +511,25 @@
           0,
           0,
           0,
+          1,
           0,
+          1,
+          1,
           0,
           0,
+          1,
+          1,
           0,
           0,
           0,
           0,
           0,
-          1,
           0,
           0,
           0,
           0,
           0,
+          1,
           0,
           0,
           0,
@@ -543,21 +543,19 @@
           0,
           0,
           0,
-          0,
-          0,
+          1,
           0,
           0,
           0,
-          1,
           0,
           0,
           0,
           0,
           1,
           0,
-          1,
           0,
           0,
+          1,
           0,
           0,
           0,
@@ -566,6 +564,7 @@
           0,
           0,
           0,
+          1,
           0,
           0,
           0,
@@ -574,11 +573,13 @@
           0,
           0,
           0,
+          1,
           0,
           0,
           1,
           0,
           0,
+          1,
           0,
           0,
           0,
@@ -589,13 +590,13 @@
           0,
           0,
           0,
-          1,
           0,
           0,
           0,
           0,
           0,
           0,
+          1,
           0,
           1,
           0,
@@ -606,7 +607,6 @@
           0,
           0,
           0,
-          1,
           0,
           0,
           0,
@@ -614,8 +614,10 @@
           0,
           0,
           0,
-          1,
-          1,
+          0,
+          0,
+          0,
+          0,
           0,
           0,
           1,
@@ -635,7 +637,6 @@
           0,
           0,
           0,
-          1,
           0,
           0,
           0,
@@ -643,10 +644,12 @@
           0,
           0,
           0,
+          1,
           0,
           0,
           0,
           0,
+          1,
           1,
           0,
           0,
@@ -662,7 +665,6 @@
           0,
           0,
           0,
-          1,
           0,
           0,
           0,
@@ -670,7 +672,7 @@
           0,
           0,
           0,
-          0,
+          1,
           0,
           0,
           0,
@@ -679,8 +681,10 @@
           0,
           0,
           0,
+          1,
           0,
           0,
+          1,
           0,
           0,
           0,
@@ -693,6 +697,7 @@
           0,
           0,
           0,
+          1,
           0,
           0,
           0,
@@ -705,13 +710,11 @@
           0,
           0,
           0,
-          1,
           0,
           0,
           0,
           0,
           0,
-          1,
           0,
           0,
           0,
@@ -724,12 +727,12 @@
           0,
           0,
           0,
+          1,
           0,
           0,
           0,
           0,
           0,
-          1,
           0,
           0,
           0,
@@ -745,7 +748,6 @@
           0,
           0,
           0,
-          1,
           0,
           0,
           0,
@@ -758,8 +760,6 @@
           0,
           0,
           0,
-          1,
-          1,
           0,
           0,
           0,
@@ -780,8 +780,11 @@
           0,
           0,
           1,
-          0,
           1,
+          0,
+          0,
+          0,
+          0,
           0,
           0,
           0,
@@ -810,7 +813,9 @@
           0,
           0,
           0,
+          0,
           1,
+          0,
           0,
           0,
           0,
@@ -818,20 +823,19 @@
           0,
           0,
           0,
+          0,
           1,
+          0,
           1,
           0,
           0,
           0,
           0,
-          1,
-          1,
           0,
           0,
           0,
           0,
           0,
-          1,
           0,
           0,
           0,
@@ -845,8 +849,10 @@
           0,
           0,
           0,
+          1,
           0,
           0,
+          1,
           0,
           0,
           0,
@@ -862,10 +868,10 @@
           0,
           0,
           0,
-          1,
           0,
           0,
           0,
+          1,
           0,
           0,
           0,
@@ -878,11 +884,12 @@
           0,
           0,
           0,
+          1,
           0,
           0,
           0,
           1,
-          0,
+          1,
           0,
           0,
           0,
@@ -892,12 +899,12 @@
           0,
           0,
           0,
-          1,
           0,
           0,
           0,
           0,
           0,
+          1,
           0,
           0,
           0,
@@ -914,11 +921,9 @@
           0,
           0,
           0,
-          1,
           0,
           0,
           0,
-          1,
           0,
           0,
           0,
@@ -932,6 +937,7 @@
           0,
           0,
           0,
+          1,
           0,
           0,
           0,
@@ -943,14 +949,14 @@
           0,
           0,
           0,
+          1,
           0,
           0,
           0,
           0,
           1,
           0,
-          0,
-          0,
+          1,
           0,
           0,
           0,
@@ -960,14 +966,11 @@
           0,
           0,
           0,
-          1,
           0,
           0,
           0,
           0,
           0,
-          1,
-          1,
           0,
           0,
           0,
@@ -980,6 +983,9 @@
           0,
           0,
           0,
+          1,
+          0,
+          1,
           0,
           0,
           0,
@@ -988,6 +994,7 @@
           1,
           0,
           0,
+          1,
           0,
           1,
           0,
@@ -996,24 +1003,27 @@
           0,
           0,
           0,
-          1,
           0,
           0,
           0,
           1,
+          1,
+          0,
           0,
+          1,
           0,
           0,
           0,
           0,
           0,
-          1,
           0,
           0,
+          1,
           0,
           0,
           0,
           0,
+          1,
           0,
           0,
           0,
@@ -1045,23 +1055,21 @@
           0,
           0,
           0,
-          1,
           0,
           0,
           0,
           0,
           0,
+          0,
           1,
           0,
           0,
           0,
           0,
           0,
-          1,
           0,
           0,
           0,
-          1,
           0,
           0,
           0,
@@ -1071,13 +1079,11 @@
           0,
           0,
           0,
-          1,
           0,
           0,
           0,
           0,
           0,
-          1,
           0,
           0,
           0,
@@ -1085,7 +1091,6 @@
           0,
           0,
           0,
-          1,
           0,
           0,
           0,
@@ -1097,8 +1102,9 @@
           0,
           0,
           0,
-          0,
+          1,
           0,
+          1,
           0,
           0,
           0,
@@ -1109,10 +1115,12 @@
           0,
           0,
           0,
+          1,
           0,
           0,
           0,
           0,
+          1,
           0,
           0,
           0,
@@ -1130,11 +1138,9 @@
           0,
           0,
           0,
-          1,
           0,
           0,
           0,
-          1,
           0,
           0,
           0,
@@ -1143,12 +1149,14 @@
           0,
           0,
           0,
+          1,
           0,
           0,
           0,
           0,
           0,
           0,
+          1,
           0,
           0,
           0,
@@ -1173,14 +1181,13 @@
           0,
           0,
           0,
+          1,
           0,
           0,
-          1,
           0,
           0,
           0,
           0,
-          1,
           0,
           0,
           0,
@@ -1195,11 +1202,8 @@
           0,
           0,
           0,
-          1,
-          1,
           0,
-          1,
-          1,
+          0,
           1,
           0,
           0,
@@ -1211,13 +1215,12 @@
           0,
           0,
           0,
+          1,
           0,
           0,
-          1,
           0,
           0,
           0,
-          1,
           0,
           0,
           0,
@@ -1227,6 +1230,9 @@
           0,
           0,
           0,
+          0,
+          0,
+          1,
           0,
           0
         ]
@@ -1239,7 +1245,7 @@
     {
       "id": 26,
       "plugin": "Fundamental",
-      "version": "1.2.0",
+      "version": "1.4.0",
       "model": "VCA-1",
       "params": [
         {
@@ -1260,12 +1266,12 @@
     {
       "id": 29,
       "plugin": "Bogaudio",
-      "version": "1.1.22",
+      "version": "1.1.34",
       "model": "Bogaudio-Mix8",
       "params": [
         {
           "id": 0,
-          "value": 0.714091003
+          "value": 0.0
         },
         {
           "id": 1,
@@ -1277,7 +1283,7 @@
         },
         {
           "id": 3,
-          "value": 0.70509094
+          "value": 0.0
         },
         {
           "id": 4,
@@ -1289,7 +1295,7 @@
         },
         {
           "id": 6,
-          "value": 0.691591144
+          "value": 0.0
         },
         {
           "id": 7,
@@ -1301,7 +1307,7 @@
         },
         {
           "id": 9,
-          "value": 0.684090912
+          "value": 0.0
         },
         {
           "id": 10,
@@ -1313,7 +1319,7 @@
         },
         {
           "id": 12,
-          "value": 0.71258986
+          "value": 0.0
         },
         {
           "id": 13,
@@ -1325,7 +1331,7 @@
         },
         {
           "id": 15,
-          "value": 0.724590421
+          "value": 0.0
         },
         {
           "id": 16,
@@ -1337,7 +1343,7 @@
         },
         {
           "id": 18,
-          "value": 0.702090442
+          "value": 0.0
         },
         {
           "id": 19,
@@ -1349,7 +1355,7 @@
         },
         {
           "id": 21,
-          "value": 0.909090936
+          "value": 0.0
         },
         {
           "id": 22,
@@ -1361,13 +1367,21 @@
         },
         {
           "id": 24,
-          "value": 0.786000073
+          "value": 0.0
         },
         {
           "id": 25,
           "value": 0.0
+        },
+        {
+          "id": 26,
+          "value": 0.0
         }
       ],
+      "data": {
+        "dim_decibels": 12.0,
+        "poly_channel_offset": -1
+      },
       "pos": [
         54,
         0
@@ -1376,7 +1390,7 @@
     {
       "id": 30,
       "plugin": "VultModulesFree",
-      "version": "1.2.0",
+      "version": "1.11",
       "model": "Basal",
       "params": [
         {
@@ -1397,14 +1411,13 @@
         },
         {
           "id": 4,
-          "value": 0.0
+          "value": 0.319500029
         },
         {
           "id": 5,
           "value": 1.0
         }
       ],
-      "rightModuleId": 31,
       "pos": [
         55,
         2
@@ -1413,7 +1426,7 @@
     {
       "id": 31,
       "plugin": "VultModulesFree",
-      "version": "1.2.0",
+      "version": "1.11",
       "model": "Basal",
       "params": [
         {
@@ -1426,7 +1439,7 @@
         },
         {
           "id": 2,
-          "value": 0.0
+          "value": 0.874015749
         },
         {
           "id": 3,
@@ -1434,23 +1447,22 @@
         },
         {
           "id": 4,
-          "value": 0.0
+          "value": 0.275224417
         },
         {
           "id": 5,
           "value": 1.0
         }
       ],
-      "leftModuleId": 30,
       "pos": [
-        61,
+        62,
         2
       ]
     },
     {
       "id": 32,
       "plugin": "Fundamental",
-      "version": "1.2.0",
+      "version": "1.4.0",
       "model": "VCA-1",
       "params": [
         {
@@ -1472,7 +1484,7 @@
     {
       "id": 33,
       "plugin": "Befaco",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "model": "Rampage",
       "params": [
         {
@@ -1537,7 +1549,7 @@
     {
       "id": 34,
       "plugin": "Valley",
-      "version": "1.0.1",
+      "version": "1.1.0",
       "model": "Plateau",
       "params": [
         {
@@ -1685,18 +1697,18 @@
     {
       "id": 35,
       "plugin": "Core",
-      "version": "1.1.3",
+      "version": "1.1.6",
       "model": "AudioInterface",
       "params": [],
       "leftModuleId": 34,
       "data": {
         "audio": {
-          "driver": 1,
-          "deviceName": "hw:Scarlett 2i2 USB,0",
+          "driver": 6,
+          "deviceName": "Lautsprecher (3- Generic USB Audio Device   )",
           "offset": 0,
           "maxChannels": 8,
           "sampleRate": 48000,
-          "blockSize": 256
+          "blockSize": 4096
         }
       },
       "pos": [
@@ -1707,7 +1719,7 @@
     {
       "id": 36,
       "plugin": "Bogaudio",
-      "version": "1.1.22",
+      "version": "1.1.34",
       "model": "Bogaudio-LFO",
       "params": [
         {
@@ -1737,6 +1749,7 @@
       ],
       "leftModuleId": 38,
       "rightModuleId": 37,
+      "data": {},
       "pos": [
         14,
         1
@@ -1745,7 +1758,7 @@
     {
       "id": 37,
       "plugin": "Geodesics",
-      "version": "1.0.0",
+      "version": "1.2.0",
       "model": "Pulsars",
       "params": [
         {
@@ -1801,7 +1814,7 @@
     {
       "id": 38,
       "plugin": "Bogaudio",
-      "version": "1.1.22",
+      "version": "1.1.34",
       "model": "Bogaudio-LFO",
       "params": [
         {
@@ -1830,6 +1843,7 @@
         }
       ],
       "rightModuleId": 36,
+      "data": {},
       "pos": [
         4,
         1
@@ -1838,19 +1852,20 @@
     {
       "id": 39,
       "plugin": "Core",
-      "version": "1.1.3",
+      "version": "1.1.6",
       "model": "Notes",
       "params": [],
+      "leftModuleId": 57,
       "text": "Omri Cohen\n\nlet's build a Generative Patch in VCV Rack\n\nhttps://www.youtube.com/watch?v=OBR6LmDb3Uk\n",
       "pos": [
-        35,
-        0
+        109,
+        1
       ]
     },
     {
       "id": 40,
       "plugin": "Fundamental",
-      "version": "1.2.0",
+      "version": "1.4.0",
       "model": "Delay",
       "params": [
         {
@@ -1880,7 +1895,7 @@
     {
       "id": 41,
       "plugin": "Fundamental",
-      "version": "1.2.0",
+      "version": "1.4.0",
       "model": "Delay",
       "params": [
         {
@@ -1909,7 +1924,7 @@
     {
       "id": 42,
       "plugin": "Bogaudio",
-      "version": "1.1.22",
+      "version": "1.1.34",
       "model": "Bogaudio-SampleHold",
       "params": [
         {
@@ -1927,11 +1942,20 @@
         {
           "id": 3,
           "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 0.0
+        },
+        {
+          "id": 5,
+          "value": 0.0
         }
       ],
       "leftModuleId": 45,
       "rightModuleId": 46,
       "data": {
+        "poly_input": 0,
         "noise_type": 0,
         "range_offset": 1.0,
         "range_scale": 5.0
@@ -1944,7 +1968,7 @@
     {
       "id": 44,
       "plugin": "Fundamental",
-      "version": "1.2.0",
+      "version": "1.4.0",
       "model": "Scope",
       "params": [
         {
@@ -1992,7 +2016,7 @@
     {
       "id": 45,
       "plugin": "AS",
-      "version": "1.0.3",
+      "version": "1.0.4",
       "model": "VCA",
       "params": [
         {
@@ -2021,7 +2045,7 @@
     {
       "id": 46,
       "plugin": "CharredDesert",
-      "version": "1.0.1",
+      "version": "1.3.1",
       "model": "Noise",
       "params": [
         {
@@ -2039,7 +2063,7 @@
     {
       "id": 47,
       "plugin": "squinkylabs-plug1",
-      "version": "1.0.3",
+      "version": "1.0.12",
       "model": "squinkylabs-CHB2",
       "params": [
         {
@@ -2048,7 +2072,7 @@
         },
         {
           "id": 1,
-          "value": -3.0
+          "value": -5.0
         },
         {
           "id": 2,
@@ -2160,7 +2184,7 @@
     {
       "id": 48,
       "plugin": "Bogaudio",
-      "version": "1.1.22",
+      "version": "1.1.34",
       "model": "Bogaudio-EightFO",
       "params": [
         {
@@ -2221,6 +2245,7 @@
         }
       ],
       "rightModuleId": 47,
+      "data": {},
       "pos": [
         55,
         3
@@ -2229,7 +2254,7 @@
     {
       "id": 49,
       "plugin": "Bogaudio",
-      "version": "1.1.22",
+      "version": "1.1.34",
       "model": "Bogaudio-DGate",
       "params": [
         {
@@ -2263,7 +2288,7 @@
     {
       "id": 50,
       "plugin": "Bogaudio",
-      "version": "1.1.22",
+      "version": "1.1.34",
       "model": "Bogaudio-ADSR",
       "params": [
         {
@@ -2288,6 +2313,9 @@
         }
       ],
       "leftModuleId": 49,
+      "data": {
+        "invert": 1.0
+      },
       "pos": [
         51,
         3
@@ -2296,7 +2324,7 @@
     {
       "id": 51,
       "plugin": "Bogaudio",
-      "version": "1.1.22",
+      "version": "1.1.34",
       "model": "Bogaudio-SampleHold",
       "params": [
         {
@@ -2314,10 +2342,19 @@
         {
           "id": 3,
           "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 0.0
+        },
+        {
+          "id": 5,
+          "value": 0.0
         }
       ],
       "rightModuleId": 58,
       "data": {
+        "poly_input": 0,
         "noise_type": 0,
         "range_offset": 1.0,
         "range_scale": 5.0
@@ -2330,7 +2367,7 @@
     {
       "id": 53,
       "plugin": "ML_modules",
-      "version": "1.0.2",
+      "version": "1.1.2",
       "model": "Quantum",
       "params": [
         {
@@ -2411,7 +2448,7 @@
     {
       "id": 54,
       "plugin": "Bogaudio",
-      "version": "1.1.22",
+      "version": "1.1.34",
       "model": "Bogaudio-FMOp",
       "params": [
         {
@@ -2428,7 +2465,7 @@
         },
         {
           "id": 3,
-          "value": 0.316229999
+          "value": 0.254729867
         },
         {
           "id": 4,
@@ -2436,15 +2473,15 @@
         },
         {
           "id": 5,
-          "value": 0.316229999
+          "value": 0.370500326
         },
         {
           "id": 6,
-          "value": 0.0
+          "value": 0.0780000389
         },
         {
           "id": 7,
-          "value": 0.175499976
+          "value": 0.0914994851
         },
         {
           "id": 8,
@@ -2476,7 +2513,7 @@
     {
       "id": 55,
       "plugin": "ML_modules",
-      "version": "1.0.2",
+      "version": "1.1.2",
       "model": "Quantum",
       "params": [
         {
@@ -2556,10 +2593,11 @@
     {
       "id": 57,
       "plugin": "AudibleInstruments",
-      "version": "1.0.0",
+      "version": "1.3.1",
       "model": "Kinks",
       "params": [],
       "leftModuleId": 46,
+      "rightModuleId": 39,
       "pos": [
         105,
         1
@@ -2568,7 +2606,7 @@
     {
       "id": 58,
       "plugin": "Befaco",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "model": "DualAtenuverter",
       "params": [
         {
@@ -2598,7 +2636,7 @@
     {
       "id": 62,
       "plugin": "ML_modules",
-      "version": "1.0.2",
+      "version": "1.1.2",
       "model": "BPMdetect",
       "params": [
         {
@@ -2630,6 +2668,7 @@
           "value": 1.0
         }
       ],
+      "rightModuleId": 70,
       "pos": [
         36,
         1
@@ -2638,7 +2677,7 @@
     {
       "id": 65,
       "plugin": "Valley",
-      "version": "1.0.1",
+      "version": "1.1.0",
       "model": "Topograph",
       "params": [
         {
@@ -2667,15 +2706,15 @@
         },
         {
           "id": 6,
-          "value": 0.160999998
+          "value": 0.0
         },
         {
           "id": 7,
-          "value": 0.166999876
+          "value": 0.0
         },
         {
           "id": 8,
-          "value": 0.0949998945
+          "value": 0.724409461
         },
         {
           "id": 9,
@@ -2700,7 +2739,7 @@
     {
       "id": 66,
       "plugin": "Bogaudio",
-      "version": "1.1.22",
+      "version": "1.1.34",
       "model": "Bogaudio-FMOp",
       "params": [
         {
@@ -2764,7 +2803,7 @@
     {
       "id": 67,
       "plugin": "Bogaudio",
-      "version": "1.1.22",
+      "version": "1.1.34",
       "model": "Bogaudio-FMOp",
       "params": [
         {
@@ -2829,7 +2868,7 @@
     {
       "id": 68,
       "plugin": "Bogaudio",
-      "version": "1.1.22",
+      "version": "1.1.34",
       "model": "Bogaudio-FMOp",
       "params": [
         {
@@ -2893,7 +2932,7 @@
     {
       "id": 69,
       "plugin": "Geodesics",
-      "version": "1.0.0",
+      "version": "1.2.0",
       "model": "Pulsars",
       "params": [
         {
@@ -2944,6 +2983,225 @@
         24,
         2
       ]
+    },
+    {
+      "id": 70,
+      "plugin": "Stoermelder-P1",
+      "version": "1.7.1",
+      "model": "MidiCat",
+      "params": [],
+      "leftModuleId": 62,
+      "data": {
+        "panelTheme": 0,
+        "textScrolling": true,
+        "mappingIndicatorHidden": false,
+        "locked": false,
+        "maps": [
+          {
+            "cc": 41,
+            "ccMode": 0,
+            "note": -1,
+            "noteMode": 0,
+            "moduleId": 22,
+            "paramId": 13,
+            "label": "",
+            "midiOptions": 0
+          },
+          {
+            "cc": 0,
+            "ccMode": 0,
+            "note": -1,
+            "noteMode": 0,
+            "moduleId": 29,
+            "paramId": 0,
+            "label": "",
+            "midiOptions": 0
+          },
+          {
+            "cc": 1,
+            "ccMode": 0,
+            "note": -1,
+            "noteMode": 0,
+            "moduleId": 29,
+            "paramId": 3,
+            "label": "",
+            "midiOptions": 0
+          },
+          {
+            "cc": 2,
+            "ccMode": 0,
+            "note": -1,
+            "noteMode": 0,
+            "moduleId": 29,
+            "paramId": 6,
+            "label": "",
+            "midiOptions": 0
+          },
+          {
+            "cc": 3,
+            "ccMode": 0,
+            "note": -1,
+            "noteMode": 0,
+            "moduleId": 29,
+            "paramId": 9,
+            "label": "",
+            "midiOptions": 0
+          },
+          {
+            "cc": 4,
+            "ccMode": 0,
+            "note": -1,
+            "noteMode": 0,
+            "moduleId": 29,
+            "paramId": 12,
+            "label": "",
+            "midiOptions": 0
+          },
+          {
+            "cc": 5,
+            "ccMode": 0,
+            "note": -1,
+            "noteMode": 0,
+            "moduleId": 29,
+            "paramId": 15,
+            "label": "",
+            "midiOptions": 0
+          },
+          {
+            "cc": 6,
+            "ccMode": 0,
+            "note": -1,
+            "noteMode": 0,
+            "moduleId": 29,
+            "paramId": 18,
+            "label": "",
+            "midiOptions": 0
+          },
+          {
+            "cc": 7,
+            "ccMode": 0,
+            "note": -1,
+            "noteMode": 0,
+            "moduleId": 29,
+            "paramId": 24,
+            "label": "",
+            "midiOptions": 0
+          },
+          {
+            "cc": 16,
+            "ccMode": 0,
+            "note": -1,
+            "noteMode": 0,
+            "moduleId": 30,
+            "paramId": 2,
+            "label": "",
+            "midiOptions": 0
+          },
+          {
+            "cc": 17,
+            "ccMode": 0,
+            "note": -1,
+            "noteMode": 0,
+            "moduleId": 31,
+            "paramId": 2,
+            "label": "",
+            "midiOptions": 0
+          },
+          {
+            "cc": 18,
+            "ccMode": 0,
+            "note": -1,
+            "noteMode": 0,
+            "moduleId": 47,
+            "paramId": 1,
+            "label": "",
+            "midiOptions": 0
+          },
+          {
+            "cc": 19,
+            "ccMode": 0,
+            "note": -1,
+            "noteMode": 0,
+            "moduleId": 65,
+            "paramId": 6,
+            "label": "",
+            "midiOptions": 0
+          },
+          {
+            "cc": 20,
+            "ccMode": 0,
+            "note": -1,
+            "noteMode": 0,
+            "moduleId": 65,
+            "paramId": 7,
+            "label": "",
+            "midiOptions": 0
+          },
+          {
+            "cc": 21,
+            "ccMode": 0,
+            "note": -1,
+            "noteMode": 0,
+            "moduleId": 65,
+            "paramId": 8,
+            "label": "",
+            "midiOptions": 0
+          },
+          {
+            "cc": 22,
+            "ccMode": 0,
+            "note": -1,
+            "noteMode": 0,
+            "moduleId": 65,
+            "paramId": 3,
+            "label": "",
+            "midiOptions": 0
+          },
+          {
+            "cc": 23,
+            "ccMode": 0,
+            "note": -1,
+            "noteMode": 0,
+            "moduleId": 22,
+            "paramId": 0,
+            "label": "",
+            "midiOptions": 0
+          },
+          {
+            "cc": 41,
+            "ccMode": 0,
+            "note": -1,
+            "noteMode": 0,
+            "moduleId": -1,
+            "paramId": 0,
+            "label": "",
+            "midiOptions": 0
+          },
+          {
+            "cc": -1,
+            "ccMode": 0,
+            "note": -1,
+            "noteMode": 0,
+            "moduleId": -1,
+            "paramId": 0,
+            "label": "",
+            "midiOptions": 0
+          }
+        ],
+        "midiInput": {
+          "driver": 4,
+          "deviceName": "nanoKONTROL2 1",
+          "channel": -1
+        },
+        "midiOutput": {
+          "driver": 4,
+          "channel": 0
+        }
+      },
+      "pos": [
+        46,
+        1
+      ]
     }
   ],
   "cables": [
@@ -2976,14 +3234,6 @@
       "outputModuleId": 30,
       "outputId": 0,
       "inputModuleId": 26,
-      "inputId": 1,
-      "color": "#0986ad"
-    },
-    {
-      "id": 90,
-      "outputModuleId": 31,
-      "outputId": 0,
-      "inputModuleId": 32,
       "inputId": 1,
       "color": "#0986ad"
     },
@@ -3492,14 +3742,6 @@
       "color": "#0c8e15"
     },
     {
-      "id": 183,
-      "outputModuleId": 68,
-      "outputId": 0,
-      "inputModuleId": 29,
-      "inputId": 20,
-      "color": "#c91847"
-    },
-    {
       "id": 184,
       "outputModuleId": 38,
       "outputId": 4,
@@ -3594,6 +3836,22 @@
       "inputModuleId": 62,
       "inputId": 0,
       "color": "#0c8e15"
+    },
+    {
+      "id": 90,
+      "outputModuleId": 31,
+      "outputId": 0,
+      "inputModuleId": 32,
+      "inputId": 1,
+      "color": "#0986ad"
+    },
+    {
+      "id": 183,
+      "outputModuleId": 68,
+      "outputId": 0,
+      "inputModuleId": 29,
+      "inputId": 20,
+      "color": "#c91847"
     }
   ]
 }
