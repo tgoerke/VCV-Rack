@@ -8,6 +8,7 @@
       "model": "AudioInterface",
       "params": [],
       "leftModuleId": 12,
+      "rightModuleId": 325,
       "data": {
         "audio": {
           "driver": 4,
@@ -1504,7 +1505,7 @@
         },
         {
           "id": 1,
-          "value": 0.0
+          "value": -2.0
         },
         {
           "id": 2,
@@ -1548,7 +1549,7 @@
         "ppqn": 4,
         "resetClockOutputsHigh": true,
         "momentaryRunInput": true,
-        "displayIndex": 1,
+        "displayIndex": 2,
         "trigOuts": [
           false,
           false,
@@ -1635,7 +1636,7 @@
         },
         {
           "id": 1,
-          "value": 0.600000024
+          "value": 0.650399745
         },
         {
           "id": 2,
@@ -1663,7 +1664,7 @@
         },
         {
           "id": 8,
-          "value": 0.800000012
+          "value": 0.727999687
         },
         {
           "id": 9,
@@ -1690,9 +1691,63 @@
       "version": "1.1.6",
       "model": "Notes",
       "params": [],
+      "leftModuleId": 11,
       "text": "\nPatches based on \"Steevio method\"\nvideos by Omri Cohen\n\nhttps://patchstorage.com/5-steevio-style-techniques-in-vcv-rack/\n\nDecoupling Pitch from Trigger Sequencer",
       "pos": [
-        72,
+        88,
+        0
+      ]
+    },
+    {
+      "id": 327,
+      "plugin": "Bogaudio",
+      "version": "1.1.34",
+      "model": "Bogaudio-UMix",
+      "params": [],
+      "data": {
+        "clipping_mode": 0,
+        "input_gain_db": 0.0,
+        "sum": true
+      },
+      "pos": [
+        58,
+        2
+      ]
+    },
+    {
+      "id": 330,
+      "plugin": "AS",
+      "version": "1.0.4",
+      "model": "DelayPlusFx",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.250313371
+        },
+        {
+          "id": 1,
+          "value": 0.617499828
+        },
+        {
+          "id": 2,
+          "value": 0.728500128
+        },
+        {
+          "id": 3,
+          "value": 0.387000024
+        },
+        {
+          "id": 4,
+          "value": 0.0
+        }
+      ],
+      "data": {
+        "as_FxBypass": [
+          false
+        ]
+      },
+      "pos": [
+        63,
         2
       ]
     }
@@ -1787,30 +1842,6 @@
       "color": "#0c8e15"
     },
     {
-      "id": 806,
-      "outputModuleId": 321,
-      "outputId": 0,
-      "inputModuleId": 322,
-      "inputId": 5,
-      "color": "#c91847"
-    },
-    {
-      "id": 811,
-      "outputModuleId": 321,
-      "outputId": 1,
-      "inputModuleId": 324,
-      "inputId": 0,
-      "color": "#c9b70e"
-    },
-    {
-      "id": 810,
-      "outputModuleId": 324,
-      "outputId": 2,
-      "inputModuleId": 13,
-      "inputId": 4,
-      "color": "#0986ad"
-    },
-    {
       "id": 794,
       "outputModuleId": 317,
       "outputId": 3,
@@ -1833,6 +1864,62 @@
       "inputModuleId": 318,
       "inputId": 8,
       "color": "#0c8e15"
+    },
+    {
+      "id": 806,
+      "outputModuleId": 321,
+      "outputId": 0,
+      "inputModuleId": 322,
+      "inputId": 5,
+      "color": "#c91847"
+    },
+    {
+      "id": 814,
+      "outputModuleId": 321,
+      "outputId": 0,
+      "inputModuleId": 324,
+      "inputId": 0,
+      "color": "#c91847"
+    },
+    {
+      "id": 810,
+      "outputModuleId": 327,
+      "outputId": 0,
+      "inputModuleId": 13,
+      "inputId": 4,
+      "color": "#0986ad"
+    },
+    {
+      "id": 817,
+      "outputModuleId": 324,
+      "outputId": 2,
+      "inputModuleId": 327,
+      "inputId": 1,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 816,
+      "outputModuleId": 330,
+      "outputId": 1,
+      "inputModuleId": 327,
+      "inputId": 0,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 820,
+      "outputModuleId": 324,
+      "outputId": 2,
+      "inputModuleId": 330,
+      "inputId": 5,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 822,
+      "outputModuleId": 321,
+      "outputId": 2,
+      "inputModuleId": 324,
+      "inputId": 2,
+      "color": "#c91847"
     }
   ]
 }
