@@ -1,0 +1,6165 @@
+{
+  "version": "1.1.6",
+  "modules": [
+    {
+      "id": 11,
+      "plugin": "Core",
+      "version": "1.1.6",
+      "model": "AudioInterface",
+      "params": [],
+      "leftModuleId": 12,
+      "data": {
+        "audio": {
+          "driver": 4,
+          "deviceName": "system",
+          "offset": 0,
+          "maxChannels": 8,
+          "sampleRate": 44100,
+          "blockSize": 2048
+        }
+      },
+      "pos": [
+        93,
+        0
+      ]
+    },
+    {
+      "id": 12,
+      "plugin": "Valley",
+      "version": "1.1.5",
+      "model": "Plateau",
+      "params": [
+        {
+          "id": 0,
+          "value": 1.0
+        },
+        {
+          "id": 1,
+          "value": 0.5
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 9.42999935
+        },
+        {
+          "id": 4,
+          "value": 10.0
+        },
+        {
+          "id": 5,
+          "value": 0.5
+        },
+        {
+          "id": 6,
+          "value": 10.0
+        },
+        {
+          "id": 7,
+          "value": 0.549950004
+        },
+        {
+          "id": 8,
+          "value": 10.0
+        },
+        {
+          "id": 9,
+          "value": 9.41499901
+        },
+        {
+          "id": 10,
+          "value": 0.0
+        },
+        {
+          "id": 11,
+          "value": 0.5
+        },
+        {
+          "id": 12,
+          "value": 0.5
+        },
+        {
+          "id": 13,
+          "value": 0.0
+        },
+        {
+          "id": 14,
+          "value": 0.0
+        },
+        {
+          "id": 15,
+          "value": 0.0
+        },
+        {
+          "id": 16,
+          "value": 0.0
+        },
+        {
+          "id": 17,
+          "value": 0.0
+        },
+        {
+          "id": 18,
+          "value": 0.0
+        },
+        {
+          "id": 19,
+          "value": 0.0
+        },
+        {
+          "id": 20,
+          "value": 0.0
+        },
+        {
+          "id": 21,
+          "value": 0.0
+        },
+        {
+          "id": 22,
+          "value": 0.0
+        },
+        {
+          "id": 23,
+          "value": 0.0
+        },
+        {
+          "id": 24,
+          "value": 0.0
+        },
+        {
+          "id": 25,
+          "value": 0.0
+        },
+        {
+          "id": 26,
+          "value": 0.0
+        },
+        {
+          "id": 27,
+          "value": 0.0
+        },
+        {
+          "id": 28,
+          "value": 0.0
+        },
+        {
+          "id": 29,
+          "value": 0.0
+        },
+        {
+          "id": 30,
+          "value": 1.0
+        }
+      ],
+      "rightModuleId": 11,
+      "data": {
+        "frozen": false,
+        "freezeToggle": false,
+        "panelStyle": 0,
+        "tuned": 0,
+        "diffuseInput": 1,
+        "preDelayCVSens": 0,
+        "inputSensitivity": 0,
+        "outputSaturation": 0
+      },
+      "pos": [
+        81,
+        0
+      ]
+    },
+    {
+      "id": 144,
+      "plugin": "MindMeldModular",
+      "version": "1.1.12",
+      "model": "MixMaster",
+      "params": [
+        {
+          "id": 0,
+          "value": 1.0
+        },
+        {
+          "id": 1,
+          "value": 1.0
+        },
+        {
+          "id": 2,
+          "value": 1.0
+        },
+        {
+          "id": 3,
+          "value": 1.0
+        },
+        {
+          "id": 4,
+          "value": 1.0
+        },
+        {
+          "id": 5,
+          "value": 1.0
+        },
+        {
+          "id": 6,
+          "value": 1.0
+        },
+        {
+          "id": 7,
+          "value": 1.0
+        },
+        {
+          "id": 8,
+          "value": 1.0
+        },
+        {
+          "id": 9,
+          "value": 1.0
+        },
+        {
+          "id": 10,
+          "value": 1.0
+        },
+        {
+          "id": 11,
+          "value": 1.0
+        },
+        {
+          "id": 12,
+          "value": 1.0
+        },
+        {
+          "id": 13,
+          "value": 1.0
+        },
+        {
+          "id": 14,
+          "value": 1.0
+        },
+        {
+          "id": 15,
+          "value": 1.0
+        },
+        {
+          "id": 16,
+          "value": 1.0
+        },
+        {
+          "id": 17,
+          "value": 1.0
+        },
+        {
+          "id": 18,
+          "value": 1.0
+        },
+        {
+          "id": 19,
+          "value": 1.0
+        },
+        {
+          "id": 20,
+          "value": 0.5
+        },
+        {
+          "id": 21,
+          "value": 0.5
+        },
+        {
+          "id": 22,
+          "value": 0.5
+        },
+        {
+          "id": 23,
+          "value": 0.5
+        },
+        {
+          "id": 24,
+          "value": 0.5
+        },
+        {
+          "id": 25,
+          "value": 0.5
+        },
+        {
+          "id": 26,
+          "value": 0.5
+        },
+        {
+          "id": 27,
+          "value": 0.5
+        },
+        {
+          "id": 28,
+          "value": 0.5
+        },
+        {
+          "id": 29,
+          "value": 0.5
+        },
+        {
+          "id": 30,
+          "value": 0.5
+        },
+        {
+          "id": 31,
+          "value": 0.5
+        },
+        {
+          "id": 32,
+          "value": 0.5
+        },
+        {
+          "id": 33,
+          "value": 0.5
+        },
+        {
+          "id": 34,
+          "value": 0.5
+        },
+        {
+          "id": 35,
+          "value": 0.5
+        },
+        {
+          "id": 36,
+          "value": 0.5
+        },
+        {
+          "id": 37,
+          "value": 0.5
+        },
+        {
+          "id": 38,
+          "value": 0.5
+        },
+        {
+          "id": 39,
+          "value": 0.5
+        },
+        {
+          "id": 40,
+          "value": 0.0
+        },
+        {
+          "id": 41,
+          "value": 0.0
+        },
+        {
+          "id": 42,
+          "value": 0.0
+        },
+        {
+          "id": 43,
+          "value": 0.0
+        },
+        {
+          "id": 44,
+          "value": 0.0
+        },
+        {
+          "id": 45,
+          "value": 0.0
+        },
+        {
+          "id": 46,
+          "value": 0.0
+        },
+        {
+          "id": 47,
+          "value": 0.0
+        },
+        {
+          "id": 48,
+          "value": 0.0
+        },
+        {
+          "id": 49,
+          "value": 0.0
+        },
+        {
+          "id": 50,
+          "value": 0.0
+        },
+        {
+          "id": 51,
+          "value": 0.0
+        },
+        {
+          "id": 52,
+          "value": 0.0
+        },
+        {
+          "id": 53,
+          "value": 0.0
+        },
+        {
+          "id": 54,
+          "value": 0.0
+        },
+        {
+          "id": 55,
+          "value": 0.0
+        },
+        {
+          "id": 56,
+          "value": 0.0
+        },
+        {
+          "id": 57,
+          "value": 0.0
+        },
+        {
+          "id": 58,
+          "value": 0.0
+        },
+        {
+          "id": 59,
+          "value": 0.0
+        },
+        {
+          "id": 60,
+          "value": 0.0
+        },
+        {
+          "id": 61,
+          "value": 0.0
+        },
+        {
+          "id": 62,
+          "value": 0.0
+        },
+        {
+          "id": 63,
+          "value": 0.0
+        },
+        {
+          "id": 64,
+          "value": 0.0
+        },
+        {
+          "id": 65,
+          "value": 0.0
+        },
+        {
+          "id": 66,
+          "value": 0.0
+        },
+        {
+          "id": 67,
+          "value": 0.0
+        },
+        {
+          "id": 68,
+          "value": 0.0
+        },
+        {
+          "id": 69,
+          "value": 0.0
+        },
+        {
+          "id": 70,
+          "value": 0.0
+        },
+        {
+          "id": 71,
+          "value": 0.0
+        },
+        {
+          "id": 72,
+          "value": 0.0
+        },
+        {
+          "id": 73,
+          "value": 0.0
+        },
+        {
+          "id": 74,
+          "value": 0.0
+        },
+        {
+          "id": 75,
+          "value": 0.0
+        },
+        {
+          "id": 76,
+          "value": 0.0
+        },
+        {
+          "id": 77,
+          "value": 0.0
+        },
+        {
+          "id": 78,
+          "value": 0.0
+        },
+        {
+          "id": 79,
+          "value": 0.0
+        },
+        {
+          "id": 80,
+          "value": 1.0
+        },
+        {
+          "id": 81,
+          "value": 1.0
+        },
+        {
+          "id": 82,
+          "value": 0.0
+        },
+        {
+          "id": 83,
+          "value": 1.0
+        },
+        {
+          "id": 84,
+          "value": 0.0
+        },
+        {
+          "id": 85,
+          "value": 0.0
+        },
+        {
+          "id": 86,
+          "value": 0.0
+        },
+        {
+          "id": 87,
+          "value": 0.0
+        },
+        {
+          "id": 88,
+          "value": 0.0
+        },
+        {
+          "id": 89,
+          "value": 0.0
+        },
+        {
+          "id": 90,
+          "value": 0.0
+        },
+        {
+          "id": 91,
+          "value": 0.0
+        },
+        {
+          "id": 92,
+          "value": 0.0
+        },
+        {
+          "id": 93,
+          "value": 0.0
+        },
+        {
+          "id": 94,
+          "value": 0.0
+        },
+        {
+          "id": 95,
+          "value": 0.0
+        },
+        {
+          "id": 96,
+          "value": 0.0
+        },
+        {
+          "id": 97,
+          "value": 0.0
+        },
+        {
+          "id": 98,
+          "value": 0.0
+        },
+        {
+          "id": 99,
+          "value": 0.0
+        },
+        {
+          "id": 100,
+          "value": 13.0
+        },
+        {
+          "id": 101,
+          "value": 13.0
+        },
+        {
+          "id": 102,
+          "value": 13.0
+        },
+        {
+          "id": 103,
+          "value": 13.0
+        },
+        {
+          "id": 104,
+          "value": 13.0
+        },
+        {
+          "id": 105,
+          "value": 13.0
+        },
+        {
+          "id": 106,
+          "value": 13.0
+        },
+        {
+          "id": 107,
+          "value": 13.0
+        },
+        {
+          "id": 108,
+          "value": 13.0
+        },
+        {
+          "id": 109,
+          "value": 13.0
+        },
+        {
+          "id": 110,
+          "value": 13.0
+        },
+        {
+          "id": 111,
+          "value": 13.0
+        },
+        {
+          "id": 112,
+          "value": 13.0
+        },
+        {
+          "id": 113,
+          "value": 13.0
+        },
+        {
+          "id": 114,
+          "value": 13.0
+        },
+        {
+          "id": 115,
+          "value": 13.0
+        },
+        {
+          "id": 116,
+          "value": 20010.0
+        },
+        {
+          "id": 117,
+          "value": 20010.0
+        },
+        {
+          "id": 118,
+          "value": 20010.0
+        },
+        {
+          "id": 119,
+          "value": 20010.0
+        },
+        {
+          "id": 120,
+          "value": 20010.0
+        },
+        {
+          "id": 121,
+          "value": 20010.0
+        },
+        {
+          "id": 122,
+          "value": 20010.0
+        },
+        {
+          "id": 123,
+          "value": 20010.0
+        },
+        {
+          "id": 124,
+          "value": 20010.0
+        },
+        {
+          "id": 125,
+          "value": 20010.0
+        },
+        {
+          "id": 126,
+          "value": 20010.0
+        },
+        {
+          "id": 127,
+          "value": 20010.0
+        },
+        {
+          "id": 128,
+          "value": 20010.0
+        },
+        {
+          "id": 129,
+          "value": 20010.0
+        },
+        {
+          "id": 130,
+          "value": 20010.0
+        },
+        {
+          "id": 131,
+          "value": 20010.0
+        },
+        {
+          "id": 132,
+          "value": 13.0
+        },
+        {
+          "id": 133,
+          "value": 13.0
+        },
+        {
+          "id": 134,
+          "value": 13.0
+        },
+        {
+          "id": 135,
+          "value": 13.0
+        },
+        {
+          "id": 136,
+          "value": 20010.0
+        },
+        {
+          "id": 137,
+          "value": 20010.0
+        },
+        {
+          "id": 138,
+          "value": 20010.0
+        },
+        {
+          "id": 139,
+          "value": 20010.0
+        }
+      ],
+      "rightModuleId": 145,
+      "data": {
+        "trackLabels": "-01--02--03--04--05--06--07--08--09--10--11--12--13--14--15--16-GRP1GRP2GRP3GRP4",
+        "panLawMono": 1,
+        "panLawStereo": 1,
+        "directOutsMode": 3,
+        "directOutsSkipGroupedTracks": 0,
+        "auxSendsMode": 3,
+        "groupsControlTrackSendLevels": 0,
+        "auxReturnsMutedWhenMainSolo": 0,
+        "auxReturnsSolosMuteDry": 0,
+        "chainMode": 1,
+        "colorAndCloak": 117440512,
+        "symmetricalFade": false,
+        "fadeCvOutsWithVolCv": false,
+        "linkBitMask": 0,
+        "filterPos": 1,
+        "groupedAuxReturnFeedbackProtection": 1,
+        "ecoMode": 65535,
+        "faders": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "momentaryCvButtons": 1,
+        "masterFaderScalesSends": 0,
+        "linearVolCvInputs": 0,
+        "id_t0_gainAdjust": 1.0,
+        "id_t0_fadeRate": 0.0,
+        "id_t0_fadeProfile": 0.0,
+        "id_t0_directOutsMode": 3,
+        "id_t0_auxSendsMode": 3,
+        "id_t0_panLawStereo": 1,
+        "id_t0_vuColorThemeLocal": 0,
+        "id_t0_filterPos": 1,
+        "id_t0_dispColorLocal": 0,
+        "id_t0_polyStereo": 0,
+        "id_t0_panCvLevel": 1.0,
+        "id_t0_stereoWidth": 1.0,
+        "id_t0_invertInput": 0,
+        "id_t1_gainAdjust": 1.0,
+        "id_t1_fadeRate": 0.0,
+        "id_t1_fadeProfile": 0.0,
+        "id_t1_directOutsMode": 3,
+        "id_t1_auxSendsMode": 3,
+        "id_t1_panLawStereo": 1,
+        "id_t1_vuColorThemeLocal": 0,
+        "id_t1_filterPos": 1,
+        "id_t1_dispColorLocal": 0,
+        "id_t1_polyStereo": 0,
+        "id_t1_panCvLevel": 1.0,
+        "id_t1_stereoWidth": 1.0,
+        "id_t1_invertInput": 0,
+        "id_t2_gainAdjust": 1.0,
+        "id_t2_fadeRate": 0.0,
+        "id_t2_fadeProfile": 0.0,
+        "id_t2_directOutsMode": 3,
+        "id_t2_auxSendsMode": 3,
+        "id_t2_panLawStereo": 1,
+        "id_t2_vuColorThemeLocal": 0,
+        "id_t2_filterPos": 1,
+        "id_t2_dispColorLocal": 0,
+        "id_t2_polyStereo": 0,
+        "id_t2_panCvLevel": 1.0,
+        "id_t2_stereoWidth": 1.0,
+        "id_t2_invertInput": 0,
+        "id_t3_gainAdjust": 1.0,
+        "id_t3_fadeRate": 0.0,
+        "id_t3_fadeProfile": 0.0,
+        "id_t3_directOutsMode": 3,
+        "id_t3_auxSendsMode": 3,
+        "id_t3_panLawStereo": 1,
+        "id_t3_vuColorThemeLocal": 0,
+        "id_t3_filterPos": 1,
+        "id_t3_dispColorLocal": 0,
+        "id_t3_polyStereo": 0,
+        "id_t3_panCvLevel": 1.0,
+        "id_t3_stereoWidth": 1.0,
+        "id_t3_invertInput": 0,
+        "id_t4_gainAdjust": 1.0,
+        "id_t4_fadeRate": 0.0,
+        "id_t4_fadeProfile": 0.0,
+        "id_t4_directOutsMode": 3,
+        "id_t4_auxSendsMode": 3,
+        "id_t4_panLawStereo": 1,
+        "id_t4_vuColorThemeLocal": 0,
+        "id_t4_filterPos": 1,
+        "id_t4_dispColorLocal": 0,
+        "id_t4_polyStereo": 0,
+        "id_t4_panCvLevel": 1.0,
+        "id_t4_stereoWidth": 1.0,
+        "id_t4_invertInput": 0,
+        "id_t5_gainAdjust": 1.0,
+        "id_t5_fadeRate": 0.0,
+        "id_t5_fadeProfile": 0.0,
+        "id_t5_directOutsMode": 3,
+        "id_t5_auxSendsMode": 3,
+        "id_t5_panLawStereo": 1,
+        "id_t5_vuColorThemeLocal": 0,
+        "id_t5_filterPos": 1,
+        "id_t5_dispColorLocal": 0,
+        "id_t5_polyStereo": 0,
+        "id_t5_panCvLevel": 1.0,
+        "id_t5_stereoWidth": 1.0,
+        "id_t5_invertInput": 0,
+        "id_t6_gainAdjust": 1.0,
+        "id_t6_fadeRate": 0.0,
+        "id_t6_fadeProfile": 0.0,
+        "id_t6_directOutsMode": 3,
+        "id_t6_auxSendsMode": 3,
+        "id_t6_panLawStereo": 1,
+        "id_t6_vuColorThemeLocal": 0,
+        "id_t6_filterPos": 1,
+        "id_t6_dispColorLocal": 0,
+        "id_t6_polyStereo": 0,
+        "id_t6_panCvLevel": 1.0,
+        "id_t6_stereoWidth": 1.0,
+        "id_t6_invertInput": 0,
+        "id_t7_gainAdjust": 1.0,
+        "id_t7_fadeRate": 0.0,
+        "id_t7_fadeProfile": 0.0,
+        "id_t7_directOutsMode": 3,
+        "id_t7_auxSendsMode": 3,
+        "id_t7_panLawStereo": 1,
+        "id_t7_vuColorThemeLocal": 0,
+        "id_t7_filterPos": 1,
+        "id_t7_dispColorLocal": 0,
+        "id_t7_polyStereo": 0,
+        "id_t7_panCvLevel": 1.0,
+        "id_t7_stereoWidth": 1.0,
+        "id_t7_invertInput": 0,
+        "id_t8_gainAdjust": 1.0,
+        "id_t8_fadeRate": 0.0,
+        "id_t8_fadeProfile": 0.0,
+        "id_t8_directOutsMode": 3,
+        "id_t8_auxSendsMode": 3,
+        "id_t8_panLawStereo": 1,
+        "id_t8_vuColorThemeLocal": 0,
+        "id_t8_filterPos": 1,
+        "id_t8_dispColorLocal": 0,
+        "id_t8_polyStereo": 0,
+        "id_t8_panCvLevel": 1.0,
+        "id_t8_stereoWidth": 1.0,
+        "id_t8_invertInput": 0,
+        "id_t9_gainAdjust": 1.0,
+        "id_t9_fadeRate": 0.0,
+        "id_t9_fadeProfile": 0.0,
+        "id_t9_directOutsMode": 3,
+        "id_t9_auxSendsMode": 3,
+        "id_t9_panLawStereo": 1,
+        "id_t9_vuColorThemeLocal": 0,
+        "id_t9_filterPos": 1,
+        "id_t9_dispColorLocal": 0,
+        "id_t9_polyStereo": 0,
+        "id_t9_panCvLevel": 1.0,
+        "id_t9_stereoWidth": 1.0,
+        "id_t9_invertInput": 0,
+        "id_t10_gainAdjust": 1.0,
+        "id_t10_fadeRate": 0.0,
+        "id_t10_fadeProfile": 0.0,
+        "id_t10_directOutsMode": 3,
+        "id_t10_auxSendsMode": 3,
+        "id_t10_panLawStereo": 1,
+        "id_t10_vuColorThemeLocal": 0,
+        "id_t10_filterPos": 1,
+        "id_t10_dispColorLocal": 0,
+        "id_t10_polyStereo": 0,
+        "id_t10_panCvLevel": 1.0,
+        "id_t10_stereoWidth": 1.0,
+        "id_t10_invertInput": 0,
+        "id_t11_gainAdjust": 1.0,
+        "id_t11_fadeRate": 0.0,
+        "id_t11_fadeProfile": 0.0,
+        "id_t11_directOutsMode": 3,
+        "id_t11_auxSendsMode": 3,
+        "id_t11_panLawStereo": 1,
+        "id_t11_vuColorThemeLocal": 0,
+        "id_t11_filterPos": 1,
+        "id_t11_dispColorLocal": 0,
+        "id_t11_polyStereo": 0,
+        "id_t11_panCvLevel": 1.0,
+        "id_t11_stereoWidth": 1.0,
+        "id_t11_invertInput": 0,
+        "id_t12_gainAdjust": 1.0,
+        "id_t12_fadeRate": 0.0,
+        "id_t12_fadeProfile": 0.0,
+        "id_t12_directOutsMode": 3,
+        "id_t12_auxSendsMode": 3,
+        "id_t12_panLawStereo": 1,
+        "id_t12_vuColorThemeLocal": 0,
+        "id_t12_filterPos": 1,
+        "id_t12_dispColorLocal": 0,
+        "id_t12_polyStereo": 0,
+        "id_t12_panCvLevel": 1.0,
+        "id_t12_stereoWidth": 1.0,
+        "id_t12_invertInput": 0,
+        "id_t13_gainAdjust": 1.0,
+        "id_t13_fadeRate": 0.0,
+        "id_t13_fadeProfile": 0.0,
+        "id_t13_directOutsMode": 3,
+        "id_t13_auxSendsMode": 3,
+        "id_t13_panLawStereo": 1,
+        "id_t13_vuColorThemeLocal": 0,
+        "id_t13_filterPos": 1,
+        "id_t13_dispColorLocal": 0,
+        "id_t13_polyStereo": 0,
+        "id_t13_panCvLevel": 1.0,
+        "id_t13_stereoWidth": 1.0,
+        "id_t13_invertInput": 0,
+        "id_t14_gainAdjust": 1.0,
+        "id_t14_fadeRate": 0.0,
+        "id_t14_fadeProfile": 0.0,
+        "id_t14_directOutsMode": 3,
+        "id_t14_auxSendsMode": 3,
+        "id_t14_panLawStereo": 1,
+        "id_t14_vuColorThemeLocal": 0,
+        "id_t14_filterPos": 1,
+        "id_t14_dispColorLocal": 0,
+        "id_t14_polyStereo": 0,
+        "id_t14_panCvLevel": 1.0,
+        "id_t14_stereoWidth": 1.0,
+        "id_t14_invertInput": 0,
+        "id_t15_gainAdjust": 1.0,
+        "id_t15_fadeRate": 0.0,
+        "id_t15_fadeProfile": 0.0,
+        "id_t15_directOutsMode": 3,
+        "id_t15_auxSendsMode": 3,
+        "id_t15_panLawStereo": 1,
+        "id_t15_vuColorThemeLocal": 0,
+        "id_t15_filterPos": 1,
+        "id_t15_dispColorLocal": 0,
+        "id_t15_polyStereo": 0,
+        "id_t15_panCvLevel": 1.0,
+        "id_t15_stereoWidth": 1.0,
+        "id_t15_invertInput": 0,
+        "id_g0_fadeRate": 0.0,
+        "id_g0_fadeProfile": 0.0,
+        "id_g0_directOutsMode": 3,
+        "id_g0_auxSendsMode": 3,
+        "id_g0_panLawStereo": 1,
+        "id_g0_vuColorThemeLocal": 0,
+        "id_g0_filterPos": 1,
+        "id_g0_dispColorLocal": 0,
+        "id_g0_panCvLevel": 1.0,
+        "id_g0_stereoWidth": 1.0,
+        "id_g1_fadeRate": 0.0,
+        "id_g1_fadeProfile": 0.0,
+        "id_g1_directOutsMode": 3,
+        "id_g1_auxSendsMode": 3,
+        "id_g1_panLawStereo": 1,
+        "id_g1_vuColorThemeLocal": 0,
+        "id_g1_filterPos": 1,
+        "id_g1_dispColorLocal": 0,
+        "id_g1_panCvLevel": 1.0,
+        "id_g1_stereoWidth": 1.0,
+        "id_g2_fadeRate": 0.0,
+        "id_g2_fadeProfile": 0.0,
+        "id_g2_directOutsMode": 3,
+        "id_g2_auxSendsMode": 3,
+        "id_g2_panLawStereo": 1,
+        "id_g2_vuColorThemeLocal": 0,
+        "id_g2_filterPos": 1,
+        "id_g2_dispColorLocal": 0,
+        "id_g2_panCvLevel": 1.0,
+        "id_g2_stereoWidth": 1.0,
+        "id_g3_fadeRate": 0.0,
+        "id_g3_fadeProfile": 0.0,
+        "id_g3_directOutsMode": 3,
+        "id_g3_auxSendsMode": 3,
+        "id_g3_panLawStereo": 1,
+        "id_g3_vuColorThemeLocal": 0,
+        "id_g3_filterPos": 1,
+        "id_g3_dispColorLocal": 0,
+        "id_g3_panCvLevel": 1.0,
+        "id_g3_stereoWidth": 1.0,
+        "dcBlock": false,
+        "clipping": 0,
+        "fadeRate": 0.0,
+        "fadeProfile": 0.0,
+        "vuColorThemeLocal": 0,
+        "dispColorLocal": 0,
+        "chainOnly": 0,
+        "dimGain": 0.251190007,
+        "masterLabel": "MASTER"
+      },
+      "pos": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": 145,
+      "plugin": "MindMeldModular",
+      "version": "1.1.12",
+      "model": "AuxExpander",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 0.0
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        },
+        {
+          "id": 6,
+          "value": 0.0
+        },
+        {
+          "id": 7,
+          "value": 0.0
+        },
+        {
+          "id": 8,
+          "value": 0.0
+        },
+        {
+          "id": 9,
+          "value": 0.0
+        },
+        {
+          "id": 10,
+          "value": 0.0
+        },
+        {
+          "id": 11,
+          "value": 0.0
+        },
+        {
+          "id": 12,
+          "value": 0.0
+        },
+        {
+          "id": 13,
+          "value": 0.0
+        },
+        {
+          "id": 14,
+          "value": 0.0
+        },
+        {
+          "id": 15,
+          "value": 0.0
+        },
+        {
+          "id": 16,
+          "value": 0.0
+        },
+        {
+          "id": 17,
+          "value": 0.0
+        },
+        {
+          "id": 18,
+          "value": 0.0
+        },
+        {
+          "id": 19,
+          "value": 0.0
+        },
+        {
+          "id": 20,
+          "value": 0.0
+        },
+        {
+          "id": 21,
+          "value": 0.0
+        },
+        {
+          "id": 22,
+          "value": 0.0
+        },
+        {
+          "id": 23,
+          "value": 0.0
+        },
+        {
+          "id": 24,
+          "value": 0.0
+        },
+        {
+          "id": 25,
+          "value": 0.0
+        },
+        {
+          "id": 26,
+          "value": 0.0
+        },
+        {
+          "id": 27,
+          "value": 0.0
+        },
+        {
+          "id": 28,
+          "value": 0.0
+        },
+        {
+          "id": 29,
+          "value": 0.0
+        },
+        {
+          "id": 30,
+          "value": 0.0
+        },
+        {
+          "id": 31,
+          "value": 0.0
+        },
+        {
+          "id": 32,
+          "value": 0.0
+        },
+        {
+          "id": 33,
+          "value": 0.0
+        },
+        {
+          "id": 34,
+          "value": 0.0
+        },
+        {
+          "id": 35,
+          "value": 0.0
+        },
+        {
+          "id": 36,
+          "value": 0.0
+        },
+        {
+          "id": 37,
+          "value": 0.0
+        },
+        {
+          "id": 38,
+          "value": 0.0
+        },
+        {
+          "id": 39,
+          "value": 0.0
+        },
+        {
+          "id": 40,
+          "value": 0.0
+        },
+        {
+          "id": 41,
+          "value": 0.0
+        },
+        {
+          "id": 42,
+          "value": 0.0
+        },
+        {
+          "id": 43,
+          "value": 0.0
+        },
+        {
+          "id": 44,
+          "value": 0.0
+        },
+        {
+          "id": 45,
+          "value": 0.0
+        },
+        {
+          "id": 46,
+          "value": 0.0
+        },
+        {
+          "id": 47,
+          "value": 0.0
+        },
+        {
+          "id": 48,
+          "value": 0.0
+        },
+        {
+          "id": 49,
+          "value": 0.0
+        },
+        {
+          "id": 50,
+          "value": 0.0
+        },
+        {
+          "id": 51,
+          "value": 0.0
+        },
+        {
+          "id": 52,
+          "value": 0.0
+        },
+        {
+          "id": 53,
+          "value": 0.0
+        },
+        {
+          "id": 54,
+          "value": 0.0
+        },
+        {
+          "id": 55,
+          "value": 0.0
+        },
+        {
+          "id": 56,
+          "value": 0.0
+        },
+        {
+          "id": 57,
+          "value": 0.0
+        },
+        {
+          "id": 58,
+          "value": 0.0
+        },
+        {
+          "id": 59,
+          "value": 0.0
+        },
+        {
+          "id": 60,
+          "value": 0.0
+        },
+        {
+          "id": 61,
+          "value": 0.0
+        },
+        {
+          "id": 62,
+          "value": 0.0
+        },
+        {
+          "id": 63,
+          "value": 0.0
+        },
+        {
+          "id": 64,
+          "value": 0.0
+        },
+        {
+          "id": 65,
+          "value": 0.0
+        },
+        {
+          "id": 66,
+          "value": 0.0
+        },
+        {
+          "id": 67,
+          "value": 0.0
+        },
+        {
+          "id": 68,
+          "value": 0.0
+        },
+        {
+          "id": 69,
+          "value": 0.0
+        },
+        {
+          "id": 70,
+          "value": 0.0
+        },
+        {
+          "id": 71,
+          "value": 0.0
+        },
+        {
+          "id": 72,
+          "value": 0.0
+        },
+        {
+          "id": 73,
+          "value": 0.0
+        },
+        {
+          "id": 74,
+          "value": 0.0
+        },
+        {
+          "id": 75,
+          "value": 0.0
+        },
+        {
+          "id": 76,
+          "value": 0.0
+        },
+        {
+          "id": 77,
+          "value": 0.0
+        },
+        {
+          "id": 78,
+          "value": 0.0
+        },
+        {
+          "id": 79,
+          "value": 0.0
+        },
+        {
+          "id": 80,
+          "value": 0.0
+        },
+        {
+          "id": 81,
+          "value": 0.0
+        },
+        {
+          "id": 82,
+          "value": 0.0
+        },
+        {
+          "id": 83,
+          "value": 0.0
+        },
+        {
+          "id": 84,
+          "value": 0.0
+        },
+        {
+          "id": 85,
+          "value": 0.0
+        },
+        {
+          "id": 86,
+          "value": 0.0
+        },
+        {
+          "id": 87,
+          "value": 0.0
+        },
+        {
+          "id": 88,
+          "value": 0.0
+        },
+        {
+          "id": 89,
+          "value": 0.0
+        },
+        {
+          "id": 90,
+          "value": 0.0
+        },
+        {
+          "id": 91,
+          "value": 0.0
+        },
+        {
+          "id": 92,
+          "value": 0.0
+        },
+        {
+          "id": 93,
+          "value": 0.0
+        },
+        {
+          "id": 94,
+          "value": 0.0
+        },
+        {
+          "id": 95,
+          "value": 0.0
+        },
+        {
+          "id": 96,
+          "value": 0.0
+        },
+        {
+          "id": 97,
+          "value": 0.0
+        },
+        {
+          "id": 98,
+          "value": 0.0
+        },
+        {
+          "id": 99,
+          "value": 0.0
+        },
+        {
+          "id": 100,
+          "value": 0.0
+        },
+        {
+          "id": 101,
+          "value": 0.0
+        },
+        {
+          "id": 102,
+          "value": 0.0
+        },
+        {
+          "id": 103,
+          "value": 0.0
+        },
+        {
+          "id": 104,
+          "value": 0.0
+        },
+        {
+          "id": 105,
+          "value": 0.0
+        },
+        {
+          "id": 106,
+          "value": 0.0
+        },
+        {
+          "id": 107,
+          "value": 0.0
+        },
+        {
+          "id": 108,
+          "value": 0.0
+        },
+        {
+          "id": 109,
+          "value": 0.0
+        },
+        {
+          "id": 110,
+          "value": 0.0
+        },
+        {
+          "id": 111,
+          "value": 0.0
+        },
+        {
+          "id": 112,
+          "value": 1.0
+        },
+        {
+          "id": 113,
+          "value": 1.0
+        },
+        {
+          "id": 114,
+          "value": 1.0
+        },
+        {
+          "id": 115,
+          "value": 1.0
+        },
+        {
+          "id": 116,
+          "value": 0.5
+        },
+        {
+          "id": 117,
+          "value": 0.5
+        },
+        {
+          "id": 118,
+          "value": 0.5
+        },
+        {
+          "id": 119,
+          "value": 0.5
+        },
+        {
+          "id": 120,
+          "value": 1.0
+        },
+        {
+          "id": 121,
+          "value": 1.0
+        },
+        {
+          "id": 122,
+          "value": 1.0
+        },
+        {
+          "id": 123,
+          "value": 1.0
+        }
+      ],
+      "leftModuleId": 144,
+      "data": {
+        "directOutsModeLocal": 50529027,
+        "panLawStereoLocal": 16843009,
+        "vuColorThemeLocal": 0,
+        "dispColorAuxLocal": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "auxFadeRatesAndProfiles": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "auxLabels": "VERBAUXBAUXCAUXD",
+        "id_x0_hpfCutoffFreq": 13.0,
+        "id_x0_lpfCutoffFreq": 20010.0,
+        "id_x0_stereoWidth": 1.0,
+        "id_x1_hpfCutoffFreq": 13.0,
+        "id_x1_lpfCutoffFreq": 20010.0,
+        "id_x1_stereoWidth": 1.0,
+        "id_x2_hpfCutoffFreq": 13.0,
+        "id_x2_lpfCutoffFreq": 20010.0,
+        "id_x2_stereoWidth": 1.0,
+        "id_x3_hpfCutoffFreq": 13.0,
+        "id_x3_lpfCutoffFreq": 20010.0,
+        "id_x3_stereoWidth": 1.0,
+        "panCvLevels": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "pos": [
+        61,
+        1
+      ]
+    },
+    {
+      "id": 146,
+      "plugin": "ImpromptuModular",
+      "version": "1.1.9",
+      "model": "Clocked",
+      "params": [
+        {
+          "id": 0,
+          "value": 120.0
+        },
+        {
+          "id": 1,
+          "value": 5.0
+        },
+        {
+          "id": 2,
+          "value": -17.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 0.0
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        },
+        {
+          "id": 6,
+          "value": 0.0
+        },
+        {
+          "id": 7,
+          "value": 0.0
+        },
+        {
+          "id": 8,
+          "value": 0.5
+        },
+        {
+          "id": 9,
+          "value": 0.5
+        },
+        {
+          "id": 10,
+          "value": 0.5
+        },
+        {
+          "id": 11,
+          "value": 0.5
+        },
+        {
+          "id": 12,
+          "value": 0.0
+        },
+        {
+          "id": 13,
+          "value": 0.0
+        },
+        {
+          "id": 14,
+          "value": 0.0
+        },
+        {
+          "id": 15,
+          "value": 0.0
+        },
+        {
+          "id": 16,
+          "value": 0.0
+        },
+        {
+          "id": 17,
+          "value": 0.0
+        },
+        {
+          "id": 18,
+          "value": 0.0
+        },
+        {
+          "id": 19,
+          "value": 0.0
+        }
+      ],
+      "rightModuleId": 148,
+      "data": {
+        "panelTheme": 1,
+        "running": true,
+        "displayDelayNoteMode": true,
+        "bpmDetectionMode": false,
+        "resetOnStartStop": 0,
+        "ppqn": 4,
+        "resetClockOutputsHigh": true,
+        "momentaryRunInput": true,
+        "clockMaster": false
+      },
+      "pos": [
+        0,
+        2
+      ]
+    },
+    {
+      "id": 147,
+      "plugin": "VultModulesFree",
+      "version": "1.14",
+      "model": "Trummor2",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0500000007
+        },
+        {
+          "id": 1,
+          "value": 0.5
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 0.0
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        },
+        {
+          "id": 6,
+          "value": 0.0
+        },
+        {
+          "id": 7,
+          "value": 0.200000003
+        },
+        {
+          "id": 8,
+          "value": 0.400000006
+        },
+        {
+          "id": 9,
+          "value": 0.0
+        },
+        {
+          "id": 10,
+          "value": 0.0
+        },
+        {
+          "id": 11,
+          "value": 0.699999988
+        },
+        {
+          "id": 12,
+          "value": 0.100000001
+        },
+        {
+          "id": 13,
+          "value": 0.0
+        },
+        {
+          "id": 14,
+          "value": 0.0
+        },
+        {
+          "id": 15,
+          "value": 0.949999988
+        },
+        {
+          "id": 16,
+          "value": 0.0
+        },
+        {
+          "id": 17,
+          "value": 0.0
+        },
+        {
+          "id": 18,
+          "value": 0.0
+        },
+        {
+          "id": 19,
+          "value": 0.0500000007
+        },
+        {
+          "id": 20,
+          "value": 0.0500000007
+        },
+        {
+          "id": 21,
+          "value": 0.0
+        },
+        {
+          "id": 22,
+          "value": 0.0
+        },
+        {
+          "id": 23,
+          "value": 0.100000001
+        },
+        {
+          "id": 24,
+          "value": 0.0
+        },
+        {
+          "id": 25,
+          "value": 0.0
+        },
+        {
+          "id": 26,
+          "value": 0.0
+        },
+        {
+          "id": 27,
+          "value": 0.0
+        },
+        {
+          "id": 28,
+          "value": 0.0
+        },
+        {
+          "id": 29,
+          "value": 0.0
+        },
+        {
+          "id": 30,
+          "value": 0.0
+        },
+        {
+          "id": 31,
+          "value": 0.0
+        },
+        {
+          "id": 32,
+          "value": 0.0
+        }
+      ],
+      "rightModuleId": 156,
+      "data": {
+        "mod_a": 0,
+        "mod_b": 0,
+        "mod_c": 0,
+        "mod_d": 0,
+        "mk2": true
+      },
+      "pos": [
+        0,
+        3
+      ]
+    },
+    {
+      "id": 148,
+      "plugin": "Bidoo",
+      "version": "1.1.28",
+      "model": "dTrOY",
+      "params": [
+        {
+          "id": 0,
+          "value": 2.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 7.0
+        },
+        {
+          "id": 4,
+          "value": 0.200000003
+        },
+        {
+          "id": 5,
+          "value": 0.5
+        },
+        {
+          "id": 6,
+          "value": 0.0
+        },
+        {
+          "id": 7,
+          "value": 0.0
+        },
+        {
+          "id": 8,
+          "value": 0.0
+        },
+        {
+          "id": 9,
+          "value": 0.0
+        },
+        {
+          "id": 10,
+          "value": 1.0
+        },
+        {
+          "id": 11,
+          "value": 1.0
+        },
+        {
+          "id": 12,
+          "value": 0.0
+        },
+        {
+          "id": 13,
+          "value": 0.0
+        },
+        {
+          "id": 14,
+          "value": 0.0
+        },
+        {
+          "id": 15,
+          "value": 0.0
+        },
+        {
+          "id": 16,
+          "value": 0.0
+        },
+        {
+          "id": 17,
+          "value": 0.0
+        },
+        {
+          "id": 18,
+          "value": 0.0
+        },
+        {
+          "id": 19,
+          "value": 1.0
+        },
+        {
+          "id": 20,
+          "value": 1.0
+        },
+        {
+          "id": 21,
+          "value": 1.0
+        },
+        {
+          "id": 22,
+          "value": 4.0
+        },
+        {
+          "id": 23,
+          "value": 1.0
+        },
+        {
+          "id": 24,
+          "value": 1.0
+        },
+        {
+          "id": 25,
+          "value": 4.0
+        },
+        {
+          "id": 26,
+          "value": 1.0
+        },
+        {
+          "id": 27,
+          "value": 2.0
+        },
+        {
+          "id": 28,
+          "value": 2.0
+        },
+        {
+          "id": 29,
+          "value": 2.0
+        },
+        {
+          "id": 30,
+          "value": 1.0
+        },
+        {
+          "id": 31,
+          "value": 2.0
+        },
+        {
+          "id": 32,
+          "value": 2.0
+        },
+        {
+          "id": 33,
+          "value": 1.0
+        },
+        {
+          "id": 34,
+          "value": 2.0
+        },
+        {
+          "id": 35,
+          "value": -0.390000284
+        },
+        {
+          "id": 36,
+          "value": 1.8149997
+        },
+        {
+          "id": 37,
+          "value": 0.165000036
+        },
+        {
+          "id": 38,
+          "value": -0.22499983
+        },
+        {
+          "id": 39,
+          "value": -0.40500015
+        },
+        {
+          "id": 40,
+          "value": -0.119999692
+        },
+        {
+          "id": 41,
+          "value": -0.495000571
+        },
+        {
+          "id": 42,
+          "value": -0.944999933
+        },
+        {
+          "id": 43,
+          "value": 0.0
+        },
+        {
+          "id": 44,
+          "value": 0.0
+        },
+        {
+          "id": 45,
+          "value": 0.0
+        },
+        {
+          "id": 46,
+          "value": 0.0
+        },
+        {
+          "id": 47,
+          "value": 0.0
+        },
+        {
+          "id": 48,
+          "value": 0.0
+        },
+        {
+          "id": 49,
+          "value": 0.0
+        },
+        {
+          "id": 50,
+          "value": 0.0
+        },
+        {
+          "id": 51,
+          "value": 0.0
+        },
+        {
+          "id": 52,
+          "value": 0.0
+        },
+        {
+          "id": 53,
+          "value": 0.0
+        },
+        {
+          "id": 54,
+          "value": 0.0
+        },
+        {
+          "id": 55,
+          "value": 0.0
+        },
+        {
+          "id": 56,
+          "value": 0.0
+        },
+        {
+          "id": 57,
+          "value": 0.0
+        },
+        {
+          "id": 58,
+          "value": 0.0
+        },
+        {
+          "id": 59,
+          "value": 0.0
+        },
+        {
+          "id": 60,
+          "value": 0.0
+        },
+        {
+          "id": 61,
+          "value": 0.0
+        },
+        {
+          "id": 62,
+          "value": 0.0
+        },
+        {
+          "id": 63,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 146,
+      "rightModuleId": 149,
+      "data": {
+        "running": true,
+        "playMode": 0,
+        "countMode": 0,
+        "stepOutputsMode": false,
+        "selectedPattern": 0,
+        "playedPattern": 0,
+        "trigs": [
+          [
+            false,
+            false
+          ],
+          [
+            false,
+            false
+          ],
+          [
+            false,
+            false
+          ],
+          [
+            false,
+            false
+          ],
+          [
+            false,
+            false
+          ],
+          [
+            false,
+            false
+          ],
+          [
+            false,
+            false
+          ],
+          [
+            false,
+            false
+          ]
+        ],
+        "pattern0": {
+          "playMode": 0,
+          "countMode": 0,
+          "numSteps": 7,
+          "rootNote": 0,
+          "scale": 0,
+          "gateTime": 0.5,
+          "slideTime": 0.200000003,
+          "sensitivity": 1.0,
+          "step0": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": -0.390000284,
+            "type": 2
+          },
+          "step1": {
+            "index": 1,
+            "number": 1,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 1.8149997,
+            "type": 2
+          },
+          "step2": {
+            "index": 2,
+            "number": 2,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 0.165000036,
+            "type": 2
+          },
+          "step3": {
+            "index": 3,
+            "number": 3,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 4,
+            "pulsesParam": 4,
+            "pitch": -0.22499983,
+            "type": 1
+          },
+          "step4": {
+            "index": 4,
+            "number": 4,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": -0.40500015,
+            "type": 2
+          },
+          "step5": {
+            "index": 5,
+            "number": 5,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": -0.119999692,
+            "type": 2
+          },
+          "step6": {
+            "index": 6,
+            "number": 6,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 4,
+            "pulsesParam": 4,
+            "pitch": -0.495000571,
+            "type": 1
+          },
+          "step7": {
+            "index": 7,
+            "number": 7,
+            "skip": 1,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": -0.944999933,
+            "type": 2
+          },
+          "step8": {
+            "index": 0,
+            "number": 8,
+            "skip": 1,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": -0.390000284,
+            "type": 2
+          },
+          "step9": {
+            "index": 1,
+            "number": 9,
+            "skip": 1,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 1.8149997,
+            "type": 2
+          },
+          "step10": {
+            "index": 2,
+            "number": 10,
+            "skip": 1,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 0.165000036,
+            "type": 2
+          },
+          "step11": {
+            "index": 3,
+            "number": 11,
+            "skip": 1,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 4,
+            "pulsesParam": 4,
+            "pitch": -0.22499983,
+            "type": 1
+          },
+          "step12": {
+            "index": 4,
+            "number": 12,
+            "skip": 1,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": -0.40500015,
+            "type": 2
+          },
+          "step13": {
+            "index": 5,
+            "number": 13,
+            "skip": 1,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": -0.119999692,
+            "type": 2
+          },
+          "step14": {
+            "index": 6,
+            "number": 14,
+            "skip": 1,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 4,
+            "pulsesParam": 4,
+            "pitch": -0.495000571,
+            "type": 1
+          },
+          "step15": {
+            "index": 7,
+            "number": 15,
+            "skip": 1,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": -0.944999933,
+            "type": 2
+          }
+        },
+        "pattern1": {
+          "playMode": 0,
+          "countMode": 0,
+          "numSteps": 8,
+          "rootNote": 0,
+          "scale": 0,
+          "gateTime": 0.5,
+          "slideTime": 0.200000003,
+          "sensitivity": 1.0,
+          "step0": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step1": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step2": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step3": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step4": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step5": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step6": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step7": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step8": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step9": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step10": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step11": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step12": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step13": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step14": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step15": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          }
+        },
+        "pattern2": {
+          "playMode": 0,
+          "countMode": 0,
+          "numSteps": 8,
+          "rootNote": 0,
+          "scale": 0,
+          "gateTime": 0.5,
+          "slideTime": 0.200000003,
+          "sensitivity": 1.0,
+          "step0": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step1": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step2": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step3": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step4": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step5": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step6": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step7": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step8": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step9": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step10": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step11": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step12": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step13": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step14": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step15": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          }
+        },
+        "pattern3": {
+          "playMode": 0,
+          "countMode": 0,
+          "numSteps": 8,
+          "rootNote": 0,
+          "scale": 0,
+          "gateTime": 0.5,
+          "slideTime": 0.200000003,
+          "sensitivity": 1.0,
+          "step0": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step1": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step2": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step3": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step4": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step5": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step6": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step7": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step8": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step9": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step10": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step11": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step12": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step13": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step14": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step15": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          }
+        },
+        "pattern4": {
+          "playMode": 0,
+          "countMode": 0,
+          "numSteps": 8,
+          "rootNote": 0,
+          "scale": 0,
+          "gateTime": 0.5,
+          "slideTime": 0.200000003,
+          "sensitivity": 1.0,
+          "step0": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step1": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step2": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step3": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step4": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step5": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step6": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step7": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step8": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step9": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step10": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step11": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step12": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step13": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step14": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step15": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          }
+        },
+        "pattern5": {
+          "playMode": 0,
+          "countMode": 0,
+          "numSteps": 8,
+          "rootNote": 0,
+          "scale": 0,
+          "gateTime": 0.5,
+          "slideTime": 0.200000003,
+          "sensitivity": 1.0,
+          "step0": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step1": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step2": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step3": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step4": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step5": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step6": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step7": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step8": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step9": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step10": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step11": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step12": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step13": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step14": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step15": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          }
+        },
+        "pattern6": {
+          "playMode": 0,
+          "countMode": 0,
+          "numSteps": 8,
+          "rootNote": 0,
+          "scale": 0,
+          "gateTime": 0.5,
+          "slideTime": 0.200000003,
+          "sensitivity": 1.0,
+          "step0": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step1": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step2": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step3": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step4": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step5": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step6": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step7": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step8": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step9": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step10": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step11": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step12": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step13": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step14": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step15": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          }
+        },
+        "pattern7": {
+          "playMode": 0,
+          "countMode": 0,
+          "numSteps": 8,
+          "rootNote": 0,
+          "scale": 0,
+          "gateTime": 0.5,
+          "slideTime": 0.200000003,
+          "sensitivity": 1.0,
+          "step0": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step1": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step2": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step3": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step4": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step5": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step6": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step7": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step8": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step9": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step10": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step11": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step12": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step13": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step14": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step15": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          }
+        },
+        "pattern8": {
+          "playMode": 0,
+          "countMode": 0,
+          "numSteps": 8,
+          "rootNote": 0,
+          "scale": 0,
+          "gateTime": 0.5,
+          "slideTime": 0.200000003,
+          "sensitivity": 1.0,
+          "step0": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step1": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step2": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step3": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step4": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step5": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step6": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step7": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step8": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step9": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step10": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step11": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step12": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step13": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step14": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step15": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          }
+        },
+        "pattern9": {
+          "playMode": 0,
+          "countMode": 0,
+          "numSteps": 8,
+          "rootNote": 0,
+          "scale": 0,
+          "gateTime": 0.5,
+          "slideTime": 0.200000003,
+          "sensitivity": 1.0,
+          "step0": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step1": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step2": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step3": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step4": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step5": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step6": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step7": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step8": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step9": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step10": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step11": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step12": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step13": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step14": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step15": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          }
+        },
+        "pattern10": {
+          "playMode": 0,
+          "countMode": 0,
+          "numSteps": 8,
+          "rootNote": 0,
+          "scale": 0,
+          "gateTime": 0.5,
+          "slideTime": 0.200000003,
+          "sensitivity": 1.0,
+          "step0": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step1": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step2": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step3": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step4": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step5": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step6": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step7": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step8": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step9": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step10": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step11": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step12": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step13": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step14": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step15": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          }
+        },
+        "pattern11": {
+          "playMode": 0,
+          "countMode": 0,
+          "numSteps": 8,
+          "rootNote": 0,
+          "scale": 0,
+          "gateTime": 0.5,
+          "slideTime": 0.200000003,
+          "sensitivity": 1.0,
+          "step0": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step1": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step2": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step3": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step4": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step5": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step6": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step7": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step8": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step9": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step10": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step11": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step12": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step13": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step14": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step15": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          }
+        },
+        "pattern12": {
+          "playMode": 0,
+          "countMode": 0,
+          "numSteps": 8,
+          "rootNote": 0,
+          "scale": 0,
+          "gateTime": 0.5,
+          "slideTime": 0.200000003,
+          "sensitivity": 1.0,
+          "step0": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step1": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step2": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step3": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step4": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step5": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step6": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step7": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step8": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step9": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step10": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step11": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step12": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step13": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step14": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step15": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          }
+        },
+        "pattern13": {
+          "playMode": 0,
+          "countMode": 0,
+          "numSteps": 8,
+          "rootNote": 0,
+          "scale": 0,
+          "gateTime": 0.5,
+          "slideTime": 0.200000003,
+          "sensitivity": 1.0,
+          "step0": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step1": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step2": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step3": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step4": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step5": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step6": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step7": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step8": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step9": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step10": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step11": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step12": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step13": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step14": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step15": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          }
+        },
+        "pattern14": {
+          "playMode": 0,
+          "countMode": 0,
+          "numSteps": 8,
+          "rootNote": 0,
+          "scale": 0,
+          "gateTime": 0.5,
+          "slideTime": 0.200000003,
+          "sensitivity": 1.0,
+          "step0": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step1": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step2": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step3": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step4": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step5": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step6": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step7": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step8": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step9": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step10": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step11": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step12": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step13": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step14": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step15": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          }
+        },
+        "pattern15": {
+          "playMode": 0,
+          "countMode": 0,
+          "numSteps": 8,
+          "rootNote": 0,
+          "scale": 0,
+          "gateTime": 0.5,
+          "slideTime": 0.200000003,
+          "sensitivity": 1.0,
+          "step0": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step1": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step2": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step3": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step4": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step5": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step6": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step7": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step8": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step9": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step10": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step11": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step12": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step13": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step14": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          },
+          "step15": {
+            "index": 0,
+            "number": 0,
+            "skip": 0,
+            "skipParam": 0,
+            "slide": 0,
+            "pulses": 1,
+            "pulsesParam": 1,
+            "pitch": 3.0,
+            "type": 2
+          }
+        }
+      },
+      "pos": [
+        20,
+        2
+      ]
+    },
+    {
+      "id": 149,
+      "plugin": "Befaco",
+      "version": "1.0.1",
+      "model": "EvenVCO",
+      "params": [
+        {
+          "id": 0,
+          "value": -3.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 148,
+      "rightModuleId": 150,
+      "pos": [
+        54,
+        2
+      ]
+    },
+    {
+      "id": 150,
+      "plugin": "VultModulesFree",
+      "version": "1.14",
+      "model": "Tangents",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.387500197
+        },
+        {
+          "id": 1,
+          "value": 0.425999999
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 0.600000024
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        },
+        {
+          "id": 6,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 149,
+      "rightModuleId": 151,
+      "pos": [
+        62,
+        2
+      ]
+    },
+    {
+      "id": 151,
+      "plugin": "Valley",
+      "version": "1.1.5",
+      "model": "Plateau",
+      "params": [
+        {
+          "id": 0,
+          "value": 1.0
+        },
+        {
+          "id": 1,
+          "value": 0.109499998
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 6.96999884
+        },
+        {
+          "id": 4,
+          "value": 10.0
+        },
+        {
+          "id": 5,
+          "value": 0.365499973
+        },
+        {
+          "id": 6,
+          "value": 6.74999905
+        },
+        {
+          "id": 7,
+          "value": 0.713732064
+        },
+        {
+          "id": 8,
+          "value": 10.0
+        },
+        {
+          "id": 9,
+          "value": 7.06000042
+        },
+        {
+          "id": 10,
+          "value": 0.0
+        },
+        {
+          "id": 11,
+          "value": 0.5
+        },
+        {
+          "id": 12,
+          "value": 0.5
+        },
+        {
+          "id": 13,
+          "value": 0.0
+        },
+        {
+          "id": 14,
+          "value": 0.0
+        },
+        {
+          "id": 15,
+          "value": 0.0
+        },
+        {
+          "id": 16,
+          "value": 0.0
+        },
+        {
+          "id": 17,
+          "value": 0.0
+        },
+        {
+          "id": 18,
+          "value": 0.0
+        },
+        {
+          "id": 19,
+          "value": 0.0
+        },
+        {
+          "id": 20,
+          "value": 0.0
+        },
+        {
+          "id": 21,
+          "value": -0.819999754
+        },
+        {
+          "id": 22,
+          "value": 0.0
+        },
+        {
+          "id": 23,
+          "value": 0.0
+        },
+        {
+          "id": 24,
+          "value": 0.0
+        },
+        {
+          "id": 25,
+          "value": 0.0
+        },
+        {
+          "id": 26,
+          "value": 0.0
+        },
+        {
+          "id": 27,
+          "value": 0.0
+        },
+        {
+          "id": 28,
+          "value": 0.0
+        },
+        {
+          "id": 29,
+          "value": 0.0
+        },
+        {
+          "id": 30,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 150,
+      "rightModuleId": 152,
+      "data": {
+        "frozen": false,
+        "freezeToggle": false,
+        "panelStyle": 0,
+        "tuned": 0,
+        "diffuseInput": 0,
+        "preDelayCVSens": 0,
+        "inputSensitivity": 0,
+        "outputSaturation": 0
+      },
+      "pos": [
+        72,
+        2
+      ]
+    },
+    {
+      "id": 152,
+      "plugin": "Fundamental",
+      "version": "1.4.0",
+      "model": "VCA-1",
+      "params": [
+        {
+          "id": 0,
+          "value": 1.0
+        },
+        {
+          "id": 1,
+          "value": 1.0
+        }
+      ],
+      "leftModuleId": 151,
+      "rightModuleId": 153,
+      "pos": [
+        84,
+        2
+      ]
+    },
+    {
+      "id": 153,
+      "plugin": "Fundamental",
+      "version": "1.4.0",
+      "model": "VCA-1",
+      "params": [
+        {
+          "id": 0,
+          "value": 1.0
+        },
+        {
+          "id": 1,
+          "value": 1.0
+        }
+      ],
+      "leftModuleId": 152,
+      "rightModuleId": 154,
+      "pos": [
+        87,
+        2
+      ]
+    },
+    {
+      "id": 154,
+      "plugin": "Fundamental",
+      "version": "1.4.0",
+      "model": "ADSR",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.000500032911
+        },
+        {
+          "id": 1,
+          "value": 0.539000094
+        },
+        {
+          "id": 2,
+          "value": 0.0679999888
+        },
+        {
+          "id": 3,
+          "value": 0.298999965
+        }
+      ],
+      "leftModuleId": 153,
+      "pos": [
+        90,
+        2
+      ]
+    },
+    {
+      "id": 155,
+      "plugin": "Bogaudio",
+      "version": "1.1.35",
+      "model": "Bogaudio-SampleHold",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 0.0
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 159,
+      "data": {
+        "poly_input": 0,
+        "noise_type": 0,
+        "range_offset": 1.0,
+        "range_scale": 0.5
+      },
+      "pos": [
+        73,
+        3
+      ]
+    },
+    {
+      "id": 156,
+      "plugin": "Fundamental",
+      "version": "1.4.0",
+      "model": "SEQ3",
+      "params": [
+        {
+          "id": 0,
+          "value": 2.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 7.0
+        },
+        {
+          "id": 4,
+          "value": 2.74499941
+        },
+        {
+          "id": 5,
+          "value": 3.21000051
+        },
+        {
+          "id": 6,
+          "value": 2.7300005
+        },
+        {
+          "id": 7,
+          "value": 1.40999997
+        },
+        {
+          "id": 8,
+          "value": 2.05500007
+        },
+        {
+          "id": 9,
+          "value": 1.46999979
+        },
+        {
+          "id": 10,
+          "value": 1.57499969
+        },
+        {
+          "id": 11,
+          "value": 0.0
+        },
+        {
+          "id": 12,
+          "value": 1.82999992
+        },
+        {
+          "id": 13,
+          "value": 0.0
+        },
+        {
+          "id": 14,
+          "value": 0.644999981
+        },
+        {
+          "id": 15,
+          "value": 0.720000088
+        },
+        {
+          "id": 16,
+          "value": 2.92499971
+        },
+        {
+          "id": 17,
+          "value": 0.840000033
+        },
+        {
+          "id": 18,
+          "value": 1.54500008
+        },
+        {
+          "id": 19,
+          "value": 0.915000081
+        },
+        {
+          "id": 20,
+          "value": 0.810000062
+        },
+        {
+          "id": 21,
+          "value": 0.0
+        },
+        {
+          "id": 22,
+          "value": 0.960000038
+        },
+        {
+          "id": 23,
+          "value": 0.974999964
+        },
+        {
+          "id": 24,
+          "value": 1.48500001
+        },
+        {
+          "id": 25,
+          "value": 1.03499997
+        },
+        {
+          "id": 26,
+          "value": 0.0
+        },
+        {
+          "id": 27,
+          "value": 1.45499957
+        },
+        {
+          "id": 28,
+          "value": 0.0
+        },
+        {
+          "id": 29,
+          "value": 0.0
+        },
+        {
+          "id": 30,
+          "value": 0.0
+        },
+        {
+          "id": 31,
+          "value": 0.0
+        },
+        {
+          "id": 32,
+          "value": 0.0
+        },
+        {
+          "id": 33,
+          "value": 0.0
+        },
+        {
+          "id": 34,
+          "value": 0.0
+        },
+        {
+          "id": 35,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 147,
+      "rightModuleId": 157,
+      "data": {
+        "running": true,
+        "gates": [
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "pos": [
+        20,
+        3
+      ]
+    },
+    {
+      "id": 157,
+      "plugin": "Fundamental",
+      "version": "1.4.0",
+      "model": "SequentialSwitch2",
+      "params": [
+        {
+          "id": 0,
+          "value": 1.0
+        }
+      ],
+      "leftModuleId": 156,
+      "rightModuleId": 160,
+      "pos": [
+        42,
+        3
+      ]
+    },
+    {
+      "id": 158,
+      "plugin": "AudibleInstruments",
+      "version": "1.5.0",
+      "model": "Plaits",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.610999942
+        },
+        {
+          "id": 4,
+          "value": 0.124999888
+        },
+        {
+          "id": 5,
+          "value": 0.392999947
+        },
+        {
+          "id": 6,
+          "value": 0.0
+        },
+        {
+          "id": 7,
+          "value": 0.0839999095
+        },
+        {
+          "id": 8,
+          "value": 0.0
+        },
+        {
+          "id": 9,
+          "value": 0.5
+        },
+        {
+          "id": 10,
+          "value": 0.5
+        }
+      ],
+      "leftModuleId": 160,
+      "rightModuleId": 159,
+      "data": {
+        "lowCpu": false,
+        "model": 2
+      },
+      "pos": [
+        49,
+        3
+      ]
+    },
+    {
+      "id": 159,
+      "plugin": "Valley",
+      "version": "1.1.5",
+      "model": "Plateau",
+      "params": [
+        {
+          "id": 0,
+          "value": 1.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.157499924
+        },
+        {
+          "id": 3,
+          "value": 6.96999931
+        },
+        {
+          "id": 4,
+          "value": 10.0
+        },
+        {
+          "id": 5,
+          "value": 0.406999975
+        },
+        {
+          "id": 6,
+          "value": 10.0
+        },
+        {
+          "id": 7,
+          "value": 0.444661796
+        },
+        {
+          "id": 8,
+          "value": 10.0
+        },
+        {
+          "id": 9,
+          "value": 7.31500006
+        },
+        {
+          "id": 10,
+          "value": 0.0
+        },
+        {
+          "id": 11,
+          "value": 0.5
+        },
+        {
+          "id": 12,
+          "value": 0.5
+        },
+        {
+          "id": 13,
+          "value": 0.0
+        },
+        {
+          "id": 14,
+          "value": 0.0
+        },
+        {
+          "id": 15,
+          "value": 0.0
+        },
+        {
+          "id": 16,
+          "value": 0.0
+        },
+        {
+          "id": 17,
+          "value": 0.0
+        },
+        {
+          "id": 18,
+          "value": 0.10400027
+        },
+        {
+          "id": 19,
+          "value": 0.0
+        },
+        {
+          "id": 20,
+          "value": 0.0
+        },
+        {
+          "id": 21,
+          "value": 0.0
+        },
+        {
+          "id": 22,
+          "value": 0.0
+        },
+        {
+          "id": 23,
+          "value": 0.0
+        },
+        {
+          "id": 24,
+          "value": 0.0
+        },
+        {
+          "id": 25,
+          "value": 0.0
+        },
+        {
+          "id": 26,
+          "value": 0.0
+        },
+        {
+          "id": 27,
+          "value": 0.0
+        },
+        {
+          "id": 28,
+          "value": 0.0
+        },
+        {
+          "id": 29,
+          "value": 0.0
+        },
+        {
+          "id": 30,
+          "value": 1.0
+        }
+      ],
+      "leftModuleId": 158,
+      "rightModuleId": 155,
+      "data": {
+        "frozen": false,
+        "freezeToggle": false,
+        "panelStyle": 0,
+        "tuned": 0,
+        "diffuseInput": 1,
+        "preDelayCVSens": 0,
+        "inputSensitivity": 0,
+        "outputSaturation": 0
+      },
+      "pos": [
+        61,
+        3
+      ]
+    },
+    {
+      "id": 160,
+      "plugin": "JW-Modules",
+      "version": "1.0.20",
+      "model": "Quantizer",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 11.0
+        }
+      ],
+      "leftModuleId": 157,
+      "rightModuleId": 158,
+      "data": {},
+      "pos": [
+        45,
+        3
+      ]
+    },
+    {
+      "id": 161,
+      "plugin": "Core",
+      "version": "1.1.6",
+      "model": "Notes",
+      "params": [],
+      "text": "Omri Cohen Creative Reverb Techniques in VCV Rack\n\nhttps://youtu.be/fQkRMR75pbY\n\nPatch 1 \n\nReverb as part of the sound\n",
+      "pos": [
+        63,
+        0
+      ]
+    }
+  ],
+  "cables": [
+    {
+      "id": 311,
+      "outputModuleId": 144,
+      "outputId": 3,
+      "inputModuleId": 11,
+      "inputId": 0,
+      "color": "#0986ad"
+    },
+    {
+      "id": 312,
+      "outputModuleId": 144,
+      "outputId": 4,
+      "inputModuleId": 11,
+      "inputId": 1,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 313,
+      "outputModuleId": 145,
+      "outputId": 0,
+      "inputModuleId": 12,
+      "inputId": 0,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 314,
+      "outputModuleId": 145,
+      "outputId": 4,
+      "inputModuleId": 12,
+      "inputId": 1,
+      "color": "#c91847"
+    },
+    {
+      "id": 315,
+      "outputModuleId": 12,
+      "outputId": 0,
+      "inputModuleId": 145,
+      "inputId": 0,
+      "color": "#0986ad"
+    },
+    {
+      "id": 316,
+      "outputModuleId": 12,
+      "outputId": 1,
+      "inputModuleId": 145,
+      "inputId": 1,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 318,
+      "outputModuleId": 148,
+      "outputId": 0,
+      "inputModuleId": 154,
+      "inputId": 4,
+      "color": "#0986ad"
+    },
+    {
+      "id": 319,
+      "outputModuleId": 154,
+      "outputId": 0,
+      "inputModuleId": 152,
+      "inputId": 0,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 320,
+      "outputModuleId": 154,
+      "outputId": 0,
+      "inputModuleId": 153,
+      "inputId": 0,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 321,
+      "outputModuleId": 149,
+      "outputId": 3,
+      "inputModuleId": 150,
+      "inputId": 0,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 322,
+      "outputModuleId": 150,
+      "outputId": 0,
+      "inputModuleId": 151,
+      "inputId": 0,
+      "color": "#c91847"
+    },
+    {
+      "id": 323,
+      "outputModuleId": 151,
+      "outputId": 0,
+      "inputModuleId": 152,
+      "inputId": 1,
+      "color": "#0986ad"
+    },
+    {
+      "id": 324,
+      "outputModuleId": 151,
+      "outputId": 1,
+      "inputModuleId": 153,
+      "inputId": 1,
+      "color": "#0986ad"
+    },
+    {
+      "id": 325,
+      "outputModuleId": 152,
+      "outputId": 0,
+      "inputModuleId": 144,
+      "inputId": 0,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 326,
+      "outputModuleId": 148,
+      "outputId": 1,
+      "inputModuleId": 149,
+      "inputId": 1,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 327,
+      "outputModuleId": 146,
+      "outputId": 1,
+      "inputModuleId": 148,
+      "inputId": 1,
+      "color": "#c91847"
+    },
+    {
+      "id": 328,
+      "outputModuleId": 148,
+      "outputId": 0,
+      "inputModuleId": 155,
+      "inputId": 0,
+      "color": "#0986ad"
+    },
+    {
+      "id": 329,
+      "outputModuleId": 155,
+      "outputId": 0,
+      "inputModuleId": 151,
+      "inputId": 7,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 330,
+      "outputModuleId": 146,
+      "outputId": 0,
+      "inputModuleId": 147,
+      "inputId": 0,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 331,
+      "outputModuleId": 147,
+      "outputId": 0,
+      "inputModuleId": 144,
+      "inputId": 2,
+      "color": "#0986ad"
+    },
+    {
+      "id": 332,
+      "outputModuleId": 156,
+      "outputId": 0,
+      "inputModuleId": 158,
+      "inputId": 5,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 334,
+      "outputModuleId": 146,
+      "outputId": 4,
+      "inputModuleId": 157,
+      "inputId": 1,
+      "color": "#c91847"
+    },
+    {
+      "id": 336,
+      "outputModuleId": 146,
+      "outputId": 4,
+      "inputModuleId": 156,
+      "inputId": 2,
+      "color": "#c91847"
+    },
+    {
+      "id": 339,
+      "outputModuleId": 156,
+      "outputId": 1,
+      "inputModuleId": 157,
+      "inputId": 2,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 340,
+      "outputModuleId": 156,
+      "outputId": 2,
+      "inputModuleId": 157,
+      "inputId": 3,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 341,
+      "outputModuleId": 156,
+      "outputId": 3,
+      "inputModuleId": 157,
+      "inputId": 4,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 342,
+      "outputModuleId": 146,
+      "outputId": 2,
+      "inputModuleId": 157,
+      "inputId": 0,
+      "color": "#c91847"
+    },
+    {
+      "id": 338,
+      "outputModuleId": 159,
+      "outputId": 0,
+      "inputModuleId": 144,
+      "inputId": 4,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 343,
+      "outputModuleId": 158,
+      "outputId": 0,
+      "inputModuleId": 159,
+      "inputId": 0,
+      "color": "#0986ad"
+    },
+    {
+      "id": 344,
+      "outputModuleId": 155,
+      "outputId": 1,
+      "inputModuleId": 159,
+      "inputId": 3,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 337,
+      "outputModuleId": 157,
+      "outputId": 0,
+      "inputModuleId": 160,
+      "inputId": 2,
+      "color": "#0986ad"
+    },
+    {
+      "id": 345,
+      "outputModuleId": 160,
+      "outputId": 0,
+      "inputModuleId": 158,
+      "inputId": 7,
+      "color": "#0c8e15"
+    }
+  ]
+}
