@@ -26,7 +26,7 @@
     {
       "id": 12,
       "plugin": "Valley",
-      "version": "1.1.4",
+      "version": "1.1.5",
       "model": "Plateau",
       "params": [
         {
@@ -173,7 +173,7 @@
     {
       "id": 144,
       "plugin": "MindMeldModular",
-      "version": "1.1.11",
+      "version": "1.1.12",
       "model": "MixMaster",
       "params": [
         {
@@ -1047,7 +1047,7 @@
     {
       "id": 145,
       "plugin": "MindMeldModular",
-      "version": "1.1.11",
+      "version": "1.1.12",
       "model": "AuxExpander",
       "params": [
         {
@@ -1548,6 +1548,7 @@
         }
       ],
       "leftModuleId": 144,
+      "rightModuleId": 146,
       "data": {
         "directOutsModeLocal": 50529027,
         "panLawStereoLocal": 16843009,
@@ -1590,6 +1591,21 @@
       },
       "pos": [
         61,
+        1
+      ]
+    },
+    {
+      "id": 146,
+      "plugin": "Stoermelder-P1",
+      "version": "1.8.0",
+      "model": "Mb",
+      "params": [],
+      "leftModuleId": 145,
+      "data": {
+        "mode": 1
+      },
+      "pos": [
+        103,
         1
       ]
     }
