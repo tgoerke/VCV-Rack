@@ -4,7 +4,7 @@
     {
       "id": 24,
       "plugin": "ImpromptuModular",
-      "version": "1.1.8",
+      "version": "1.1.12",
       "model": "Clocked",
       "params": [
         {
@@ -114,12 +114,12 @@
       "leftModuleId": 117,
       "data": {
         "audio": {
-          "driver": 6,
-          "deviceName": "Lautsprecher (3- Generic USB Audio Device   )",
+          "driver": 4,
+          "deviceName": "system",
           "offset": 0,
           "maxChannels": 8,
           "sampleRate": 44100,
-          "blockSize": 4096
+          "blockSize": 2048
         }
       },
       "pos": [
@@ -130,7 +130,7 @@
     {
       "id": 28,
       "plugin": "Valley",
-      "version": "1.1.0",
+      "version": "1.1.7",
       "model": "Plateau",
       "params": [
         {
@@ -278,7 +278,7 @@
     {
       "id": 114,
       "plugin": "MindMeldModular",
-      "version": "1.1.9",
+      "version": "1.1.14",
       "model": "MixMasterJr",
       "params": [
         {
@@ -287,19 +287,19 @@
         },
         {
           "id": 1,
-          "value": 0.0
+          "value": 0.71428597
         },
         {
           "id": 2,
-          "value": 0.0
+          "value": 0.813492358
         },
         {
           "id": 3,
-          "value": 0.0
+          "value": 0.99206382
         },
         {
           "id": 4,
-          "value": 0.0
+          "value": 0.99206382
         },
         {
           "id": 5,
@@ -592,10 +592,10 @@
         "ecoMode": 65535,
         "faders": [
           0.0,
-          0.0,
-          0.0,
-          0.0,
-          0.0,
+          0.71428597,
+          0.813492358,
+          0.99206382,
+          0.99206382,
           1.0,
           1.0,
           1.0,
@@ -735,6 +735,7 @@
         "fadeProfile": 0.0,
         "vuColorThemeLocal": 0,
         "dispColorLocal": 0,
+        "chainOnly": 0,
         "dimGain": 0.251190007,
         "masterLabel": "MASTER"
       },
@@ -746,7 +747,7 @@
     {
       "id": 115,
       "plugin": "MindMeldModular",
-      "version": "1.1.9",
+      "version": "1.1.14",
       "model": "AuxExpanderJr",
       "params": [
         {
@@ -1155,12 +1156,12 @@
     {
       "id": 157,
       "plugin": "Bogaudio",
-      "version": "1.1.34",
+      "version": "1.1.38",
       "model": "Bogaudio-AMRM",
       "params": [
         {
           "id": 0,
-          "value": 0.0
+          "value": 0.244094491
         },
         {
           "id": 1,
@@ -1179,7 +1180,7 @@
     {
       "id": 163,
       "plugin": "Bogaudio",
-      "version": "1.1.34",
+      "version": "1.1.38",
       "model": "Bogaudio-FMOp",
       "params": [
         {
@@ -1234,7 +1235,9 @@
       "leftModuleId": 164,
       "rightModuleId": 157,
       "data": {
-        "linearLevel": false
+        "linearLevel": false,
+        "antialias_feedback": true,
+        "antialias_depth": true
       },
       "pos": [
         136,
@@ -1244,7 +1247,7 @@
     {
       "id": 164,
       "plugin": "Bogaudio",
-      "version": "1.1.34",
+      "version": "1.1.38",
       "model": "Bogaudio-FMOp",
       "params": [
         {
@@ -1299,7 +1302,9 @@
       "leftModuleId": 169,
       "rightModuleId": 163,
       "data": {
-        "linearLevel": false
+        "linearLevel": false,
+        "antialias_feedback": true,
+        "antialias_depth": true
       },
       "pos": [
         126,
@@ -1432,8 +1437,8 @@
         "resetOnRun": false,
         "quantize": 3,
         "uncertainty": false,
-        "stepIndexes0": 0,
-        "stepIndexes1": 0,
+        "stepIndexes0": 2,
+        "stepIndexes1": 5,
         "states0": 1,
         "states1": 1,
         "ranges0": 1,
@@ -1727,7 +1732,7 @@
     {
       "id": 170,
       "plugin": "Bogaudio",
-      "version": "1.1.34",
+      "version": "1.1.38",
       "model": "Bogaudio-AMRM",
       "params": [
         {
@@ -1752,7 +1757,7 @@
     {
       "id": 171,
       "plugin": "Befaco",
-      "version": "1.0.1",
+      "version": "1.2.0",
       "model": "EvenVCO",
       "params": [
         {
@@ -1777,7 +1782,7 @@
     {
       "id": 172,
       "plugin": "Befaco",
-      "version": "1.0.1",
+      "version": "1.2.0",
       "model": "EvenVCO",
       "params": [
         {
@@ -1803,7 +1808,7 @@
     {
       "id": 176,
       "plugin": "Bogaudio",
-      "version": "1.1.34",
+      "version": "1.1.38",
       "model": "Bogaudio-AMRM",
       "params": [
         {
@@ -1828,7 +1833,7 @@
     {
       "id": 179,
       "plugin": "Bogaudio",
-      "version": "1.1.34",
+      "version": "1.1.38",
       "model": "Bogaudio-SampleHold",
       "params": [
         {
@@ -1862,7 +1867,8 @@
         "poly_input": 0,
         "noise_type": 0,
         "range_offset": 1.0,
-        "range_scale": 5.0
+        "range_scale": 5.0,
+        "smoothing_ms": 0.0
       },
       "pos": [
         111,
@@ -1872,7 +1878,7 @@
     {
       "id": 180,
       "plugin": "VultModulesFree",
-      "version": "1.11",
+      "version": "1.19.1",
       "model": "Basal",
       "params": [
         {
@@ -1910,7 +1916,7 @@
     {
       "id": 181,
       "plugin": "VultModulesFree",
-      "version": "1.11",
+      "version": "1.19.1",
       "model": "Basal",
       "params": [
         {
@@ -1948,7 +1954,7 @@
     {
       "id": 189,
       "plugin": "Bogaudio",
-      "version": "1.1.34",
+      "version": "1.1.38",
       "model": "Bogaudio-XFade",
       "params": [
         {
@@ -1975,7 +1981,7 @@
     {
       "id": 190,
       "plugin": "NYSTHI",
-      "version": "1.0.13",
+      "version": "1.0.17",
       "model": "FixedVoltageSource",
       "params": [],
       "rightModuleId": 179,
@@ -2084,7 +2090,7 @@
     {
       "id": 284,
       "plugin": "Stoermelder-P1",
-      "version": "1.7.1",
+      "version": "1.10.0",
       "model": "MidiCat",
       "params": [],
       "leftModuleId": 189,
@@ -2094,166 +2100,217 @@
         "textScrolling": true,
         "mappingIndicatorHidden": false,
         "locked": false,
+        "processDivision": 64,
+        "overlayEnabled": true,
+        "clearMapsOnLoad": false,
         "maps": [
           {
             "cc": 0,
             "ccMode": 0,
+            "cc14bit": false,
             "note": -1,
             "noteMode": 0,
             "moduleId": 114,
             "paramId": 0,
             "label": "",
-            "midiOptions": 0
+            "midiOptions": 0,
+            "slew": 0.0,
+            "min": 0.0,
+            "max": 1.0
           },
           {
             "cc": 1,
             "ccMode": 0,
+            "cc14bit": false,
             "note": -1,
             "noteMode": 0,
             "moduleId": 114,
             "paramId": 1,
             "label": "",
-            "midiOptions": 0
+            "midiOptions": 0,
+            "slew": 0.0,
+            "min": 0.0,
+            "max": 1.0
           },
           {
             "cc": 2,
             "ccMode": 0,
+            "cc14bit": false,
             "note": -1,
             "noteMode": 0,
             "moduleId": 114,
             "paramId": 2,
             "label": "",
-            "midiOptions": 0
+            "midiOptions": 0,
+            "slew": 0.0,
+            "min": 0.0,
+            "max": 1.0
           },
           {
             "cc": 7,
             "ccMode": 0,
+            "cc14bit": false,
             "note": -1,
             "noteMode": 0,
             "moduleId": 114,
             "paramId": 43,
             "label": "",
-            "midiOptions": 0
+            "midiOptions": 0,
+            "slew": 0.0,
+            "min": 0.0,
+            "max": 1.0
           },
           {
             "cc": 16,
             "ccMode": 0,
+            "cc14bit": false,
             "note": -1,
             "noteMode": 0,
             "moduleId": 157,
             "paramId": 0,
             "label": "",
-            "midiOptions": 0
+            "midiOptions": 0,
+            "slew": 0.0,
+            "min": 0.0,
+            "max": 1.0
           },
           {
             "cc": 17,
             "ccMode": 0,
+            "cc14bit": false,
             "note": -1,
             "noteMode": 0,
             "moduleId": 170,
             "paramId": 0,
             "label": "",
-            "midiOptions": 0
+            "midiOptions": 0,
+            "slew": 0.0,
+            "min": 0.0,
+            "max": 1.0
           },
           {
             "cc": 18,
             "ccMode": 0,
+            "cc14bit": false,
             "note": -1,
             "noteMode": 0,
             "moduleId": 189,
             "paramId": 0,
             "label": "",
-            "midiOptions": 0
+            "midiOptions": 0,
+            "slew": 0.0,
+            "min": 0.0,
+            "max": 1.0
           },
           {
             "cc": 41,
             "ccMode": 0,
+            "cc14bit": false,
             "note": -1,
             "noteMode": 0,
             "moduleId": 24,
             "paramId": 13,
             "label": "",
-            "midiOptions": 0
+            "midiOptions": 0,
+            "slew": 0.0,
+            "min": 0.0,
+            "max": 1.0
           },
           {
             "cc": 42,
             "ccMode": 0,
+            "cc14bit": false,
             "note": -1,
             "noteMode": 0,
             "moduleId": 24,
             "paramId": 12,
             "label": "",
-            "midiOptions": 0
+            "midiOptions": 0,
+            "slew": 0.0,
+            "min": 0.0,
+            "max": 1.0
           },
           {
             "cc": 3,
             "ccMode": 0,
+            "cc14bit": false,
             "note": -1,
             "noteMode": 0,
             "moduleId": 114,
             "paramId": 3,
             "label": "",
-            "midiOptions": 0
+            "midiOptions": 0,
+            "slew": 0.0,
+            "min": 0.0,
+            "max": 1.0
           },
           {
             "cc": -1,
             "ccMode": 0,
+            "cc14bit": false,
             "note": -1,
             "noteMode": 0,
             "moduleId": -1,
             "paramId": 0,
             "label": "",
-            "midiOptions": 0
+            "midiOptions": 0,
+            "slew": 0.0,
+            "min": 0.0,
+            "max": 1.0
           },
           {
             "cc": 3,
             "ccMode": 0,
+            "cc14bit": false,
             "note": -1,
             "noteMode": 0,
             "moduleId": 114,
             "paramId": 4,
             "label": "",
-            "midiOptions": 0
+            "midiOptions": 0,
+            "slew": 0.0,
+            "min": 0.0,
+            "max": 1.0
           },
           {
             "cc": 51,
             "ccMode": 0,
+            "cc14bit": false,
             "note": -1,
             "noteMode": 0,
             "moduleId": -1,
             "paramId": 0,
             "label": "",
-            "midiOptions": 0
+            "midiOptions": 0,
+            "slew": 0.0,
+            "min": 0.0,
+            "max": 1.0
           },
           {
             "cc": -1,
             "ccMode": 0,
+            "cc14bit": false,
             "note": -1,
             "noteMode": 0,
             "moduleId": -1,
             "paramId": 0,
             "label": "",
-            "midiOptions": 0
-          },
-          {
-            "cc": -1,
-            "ccMode": 0,
-            "note": -1,
-            "noteMode": 0,
-            "moduleId": -1,
-            "paramId": 0,
-            "label": "",
-            "midiOptions": 0
+            "midiOptions": 0,
+            "slew": 0.0,
+            "min": 0.0,
+            "max": 1.0
           }
         ],
+        "midiResendPeriodically": false,
+        "midiIgnoreDevices": false,
         "midiInput": {
-          "driver": 4,
-          "deviceName": "nanoKONTROL2 0",
+          "driver": 2,
+          "deviceName": "nanoKONTROL2:nanoKONTROL2 MIDI 1 28:0",
           "channel": -1
         },
         "midiOutput": {
-          "driver": 4,
-          "deviceName": "LPD8 2",
+          "driver": 2,
+          "deviceName": "nanoKONTROL2:nanoKONTROL2 MIDI 1 28:0",
           "channel": 0
         }
       },
@@ -2265,7 +2322,7 @@
     {
       "id": 287,
       "plugin": "Entrian-AcousticDrums",
-      "version": "1.6.17",
+      "version": "1.6.22",
       "model": "AcousticDrums",
       "params": [
         {
@@ -2443,6 +2500,110 @@
           18,
           3
         ],
+        "samplePathnames": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "voiceOptions": [
+          {
+            "isRealtimeVelocity": false,
+            "isRealtimePan": true,
+            "isRealtimeDistance": true,
+            "isRealtimeTuning": false,
+            "decayStart": 100.0,
+            "decayEnd": 100.0,
+            "gainDB": 0.0
+          },
+          {
+            "isRealtimeVelocity": false,
+            "isRealtimePan": true,
+            "isRealtimeDistance": true,
+            "isRealtimeTuning": false,
+            "decayStart": 100.0,
+            "decayEnd": 100.0,
+            "gainDB": 0.0
+          },
+          {
+            "isRealtimeVelocity": false,
+            "isRealtimePan": true,
+            "isRealtimeDistance": true,
+            "isRealtimeTuning": false,
+            "decayStart": 100.0,
+            "decayEnd": 100.0,
+            "gainDB": 0.0
+          },
+          {
+            "isRealtimeVelocity": false,
+            "isRealtimePan": true,
+            "isRealtimeDistance": true,
+            "isRealtimeTuning": false,
+            "decayStart": 100.0,
+            "decayEnd": 100.0,
+            "gainDB": 0.0
+          },
+          {
+            "isRealtimeVelocity": false,
+            "isRealtimePan": true,
+            "isRealtimeDistance": true,
+            "isRealtimeTuning": false,
+            "decayStart": 100.0,
+            "decayEnd": 100.0,
+            "gainDB": 0.0
+          },
+          {
+            "isRealtimeVelocity": false,
+            "isRealtimePan": true,
+            "isRealtimeDistance": true,
+            "isRealtimeTuning": false,
+            "decayStart": 100.0,
+            "decayEnd": 100.0,
+            "gainDB": 0.0
+          },
+          {
+            "isRealtimeVelocity": false,
+            "isRealtimePan": true,
+            "isRealtimeDistance": true,
+            "isRealtimeTuning": false,
+            "decayStart": 100.0,
+            "decayEnd": 100.0,
+            "gainDB": 0.0
+          },
+          {
+            "isRealtimeVelocity": false,
+            "isRealtimePan": true,
+            "isRealtimeDistance": true,
+            "isRealtimeTuning": false,
+            "decayStart": 100.0,
+            "decayEnd": 100.0,
+            "gainDB": 0.0
+          },
+          {
+            "isRealtimeVelocity": false,
+            "isRealtimePan": true,
+            "isRealtimeDistance": true,
+            "isRealtimeTuning": false,
+            "decayStart": 100.0,
+            "decayEnd": 100.0,
+            "gainDB": 0.0
+          },
+          {
+            "isRealtimeVelocity": false,
+            "isRealtimePan": true,
+            "isRealtimeDistance": true,
+            "isRealtimeTuning": false,
+            "decayStart": 100.0,
+            "decayEnd": 100.0,
+            "gainDB": 0.0
+          }
+        ],
         "disabledLayers": [
           [],
           [],
@@ -2470,7 +2631,7 @@
     {
       "id": 288,
       "plugin": "Entrian-AcousticDrums",
-      "version": "1.6.17",
+      "version": "1.6.22",
       "model": "Drummer",
       "params": [
         {
@@ -2487,6 +2648,10 @@
         },
         {
           "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
           "value": 0.0
         }
       ],
@@ -2523,6 +2688,7 @@
                   "_id": 2407,
                   "trackNumber": 0,
                   "duration": 768,
+                  "tpFlags": 0,
                   "polyLimit": 16,
                   "reservedChannels": 0,
                   "channelNames": [
@@ -2785,6 +2951,7 @@
                   "_id": 2409,
                   "trackNumber": 0,
                   "duration": 768,
+                  "tpFlags": 0,
                   "polyLimit": 16,
                   "reservedChannels": 0,
                   "clips": [
@@ -3061,6 +3228,7 @@
                   "_id": 2411,
                   "trackNumber": 0,
                   "duration": 768,
+                  "tpFlags": 0,
                   "polyLimit": 16,
                   "reservedChannels": 0,
                   "channelNames": [
@@ -3552,7 +3720,8 @@
         "isRunning": true,
         "isDark": false,
         "phraseSelectMode": 2,
-        "stopRecordingAtEnd": false
+        "stopRecordingAtEnd": false,
+        "clockDelay": -1
       },
       "pos": [
         157,
@@ -3562,7 +3731,7 @@
     {
       "id": 293,
       "plugin": "ImpromptuModular",
-      "version": "1.1.8",
+      "version": "1.1.12",
       "model": "Phrase-Seq-16",
       "params": [
         {
