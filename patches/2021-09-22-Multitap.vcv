@@ -498,7 +498,7 @@
         },
         {
           "id": 80,
-          "value": 0.0
+          "value": 1.0
         },
         {
           "id": 81,
@@ -781,7 +781,7 @@
         "momentaryCvButtons": 1,
         "masterFaderScalesSends": 0,
         "linearVolCvInputs": 0,
-        "id_t0_gainAdjust": 1.0,
+        "id_t0_gainAdjust": 0.633869529,
         "id_t0_fadeRate": 0.0,
         "id_t0_fadeProfile": 0.0,
         "id_t0_directOutsMode": 3,
@@ -794,7 +794,7 @@
         "id_t0_panCvLevel": 1.0,
         "id_t0_stereoWidth": 1.0,
         "id_t0_invertInput": 0,
-        "id_t1_gainAdjust": 1.0,
+        "id_t1_gainAdjust": 0.672976553,
         "id_t1_fadeRate": 0.0,
         "id_t1_fadeProfile": 0.0,
         "id_t1_directOutsMode": 3,
@@ -807,7 +807,7 @@
         "id_t1_panCvLevel": 1.0,
         "id_t1_stereoWidth": 1.0,
         "id_t1_invertInput": 0,
-        "id_t2_gainAdjust": 0.448745012,
+        "id_t2_gainAdjust": 0.432513773,
         "id_t2_fadeRate": 16.5600033,
         "id_t2_fadeProfile": 0.0,
         "id_t2_directOutsMode": 3,
@@ -820,7 +820,7 @@
         "id_t2_panCvLevel": 1.0,
         "id_t2_stereoWidth": 1.0,
         "id_t2_invertInput": 0,
-        "id_t3_gainAdjust": 1.0,
+        "id_t3_gainAdjust": 0.547015905,
         "id_t3_fadeRate": 0.0,
         "id_t3_fadeProfile": 0.0,
         "id_t3_directOutsMode": 3,
@@ -1031,7 +1031,7 @@
         "id_g3_stereoWidth": 1.0,
         "dcBlock": false,
         "clipping": 0,
-        "fadeRate": 0.0,
+        "fadeRate": 15.960001,
         "fadeProfile": 0.0,
         "vuColorThemeLocal": 0,
         "dispColorLocal": 0,
@@ -1084,7 +1084,7 @@
         },
         {
           "id": 8,
-          "value": 0.0
+          "value": 0.386999995
         },
         {
           "id": 9,
@@ -1688,7 +1688,7 @@
     {
       "id": 261,
       "plugin": "AS",
-      "version": "1.0.4",
+      "version": "1.0.5",
       "model": "BPMCalc2",
       "params": [
         {
@@ -1706,7 +1706,7 @@
     {
       "id": 262,
       "plugin": "AS",
-      "version": "1.0.4",
+      "version": "1.0.5",
       "model": "Multiple2_5",
       "params": [],
       "leftModuleId": 261,
@@ -1719,7 +1719,7 @@
     {
       "id": 263,
       "plugin": "AS",
-      "version": "1.0.4",
+      "version": "1.0.5",
       "model": "SignalDelay",
       "params": [
         {
@@ -1749,7 +1749,7 @@
     {
       "id": 264,
       "plugin": "AS",
-      "version": "1.0.4",
+      "version": "1.0.5",
       "model": "SignalDelay",
       "params": [
         {
@@ -1779,7 +1779,7 @@
     {
       "id": 265,
       "plugin": "AS",
-      "version": "1.0.4",
+      "version": "1.0.5",
       "model": "SignalDelay",
       "params": [
         {
@@ -1809,7 +1809,7 @@
     {
       "id": 266,
       "plugin": "AS",
-      "version": "1.0.4",
+      "version": "1.0.5",
       "model": "SignalDelay",
       "params": [
         {
@@ -1839,7 +1839,7 @@
     {
       "id": 267,
       "plugin": "AS",
-      "version": "1.0.4",
+      "version": "1.0.5",
       "model": "Mixer8ch",
       "params": [
         {
@@ -1986,7 +1986,7 @@
     {
       "id": 269,
       "plugin": "Bogaudio",
-      "version": "1.1.37",
+      "version": "1.1.38",
       "model": "Bogaudio-Follow",
       "params": [
         {
@@ -2070,7 +2070,7 @@
     {
       "id": 274,
       "plugin": "Bogaudio",
-      "version": "1.1.37",
+      "version": "1.1.38",
       "model": "Bogaudio-FMOp",
       "params": [
         {
@@ -2187,7 +2187,7 @@
     {
       "id": 276,
       "plugin": "Bogaudio",
-      "version": "1.1.37",
+      "version": "1.1.38",
       "model": "Bogaudio-AddrSeq",
       "params": [
         {
@@ -2242,6 +2242,7 @@
         "select_on_clock": false,
         "triggered_select": false,
         "reverse_on_negative_clock": false,
+        "wrap_select_at_steps": false,
         "range_offset": 0.0,
         "range_scale": 1.0
       },
@@ -2253,7 +2254,7 @@
     {
       "id": 277,
       "plugin": "JW-Modules",
-      "version": "1.0.29",
+      "version": "1.0.30",
       "model": "Quantizer",
       "params": [
         {
@@ -2350,7 +2351,7 @@
     {
       "id": 279,
       "plugin": "Bogaudio",
-      "version": "1.1.37",
+      "version": "1.1.38",
       "model": "Bogaudio-DGate",
       "params": [
         {
@@ -2374,7 +2375,7 @@
       "rightModuleId": 281,
       "data": {
         "triggerOnLoad": true,
-        "shouldTriggerOnLoad": false
+        "shouldTriggerOnLoad": true
       },
       "pos": [
         13,
@@ -2384,7 +2385,7 @@
     {
       "id": 281,
       "plugin": "CountModula",
-      "version": "1.15.1",
+      "version": "1.16.0",
       "model": "Chances",
       "params": [
         {
@@ -2410,7 +2411,7 @@
     {
       "id": 286,
       "plugin": "Bogaudio",
-      "version": "1.1.37",
+      "version": "1.1.38",
       "model": "Bogaudio-FMOp",
       "params": [
         {
@@ -2477,7 +2478,7 @@
     {
       "id": 287,
       "plugin": "JW-Modules",
-      "version": "1.0.29",
+      "version": "1.0.30",
       "model": "Quantizer",
       "params": [
         {
@@ -2504,7 +2505,7 @@
     {
       "id": 288,
       "plugin": "Bogaudio",
-      "version": "1.1.37",
+      "version": "1.1.38",
       "model": "Bogaudio-LLFO",
       "params": [
         {
@@ -2533,7 +2534,8 @@
       "data": {
         "output_sampling": 0.0,
         "pulse_width": -0.851063788,
-        "smoothing": 0.0
+        "smoothing": 0.0,
+        "reset_on_wave_change": false
       },
       "pos": [
         20,
