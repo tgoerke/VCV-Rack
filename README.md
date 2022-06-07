@@ -14,6 +14,14 @@ Steps to install VCV Rack on a new machine
 - Run Rack; Login and update modules
     cd Rack; ./Rack
 
+## Restore File Times
+
+  sudo apt install git-restore-mtime
+  cd .Rack/patches/
+  git restore-mtime
+
+
+## Run
 
 From now on...
 
