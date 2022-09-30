@@ -1,4 +1,4 @@
-cd ~/Rack
+cd ~/Rack2
 test $(hostname) == "tri" && export LD_LIBRARY_PATH=~/.Rack/libs:$LD_LIBRARY_PATH 
 
 qjackctl --start &
