@@ -1,0 +1,324 @@
+{
+  "stripVersion": 1,
+  "rightModules": [
+    {
+      "id": 222,
+      "plugin": "ImpromptuModular",
+      "version": "1.1.12",
+      "model": "Clocked-Clkd",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 2.0
+        },
+        {
+          "id": 2,
+          "value": -3.0
+        },
+        {
+          "id": 3,
+          "value": 120.0
+        },
+        {
+          "id": 4,
+          "value": 0.0
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        },
+        {
+          "id": 6,
+          "value": 0.0
+        },
+        {
+          "id": 7,
+          "value": 0.0
+        },
+        {
+          "id": 8,
+          "value": 0.0
+        },
+        {
+          "id": 9,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 228,
+      "rightModuleId": 227,
+      "data": {
+        "panelTheme": 1,
+        "running": false,
+        "bpmDetectionMode": false,
+        "resetOnStartStop": 0,
+        "ppqn": 4,
+        "resetClockOutputsHigh": true,
+        "momentaryRunInput": true,
+        "displayIndex": 0,
+        "trigOuts": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "clockMaster": -1
+      }
+    },
+    {
+      "id": 227,
+      "plugin": "Bogaudio",
+      "version": "1.1.38",
+      "model": "Bogaudio-ADSR",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.465999961
+        },
+        {
+          "id": 1,
+          "value": 0.69423002
+        },
+        {
+          "id": 2,
+          "value": 0.288999945
+        },
+        {
+          "id": 3,
+          "value": 1.0
+        },
+        {
+          "id": 4,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 222,
+      "rightModuleId": 221,
+      "data": {
+        "invert": 1.0
+      }
+    },
+    {
+      "id": 221,
+      "plugin": "Hora-treasureFree",
+      "version": "1.0.3",
+      "model": "Deep",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.548600137
+        },
+        {
+          "id": 1,
+          "value": 0.980000019
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.245599955
+        },
+        {
+          "id": 4,
+          "value": 0.800000012
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        },
+        {
+          "id": 6,
+          "value": 4.19479752
+        },
+        {
+          "id": 7,
+          "value": 0.5
+        },
+        {
+          "id": 8,
+          "value": 0.734000027
+        },
+        {
+          "id": 9,
+          "value": 0.0
+        },
+        {
+          "id": 10,
+          "value": 2.0
+        },
+        {
+          "id": 11,
+          "value": 0.37479493
+        },
+        {
+          "id": 12,
+          "value": 0.5
+        },
+        {
+          "id": 13,
+          "value": -0.517000139
+        }
+      ],
+      "leftModuleId": 227,
+      "rightModuleId": 224
+    },
+    {
+      "id": 224,
+      "plugin": "VultModulesFree",
+      "version": "1.19.1",
+      "model": "Nitrous",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.541000009
+        },
+        {
+          "id": 1,
+          "value": 0.67050004
+        },
+        {
+          "id": 2,
+          "value": 0.497000039
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 221,
+      "rightModuleId": 225
+    },
+    {
+      "id": 225,
+      "plugin": "AlrightDevices",
+      "version": "1.0.3",
+      "model": "Chronoblob2",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.658500016
+        },
+        {
+          "id": 2,
+          "value": 0.701499999
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": -0.32099995
+        },
+        {
+          "id": 5,
+          "value": 0.375999749
+        },
+        {
+          "id": 6,
+          "value": 0.0
+        },
+        {
+          "id": 7,
+          "value": 0.0
+        },
+        {
+          "id": 8,
+          "value": 0.0
+        },
+        {
+          "id": 9,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 224,
+      "data": {
+        "delay_mode": 0,
+        "hold_behavior": 0,
+        "sync_prescaler": 6
+      }
+    }
+  ],
+  "rightWidth": 585.0,
+  "leftModules": [],
+  "leftWidth": 0.0,
+  "cables": [
+    {
+      "outputModuleId": 221,
+      "outputId": 2,
+      "inputModuleId": 224,
+      "inputId": 0,
+      "color": "#c91847"
+    },
+    {
+      "outputModuleId": 222,
+      "outputId": 0,
+      "inputModuleId": 225,
+      "inputId": 7,
+      "color": "#c9b70e"
+    },
+    {
+      "outputModuleId": 222,
+      "outputId": 0,
+      "inputModuleId": 227,
+      "inputId": 0,
+      "color": "#c91847"
+    },
+    {
+      "outputModuleId": 222,
+      "outputId": 1,
+      "inputModuleId": 221,
+      "inputId": 0,
+      "color": "#c91847"
+    },
+    {
+      "outputModuleId": 222,
+      "outputId": 2,
+      "inputModuleId": 221,
+      "inputId": 1,
+      "color": "#c91847"
+    },
+    {
+      "outputModuleId": 222,
+      "outputId": 3,
+      "inputModuleId": 225,
+      "inputId": 2,
+      "color": "#c91847"
+    },
+    {
+      "outputModuleId": 222,
+      "outputId": 3,
+      "inputModuleId": 225,
+      "inputId": 4,
+      "color": "#0986ad"
+    },
+    {
+      "outputModuleId": 224,
+      "outputId": 0,
+      "inputModuleId": 225,
+      "inputId": 5,
+      "color": "#0986ad"
+    },
+    {
+      "outputModuleId": 227,
+      "outputId": 0,
+      "inputModuleId": 221,
+      "inputId": 4,
+      "color": "#c91847"
+    }
+  ],
+  "version": "1.1.6"
+}
