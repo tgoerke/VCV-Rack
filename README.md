@@ -1,18 +1,14 @@
 # VCV-Rack
 
-My Patches and a startup script for VCV Rack
+My Patches for VCV Rack 
+
+I keep everything created wirh v1 in the patches dir.
+Patches after 2023 created using Rack v2.
 
 ## Install 
-Steps to install VCV Rack on a new machine
 
-- Install jack
-    sudo apt install qjackctl
-- Install VCV-Rack 
-    unzip zip archive into ~/Rack
-- Clone patches 
-    git clone https://github.com/tgoerke/VCV-Rack.git ~/.Rack
-- Run Rack; Login and update modules
-    cd Rack; ./Rack
+There is no startup script anymore. I use Ubuntu Studio
+and Jack is handled by Ubuntu Studio Controls.
 
 ## Restore File Times
 
@@ -20,9 +16,3 @@ Steps to install VCV Rack on a new machine
   cd .Rack/patches/
   git restore-mtime
 
-
-## Run
-
-From now on...
-
-~/.Rack/start.sh
